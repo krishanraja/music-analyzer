@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Audio never gets committed (unreleased music)
+*.wav
+*.WAV
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.m4a
+tests/fixtures/*
+!tests/fixtures/.gitkeep
+
+# trackcard outputs
+*.trackcard.md
+*.trackcard.json

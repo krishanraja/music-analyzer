@@ -1,0 +1,34 @@
+trackcard
+Copyright (c) 2026 Krish Raja. Released under the MIT License (see LICENSE).
+
+Attributions
+============
+
+Stem MCP (tolutronics/audio-processing-mcp), MIT License per its README
+  https://github.com/tolutronics/audio-processing-mcp
+  Derived ideas: the MCP server skeleton (a low-level mcp.server.Server with
+  list_tools / call_tool handlers served over stdio) in
+  src/trackcard/mcp_server.py, and the idea of running Demucs htdemucs to split
+  a bounce into stems (src/trackcard/stems.py). No code was copied. trackcard
+  does not use Stem MCP's analyze_audio, create_loop or separate_vocal_ranges.
+
+MixMind (Intellligent15/MixMind--AI-DJ), no license file
+  https://github.com/Intellligent15/MixMind--AI-DJ
+  No code was copied. trackcard reimplements, in its own code, methods that
+  MixMind's analysis and stem services describe: tempo octave correction with
+  x0.5 / x2/3 / x1.5 / x2 hints outside 85-170 BPM; downbeat phase from a
+  sub-250 Hz onset envelope; key detection with HPSS, chroma_cens, RMS
+  weighting, Krumhansl-Schmuckler and a relative major/minor tiebreak;
+  allin1-first section detection with a Laplacian segmentation fallback; and
+  Demucs htdemucs with a GPU-to-CPU fallback chain and 10 Hz RMS/peak
+  envelopes.
+
+Published methods and models used
+=================================
+- Krumhansl & Kessler (1982) key profiles.
+- McFee & Ellis (2014), "Analyzing song structure with spectral clustering"
+  (Laplacian segmentation), via librosa.
+- Demucs / Hybrid Transformer Demucs (Defossez et al., Meta AI), MIT License.
+  Model weights are downloaded by the demucs package on first use.
+- All-In-One music structure analyzer, allin1 (Taejun Kim), optional.
+- pyloudnorm (ITU-R BS.1770 loudness), optional.
