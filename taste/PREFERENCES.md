@@ -22,7 +22,7 @@ Source: 13 links (12 tracks, 1 Spotify radio) shared between 3 Mar and 5 Nov 202
 
 | theme | how often | where | in their words |
 |---|---|---|---|
-| Bass with character | 3 | oskar med k, Franc Moody remix, Issam Dahmani | "growly bass", "percussive bass", bassline as a core element |
+| Bass with character, especially growl | 4 | oskar med k, Franc Moody remix, Issam Dahmani, JAIV | "growly bass", "percussive bass", bassline as a core element, the "deep electronic growly" waaaow hit |
 | Stereo detail and headphone sound | 3 | Sébastien Léger, Darius, Essáy | "panning and crisp beats", "lots of nice panning", "blast it, headphones or otherwise" |
 | Call and response | 2, plus their own track | oskar med k (melody), Jody Wisternoff (rhythm) | "call is three bars and the answer is in the fourth"; textured snare against the rim shot; Calvin added a call-and-response rhythm to their track |
 | Vocal chops | 2 | Issam Dahmani, oskar med k | "vocal chops", "likes how he chops up the vocals" |
@@ -35,7 +35,7 @@ Krish's favourite moment in JAIV's "Childhood Dreams" (https://open.spotify.com/
 
 The pattern: the hits come in pairs 7-8 seconds apart, and each pair repeats about 31 seconds later. My read, not measured: at a typical 120-125 BPM that is about twice per 16-bar phrase, 4 bars apart. So it works as a signature hit that marks the phrase, which they could build into their own arrangement.
 
-What kind of sound it is (vocal, synth or fx) is not written down yet. Ask Krish before searching for it.
+In Krish's words it is **"a deep electronic growly noise"**. That ties it to the growly bass he liked in "On The Ground": growl is the strongest single sound preference in this file.
 
 ## Arrangement ideas they have already agreed on
 
@@ -59,13 +59,12 @@ Candidate search terms, not checked against Splice's catalogue:
 | vocal chops | vocal chops, vocal phrases, chopped vocals |
 | textured snare plus rim shot | layered snares, textured snares, rimshots, foley percussion |
 | a break from the piano | synth chords, chord stabs, pads |
-| the "waaaow" sound (guesses until Krish names its character) | vocal formant fx, filter-swept synth, wah fx, pitch-bend synth stab |
+| the "waaaow" sound (deep, electronic, growly) | growl bass one shots, talking/formant bass, reese bass, bass fx hits |
 
 Filter by the BPM and key from the track card. When trackcard is unsure of the key, the card says so: ask before filtering.
 
 ## What this does not know
 
-- **What kind of sound the "waaaow" is** (vocal, synth or fx). The timestamps are known; the character isn't.
 - **Nothing in this file is measured from the audio.** It comes from comments plus artist knowledge, labelled as "my read" where inferred. Spotify streams can't be analysed by trackcard; a WAV of a reference track could be.
 
 To add to this, append a row to the Google Sheet and ask Claude to refresh `taste/` from it.
