@@ -94,6 +94,33 @@ def to_markdown(c: TrackCard) -> str:
     w("Energy is the section's RMS level against the loudest section: peak (within 3 dB), mid (3-8 dB down), low (more than 8 dB down). The loudest sections are the likely drops or peaks.")
     w("")
 
+    # Drops and moments (part of the section map)
+    w("### Drops and layer changes")
+    w("")
+    if not c.stems_available:
+        w("Not available: this needs stem separation (see 'Read this first').")
+    else:
+        if c.drops:
+            for d in c.drops:
+                tag = "**Main drop**" if d["main"] else "Drop"
+                w(f"- {tag}, {ts(d['time'])}, bar {d['bar']}: {d['text']}.")
+            w("")
+            w("A drop is bass or kick jumping to full level after at least 4 bars well below it; layers that rise within the next 16 bars join it. The main drop is the one the most layers join.")
+            if c.drop_splits:
+                w(f"The section map was split at {c.drop_splits} drop point{'s' if c.drop_splits != 1 else ''} so the drop starts its own section.")
+        else:
+            w("- No drop found by the rule (bass or kick jumping to full level after a stretch well below it).")
+        w("")
+        if c.moments:
+            w("Every layer change, by bar (kick = drums below 150 Hz, tops = drums above 5 kHz):")
+            w("")
+            by_bar: dict[int, list[dict]] = {}
+            for m in c.moments:
+                by_bar.setdefault(m["bar"], []).append(m)
+            for bar, ms in by_bar.items():
+                w(f"- {ts(ms[0]['time'])} bar {bar}: " + "; ".join(m["text"] for m in ms))
+    w("")
+
     # 3. Stems
     w("## 3. Stem activity")
     w("")

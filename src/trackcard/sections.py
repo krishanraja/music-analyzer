@@ -233,6 +233,22 @@ def snap_to_phrases(secs: list[Section], downbeats: list[float], phrase_bars: in
     return out, moved
 
 
+def split_at(secs: list[Section], times: list[float], min_gap: float) -> tuple[list[Section], int]:
+    """Add a boundary at each time that is at least min_gap from every existing boundary.
+    Both halves keep the original label. Returns (sections, number of splits)."""
+    out = [Section(s.start, s.end, s.label) for s in secs]
+    n = 0
+    for t in sorted(times):
+        bounds = [s.start for s in out] + [out[-1].end]
+        if min(abs(t - b) for b in bounds) < min_gap:
+            continue
+        i = next(k for k, s in enumerate(out) if s.start < t < s.end)
+        s0 = out[i]
+        out[i : i + 1] = [Section(s0.start, t, s0.label), Section(t, s0.end, s0.label)]
+        n += 1
+    return out, n
+
+
 def detect_sections(
     path: Path, y: np.ndarray, sr: int, beat_times: list[float], mode: str = "auto"
 ) -> SectionMap:

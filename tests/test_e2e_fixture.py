@@ -6,11 +6,13 @@
 
    {
      "closure.wav": {"bpm": 125, "key": "D minor"},
-     "closure_latest.wav": {"bpm": 125, "key": "D minor", "drops": ["3:04"]}
+     "closure_latest.wav": {"bpm": 125, "key": "D minor", "events": {"3:04": "main drop", "3:20": "tops"}}
    }
 
    bpm must match within 0.1; key must be the main key or the stated alternative; each
    drop time must start a section (within one bar) whose energy is "peak".
+   "events" maps a time to what happens there: "main drop", "drop", or a layer name
+   (kick, tops, bass, vocals, other) that must rise within one bar of that time.
 """
 
 import json
@@ -63,15 +65,26 @@ def test_matches_producer_truth(name):
     if not path.exists():
         pytest.skip(f"{name} is listed in truth.json but not in tests/fixtures/")
     truth = TRUTH[name]
-    card = analyze(path, stems=False)  # tempo, key and sections do not depend on stems
-    if "bpm" in truth:
-        assert abs(card.bpm - truth["bpm"]) <= 0.1, f"BPM {card.bpm} vs {truth['bpm']}"
+    card = analyze(path, stems="events" in truth)  # moments need stems; the rest does not
+    misses = []
+    if "bpm" in truth and abs(card.bpm - truth["bpm"]) > 0.1:
+        misses.append(f"BPM {card.bpm} vs {truth['bpm']}")
     if "key" in truth:
         want = _key_name(truth["key"])
-        assert want in {card.key, card.key_alternative}, f"key {card.key} / alt {card.key_alternative} vs {want}"
+        if want not in {card.key, card.key_alternative}:
+            misses.append(f"key {card.key} / alt {card.key_alternative} vs {want}")
     bar = 240.0 / card.bpm
     for d in truth.get("drops", []):
         t = _secs(d)
         hits = [s for s in card.sections if abs(s.start - t) <= bar]
-        assert hits, f"no section starts within one bar of {d}: {[(s.id, round(s.start, 1)) for s in card.sections]}"
-        assert hits[0].energy == "peak", f"section at {d} is {hits[0].energy}, not peak"
+        if not hits or hits[0].energy != "peak":
+            misses.append(f"no peak section starting within one bar of {d}")
+    for when, what in truth.get("events", {}).items():
+        t = _secs(when)
+        if what in ("main drop", "drop"):
+            ok = any(abs(d["time"] - t) <= bar and (d["main"] or what == "drop") for d in card.drops)
+        else:
+            ok = any(m["layer"] == what and m["delta_db"] > 0 and abs(m["time"] - t) <= bar for m in card.moments)
+        if not ok:
+            misses.append(f"no {what} within one bar of {when}")
+    assert not misses, "; ".join(misses)

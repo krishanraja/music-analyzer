@@ -19,6 +19,9 @@ import numpy as np
 log = logging.getLogger(__name__)
 
 STEMS = ("drums", "bass", "vocals", "other")
+# The drums stem's total level is dominated by the kick, so hats and cymbals
+# returning can't be seen in it. Two extra envelopes split it by band.
+DRUM_BANDS = {"kick": (None, 150.0), "tops": (5000.0, None)}
 FRAME_HZ = 10
 MODEL_NAME = "htdemucs"
 
@@ -50,6 +53,20 @@ def compute_envelopes(stems: dict[str, np.ndarray], sr: int, frame_hz: int = FRA
             "rms": np.sqrt(np.mean(fr.astype(np.float64) ** 2, axis=1)).astype(float).tolist(),
             "peak": np.abs(fr).max(axis=1).astype(float).tolist(),
         }
+    return out
+
+
+def drum_bands(drums: np.ndarray, sr: int) -> dict[str, np.ndarray]:
+    """Split the drums stem (channels, samples) into kick (<150 Hz) and tops (>5 kHz)."""
+    from scipy.signal import butter, sosfiltfilt
+
+    out = {}
+    for name, (lo, hi) in DRUM_BANDS.items():
+        if lo is None:
+            sos = butter(4, hi, "lowpass", fs=sr, output="sos")
+        else:
+            sos = butter(4, lo, "highpass", fs=sr, output="sos")
+        out[name] = sosfiltfilt(sos, drums, axis=-1).astype(np.float32)
     return out
 
 
@@ -130,6 +147,7 @@ def separate(native: np.ndarray, sr: int) -> StemResult:
                 torch.cuda.empty_cache()
     sources = sources * std + mean
     stems = {name: sources[model.sources.index(name)].numpy() for name in STEMS}
+    stems.update(drum_bands(stems["drums"], model.samplerate))
     if gpu is None:
         notes.append("No GPU found; Demucs ran on CPU.")
     return StemResult(

@@ -15,7 +15,8 @@ from .brief import SectionFacts, Suggestion, build_brief
 from .key import PITCHES, analyze_key, camelot_of, compatible_camelot, parse_key
 from .audio import TrackcardError
 from .loudness import analyze_loudness, span_rms_dbfs
-from .sections import detect_sections, snap_to_downbeats, snap_to_phrases
+from .events import Drop, Event, detect_events
+from .sections import detect_sections, snap_to_downbeats, snap_to_phrases, split_at
 from .spectrum import band_profile
 from .stems import STEMS, StemResult, separate, stem_activity
 from .tempo import BEATS_PER_BAR, analyze_tempo
@@ -74,6 +75,9 @@ class TrackCard:
     key_margin: float
     section_method: str
     phrase_snaps: int
+    drop_splits: int
+    drops: list[dict]
+    moments: list[dict]
     sections: list[SectionInfo]
     stems_available: bool
     stems_device: str
@@ -160,6 +164,14 @@ def analyze(
     else:
         stem_res = StemResult(available=False, notes=["Stem separation skipped (--no-stems)."])
     notes += stem_res.notes
+
+    events: list[Event] = []
+    drops: list[Drop] = []
+    drop_splits = 0
+    if stem_res.available:
+        say("Finding drops and layer changes")
+        events, drops = detect_events(stem_res.envelopes, stem_res.frame_hz, tempo.downbeats, a.duration, tempo.bar_at)
+        secs, drop_splits = split_at(secs, [d.time for d in drops], min_gap=4 * bar_s)
 
     say("Measuring frequency balance and loudness")
     loud = analyze_loudness(a.native, a.native_sr)
@@ -254,6 +266,11 @@ def analyze(
         key_margin=key.margin,
         section_method=smap.method,
         phrase_snaps=phrase_moves,
+        drop_splits=drop_splits,
+        drops=[{"time": round(d.time, 2), "bar": d.bar, "main": d.main, "lead": d.lead, "text": d.text(),
+                "joins": [{"time": round(j.time, 2), "bar": j.bar, "layer": j.stem} for j in d.joins]} for d in drops],
+        moments=[{"time": round(e.time, 2), "bar": e.bar, "layer": e.stem, "change": e.kind,
+                  "delta_db": e.delta_db, "drop": e.drop, "text": e.text()} for e in events],
         sections=infos,
         stems_available=stem_res.available,
         stems_device=f"{stem_res.device} (shifts={stem_res.shifts})" if stem_res.available else "",

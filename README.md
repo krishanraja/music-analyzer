@@ -53,7 +53,7 @@ Accepted files: `.wav`, `.wave`, `.aif`, `.aiff`, `.flac`, at least 5 seconds lo
 ## What's in the card
 
 1. **Basics.** Duration; BPM plus the likely whole-number project tempo, with a confidence note (or your value, if you gave one); 4/4 (assumed); how bar 1 was chosen; key with major/minor and its Camelot code, with a confidence level and the runner-up key; when trackcard is unsure, a second likely key and why; harmonically compatible keys (Camelot neighbours and relative key).
-2. **Section map.** One row per section: label, bar range, time range, length, and energy (the section's RMS level against the loudest section: peak, mid or low). The method line says whether labels came from allin1 or the Laplacian fallback.
+2. **Section map.** One row per section: label, bar range, time range, length, and energy (the section's RMS level against the loudest section: peak, mid or low). The method line says whether labels came from allin1 or the Laplacian fallback. Below it, **Drops and layer changes**: every drop (with the main one marked) and, bar by bar, every layer that enters, leaves, fills out or pulls back. Drops are often staged (bassline or kick first, hats a few bars later), and the card says so. The section map gets a boundary at each drop.
 3. **Stem activity.** Demucs htdemucs splits the bounce into drums, bass, vocals and other. Per section and stem: *active* (sounding in 45% or more of the section's 100 ms frames), *sparse* (10-45%), or *absent*, with the percentage. A frame counts as sounding when the stem is louder than -50 dBFS and within 30 dB of its own loud moments.
 4. **Frequency balance per section.** Energy in sub (20-60 Hz), low (60-250 Hz), mid (250 Hz-2 kHz), high-mid (2-8 kHz) and air (8-20 kHz), in dB relative to the section's loudest band, measured at the file's native sample rate. Plain flags such as "nothing above 8 kHz", "no sub", "thin low end", "sub-heavy", "mids are scooped", "dull presence range".
 5. **Loudness and dynamics.** Peak dBFS, RMS dBFS, integrated LUFS (if pyloudnorm is installed), crest factor, clipped-sample count, level per section with the change from the previous one, and level every 8 bars.
@@ -106,12 +106,15 @@ Stem separation on a CPU takes minutes. If Claude Desktop gives up waiting, ask 
 | sections | allin1 (labels such as intro, verse, chorus, break, drop) | Laplacian segmentation: beat-synchronous CQT recurrence matrix with path enhancement plus an MFCC timbre path, spectral clustering with k chosen by eigengap in 3-6, sections under 8 s merged into a neighbour. Boundaries snap to the nearest downbeat (within half a bar), then to a 4-bar phrase start (within one bar). |
 | stems | Demucs htdemucs. With a GPU: shifts=2, then shifts=0 on out-of-memory, then CPU. Without a GPU: CPU, shifts=0. 10 Hz RMS and peak envelopes per stem. | if PyTorch/Demucs are missing or the model can't load, the card says so and the stem-based rules are skipped |
 | loudness | pyloudnorm integrated LUFS | RMS dBFS |
+| drops and layer changes | Per bar, the level of bass, vocals, other, and the drums stem split into kick (<150 Hz) and tops (>5 kHz). A layer changing by 6 dB or more against its previous 4 bars, held for 2 bars, is a moment (a one-bar pre-drop cut does not count). A drop is bass or kick jumping to its full level after 4 bars well below it (10 dB on average); layers rising in the next 16 bars join it (a second bass/kick rise within 4 bars is the same drop). The main drop is the one the most layers join. | needs stems; with `--no-stems` the block says it is unavailable |
 
 ## Limits (read these)
 
 - trackcard measures; it does not hear. Labels from the fallback segmenter are cluster numbers, not musical functions. Energy levels hint at where the drops are, but that is an inference.
 - 4/4 is assumed. Tempo changes within a track are not modelled; one BPM is reported.
-- Key comes from averaged harmony. When riffs lean on the 4th and 5th of the key (common in electronic music), a neighbouring key can score higher: on one test track the producer's D minor came out as G minor, with D minor named as the alternative. Use `--key` when you know it.
+- Key comes from averaged harmony. When riffs lean on the 4th and 5th of the key (common in electronic music), a neighbouring key can score higher: on one test track the producer's D minor came out as G minor (with D minor named as the alternative) on one bounce, and as D major with G minor as the alternative on a later bounce. Use `--key` when you know it.
+- Demucs often puts a sub-heavy bass drop into the drums stem's low band, so a bassline drop can read as "kick and low drums".
+- The drop rule looks at layers, not loudness: a heavily mastered track can be equally loud before and after a drop, and the energy column will not show it.
 - The vocals stem on an instrumental track often picks up vocal-like synths and leads. Treat "vocals active" as "something in the vocal range", not proof of a singer.
 - Bar numbers depend on the bar-1 rule above. If the bounce starts mid-bar or with a pickup, numbers can be off by a beat or two; the card warns when its two downbeat signals disagree.
 - The Splice brief's tags are candidates to try, not a fixed vocabulary.
@@ -129,10 +132,10 @@ The fast suite generates its own audio: click tracks at known tempos (including 
 To check trackcard against your ear, add `tests/fixtures/truth.json` (also gitignored):
 
 ```json
-{"my_track.wav": {"bpm": 125, "key": "D minor", "drops": ["3:04"]}}
+{"my_track.wav": {"bpm": 125, "key": "D minor", "events": {"3:04": "main drop", "3:20": "tops"}}}
 ```
 
-`pytest -m slow` then asserts the BPM within 0.1, that your key is the main or alternative key, and that a peak-energy section starts within one bar of each drop time.
+`pytest -m slow` then asserts the BPM within 0.1, that your key is the main or alternative key, and that a peak-energy section starts within one bar of each drop time. You can also list moments: `"events": {"3:04": "main drop", "3:20": "tops"}` (a layer name means that layer must rise within one bar). All misses are reported together.
 
 ## Licence and credits
 
