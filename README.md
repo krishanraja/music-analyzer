@@ -137,6 +137,10 @@ To check trackcard against your ear, add `tests/fixtures/truth.json` (also gitig
 
 `pytest -m slow` then asserts the BPM within 0.1, that your key is the main or alternative key, and that a peak-energy section starts within one bar of each drop time. You can also list moments: `"events": {"3:04": "main drop", "3:20": "tops", "2:15": "cut", "3:37": "build"}`. A layer name means that layer must rise within one bar; "cut" and "drop" match within one bar; "build" matches within four, because where a build starts is fuzzy. All misses are reported together.
 
+## Taste profile
+
+`taste/` holds working knowledge of what Krish and Calvin are reaching for, built from the Spotify tracks they share and their comments: [`taste/PREFERENCES.md`](taste/PREFERENCES.md) (the synthesis, written for an AI to read next to a track card) and [`taste/references.json`](taste/references.json) (every track, link and comment). It is not used by the code.
+
 ## Licence and credits
 
 MIT. See `LICENSE`, and `NOTICE` for attributions (Stem MCP's MCP server skeleton and Demucs approach, methods reimplemented from MixMind, Demucs, allin1, librosa, pyloudnorm).
