@@ -106,7 +106,7 @@ Stem separation on a CPU takes minutes. If Claude Desktop gives up waiting, ask 
 | sections | allin1 (labels such as intro, verse, chorus, break, drop) | Laplacian segmentation: beat-synchronous CQT recurrence matrix with path enhancement plus an MFCC timbre path, spectral clustering with k chosen by eigengap in 3-6, sections under 8 s merged into a neighbour. Boundaries snap to the nearest downbeat (within half a bar), then to a 4-bar phrase start (within one bar). |
 | stems | Demucs htdemucs. With a GPU: shifts=2, then shifts=0 on out-of-memory, then CPU. Without a GPU: CPU, shifts=0. 10 Hz RMS and peak envelopes per stem. | if PyTorch/Demucs are missing or the model can't load, the card says so and the stem-based rules are skipped |
 | loudness | pyloudnorm integrated LUFS | RMS dBFS |
-| drops and layer changes | Per bar, the level of bass, vocals, other, and the drums stem split into kick (<150 Hz) and tops (>5 kHz). A layer changing by 6 dB or more against its previous 4 bars, held for 2 bars, is a moment (a one-bar pre-drop cut does not count). A drop is bass or kick jumping to its full level after 4 bars well below it (10 dB on average); layers rising in the next 16 bars join it (a second bass/kick rise within 4 bars is the same drop). The main drop is the one the most layers join. | needs stems; with `--no-stems` the block says it is unavailable |
+| drops and layer changes | Per bar, the level of bass, vocals, other, and the drums stem split into kick (<150 Hz) and tops (>5 kHz). A layer changing by 6 dB or more against its previous 4 bars, held for 2 bars, is a moment (a one-bar pre-drop cut does not count). A drop is bass or kick jumping to its full level after 4 bars well below it (10 dB on average); layers rising in the next 16 bars join it (a second bass/kick rise within 4 bars is the same drop). Each drop gets a run-up: the cut (where the low end went out and stayed out) and the build (the earliest layer change in the 16 bars before the cut). The main drop is the last drop with a run-up before the final 15% of the track, an arrangement convention: staged drops are often mixed to the same level, so loudness can't tell them apart. | needs stems; with `--no-stems` the block says it is unavailable |
 
 ## Limits (read these)
 
@@ -135,7 +135,7 @@ To check trackcard against your ear, add `tests/fixtures/truth.json` (also gitig
 {"my_track.wav": {"bpm": 125, "key": "D minor", "events": {"3:04": "main drop", "3:20": "tops"}}}
 ```
 
-`pytest -m slow` then asserts the BPM within 0.1, that your key is the main or alternative key, and that a peak-energy section starts within one bar of each drop time. You can also list moments: `"events": {"3:04": "main drop", "3:20": "tops"}` (a layer name means that layer must rise within one bar). All misses are reported together.
+`pytest -m slow` then asserts the BPM within 0.1, that your key is the main or alternative key, and that a peak-energy section starts within one bar of each drop time. You can also list moments: `"events": {"3:04": "main drop", "3:20": "tops", "2:15": "cut", "3:37": "build"}`. A layer name means that layer must rise within one bar; "cut" and "drop" match within one bar; "build" matches within four, because where a build starts is fuzzy. All misses are reported together.
 
 ## Licence and credits
 

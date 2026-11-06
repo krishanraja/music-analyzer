@@ -62,3 +62,24 @@ def test_bass_then_kick_a_bar_apart_is_one_drop():
     events, drops = run({"bass": bass, "kick": kick, "other": [-30] * 32}, 32)
     assert len(drops) == 1 and drops[0].bar == 9 and drops[0].lead == "bass"
     assert [j.stem for j in drops[0].joins] == ["kick"]
+
+
+def test_runup_build_and_cut():
+    n = 32
+    kick = [-20] * 12 + [-80] * 4 + [-20] * 16       # cut bars 13-16, drop bar 17
+    tops = [-30] * 8 + [-80] * 8 + [-30] * 16        # hats out from bar 9
+    events, drops = run({"kick": kick, "tops": tops, "other": [-30] * n}, n)
+    d = next(x for x in drops if x.bar == 17)
+    assert d.cut_bar == 13 and d.cut_bars == 4
+    assert d.build_bar == 9 and "hats" in d.build_what
+
+
+def test_main_drop_is_the_later_one_with_a_runup_even_with_fewer_joins():
+    n = 100
+    kick = ([-20] * 12 + [-80] * 4) + [-20] * 32 + ([-80] * 4) + [-20] * 48   # drops at 17 and 53
+    voc = [-80] * 16 + [-30] * 8 + [-80] * 76            # joins only the first drop
+    tops = [-80] * 18 + [-30] * 82
+    events, drops = run({"kick": kick, "vocals": voc, "tops": tops, "other": [-30] * n}, n)
+    assert [d.bar for d in drops] == [17, 53]
+    assert len(drops[0].joins) > len(drops[1].joins)
+    assert [d.main for d in drops] == [False, True]

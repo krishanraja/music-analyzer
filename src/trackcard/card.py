@@ -103,9 +103,20 @@ def to_markdown(c: TrackCard) -> str:
         if c.drops:
             for d in c.drops:
                 tag = "**Main drop**" if d["main"] else "Drop"
-                w(f"- {tag}, {ts(d['time'])}, bar {d['bar']}: {d['text']}.")
+                run = []
+                if d.get("build"):
+                    run.append(f"build from {ts(d['build']['time'])} (bar {d['build']['bar']}: {d['build']['what']})")
+                if d.get("cut"):
+                    if d["cut"]["bars"] == 1:
+                        run.append(f"one-bar cut at {ts(d['cut']['time'])} (bar {d['cut']['bar']})")
+                    else:
+                        run.append(f"low end cut from {ts(d['cut']['time'])} (bar {d['cut']['bar']}, {d['cut']['bars']} bars)")
+                runup = f" Run-up: {'; '.join(run)}." if run else ""
+                w(f"- {tag}, {ts(d['time'])}, bar {d['bar']}.{runup} Drop: {d['text']}.")
             w("")
-            w("A drop is bass or kick jumping to full level after at least 4 bars well below it; layers that rise within the next 16 bars join it. The main drop is the one the most layers join.")
+            w("A drop is bass or kick jumping to full level after at least 4 bars well below it; layers that rise within the next 16 bars join it. "
+              "The run-up is the build (earliest layer change in the 16 bars before) and the cut (where the low end went out). "
+              "The main drop is the last drop with a run-up before the final 15% of the track: an arrangement convention, since staged drops are often mixed to the same level.")
             if c.drop_splits:
                 w(f"The section map was split at {c.drop_splits} drop point{'s' if c.drop_splits != 1 else ''} so the drop starts its own section.")
         else:

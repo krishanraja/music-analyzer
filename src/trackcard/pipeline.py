@@ -268,6 +268,8 @@ def analyze(
         phrase_snaps=phrase_moves,
         drop_splits=drop_splits,
         drops=[{"time": round(d.time, 2), "bar": d.bar, "main": d.main, "lead": d.lead, "text": d.text(),
+                "cut": {"time": round(d.cut_time, 2), "bar": d.cut_bar, "bars": d.cut_bars} if d.cut_bar else None,
+                "build": {"time": round(d.build_time, 2), "bar": d.build_bar, "what": d.build_what} if d.build_bar else None,
                 "joins": [{"time": round(j.time, 2), "bar": j.bar, "layer": j.stem} for j in d.joins]} for d in drops],
         moments=[{"time": round(e.time, 2), "bar": e.bar, "layer": e.stem, "change": e.kind,
                   "delta_db": e.delta_db, "drop": e.drop, "text": e.text()} for e in events],

@@ -23,7 +23,16 @@ Drop rule: a rise in bass or kick that brings that layer up to its full level
 10 dB or more below that on average. Any layer rising in the 16 bars after a
 drop "joins" it, so a staged drop reads as: bassline/kick first, tops later.
 A second bass/kick rise within 4 bars of a drop is part of that drop, not a new one.
-The main drop is the one the most layers join (ties: the bigger low-end rise).
+Run-up: for each drop, the "cut" is where its lead layer (bass or kick) went
+10 dB or more below full and stayed there until the drop, and the "build" is
+the earliest layer change in the 16 bars before the drop that comes before
+that cut (hats dropping out, a layer pulling back, or the synths/chords
+layer swelling in).
+
+Main drop: the last drop that has a run-up and starts before 85% of the
+track. That is an arrangement convention (the climax drop comes late, before
+the outro), not a loudness measure: staged drops are often mixed to the same
+level. With no run-ups at all, the drop the most layers join is the main one.
 """
 
 from __future__ import annotations
@@ -43,6 +52,7 @@ STAGE_BARS = 16
 SAME_DROP_BARS = 4  # a second low-end rise this close to a drop is part of it
 DROP_STEMS = ("bass", "kick")
 EVENT_LAYERS = ("kick", "bass", "tops", "vocals", "other")
+PLURAL = {"kick", "tops", "drums"}  # "kick and low drums", "hats and cymbals"
 STEM_WORDS = {"kick": "kick and low drums", "tops": "hats and cymbals (drum tops)", "bass": "bassline",
               "vocals": "vocal-range layer (vocals or a lead)", "other": "synths/chords layer", "drums": "drums"}
 
@@ -59,14 +69,15 @@ class Event:
 
     def text(self) -> str:
         w = STEM_WORDS.get(self.stem, self.stem)
+        pl = self.stem in PLURAL
         if self.kind == "enters":
-            core = f"{w} enters"
+            core = f"{w} {'enter' if pl else 'enters'}"
         elif self.kind == "fuller":
-            core = f"{w} comes in fuller (+{self.delta_db:.0f} dB)"
+            core = f"{w} {'come' if pl else 'comes'} in fuller (+{self.delta_db:.0f} dB)"
         elif self.kind == "drops out":
-            core = f"{w} drops out"
+            core = f"{w} {'drop' if pl else 'drops'} out"
         else:
-            core = f"{w} pulls back ({self.delta_db:.0f} dB)"
+            core = f"{w} {'pull' if pl else 'pulls'} back ({self.delta_db:.0f} dB)"
         if self.drop == "drop":
             return f"DROP: {core}"
         if self.drop == "joins":
@@ -106,6 +117,10 @@ def stem_events(stem: str, lv: np.ndarray, downbeats: list[float], bar_of) -> li
     return sorted(kept, key=lambda e: e.time)
 
 
+RUNUP_BARS = 16
+MAIN_BEFORE = 0.85
+
+
 @dataclass
 class Drop:
     time: float
@@ -113,16 +128,45 @@ class Drop:
     lead: str  # the layer that drops first
     joins: list[Event]
     main: bool = False
+    cut_time: float | None = None
+    cut_bar: int | None = None
+    cut_bars: int = 0  # how many bars the lead layer was cut before the drop
+    build_time: float | None = None
+    build_bar: int | None = None
+    build_what: str = ""
+
+    @property
+    def has_runup(self) -> bool:
+        return self.cut_bar is not None or self.build_bar is not None
 
     def text(self) -> str:
         first = STEM_WORDS.get(self.lead, self.lead)
         if not self.joins:
-            return f"{first} drops in"
+            return f"{first} {'drop' if self.lead in PLURAL else 'drops'} in"
         later = "; ".join(f"{STEM_WORDS.get(j.stem, j.stem)} at bar {j.bar}" for j in self.joins)
         return f"staged: {first} first, then {later}"
 
 
-def mark_drops(events: list[Event], levels: dict[str, np.ndarray], bar_index) -> list[Drop]:
+def _runup(d: Drop, i: int, lv: np.ndarray, events: list[Event], downbeats: list[float], bar_of) -> None:
+    full = float(np.percentile(lv, 90))
+    j = i
+    while j - 1 >= max(0, i - RUNUP_BARS) and lv[j - 1] <= full - LOW_BEFORE_DB:
+        j -= 1
+    if j < i:
+        d.cut_time, d.cut_bar, d.cut_bars = float(downbeats[j]), bar_of(downbeats[j]), i - j
+    limit = d.cut_bar if d.cut_bar is not None else d.bar
+    window = [e for e in events
+              if d.bar - RUNUP_BARS <= e.bar < limit
+              and (e.delta_db < 0 or (e.stem == "other" and e.delta_db > 0))]
+    if window:
+        first = min(window, key=lambda e: e.time)
+        same = [e for e in window if e.bar == first.bar]
+        d.build_time, d.build_bar = first.time, first.bar
+        d.build_what = "; ".join(e.text() for e in same)
+
+
+def mark_drops(events: list[Event], levels: dict[str, np.ndarray], bar_index,
+               downbeats: list[float] | None = None, duration: float | None = None, bar_of=None) -> list[Drop]:
     drops: list[Drop] = []
     for e in sorted(events, key=lambda e: e.time):
         if e.stem not in DROP_STEMS or e.delta_db <= 0:
@@ -140,7 +184,10 @@ def mark_drops(events: list[Event], levels: dict[str, np.ndarray], bar_index) ->
             drops[-1].joins.append(e)
             continue
         e.drop = "drop"
-        drops.append(Drop(e.time, e.bar, e.stem, []))
+        d = Drop(e.time, e.bar, e.stem, [])
+        if downbeats is not None and bar_of is not None:
+            _runup(d, i, lv, events, downbeats, bar_of)
+        drops.append(d)
     for e in sorted(events, key=lambda e: e.time):
         if e.drop or e.delta_db <= 0:
             continue
@@ -150,8 +197,13 @@ def mark_drops(events: list[Event], levels: dict[str, np.ndarray], bar_index) ->
             e.drop, e.drop_bar = "joins", d.bar
             d.joins.append(e)
     if drops:
-        lead_rise = {e.bar: e.delta_db for e in events if e.drop == "drop"}
-        max(drops, key=lambda d: (len(d.joins), lead_rise.get(d.bar, 0.0))).main = True
+        end = duration if duration else max(d.time for d in drops) + 1.0
+        late = [d for d in drops if d.has_runup and d.time < MAIN_BEFORE * end]
+        if late:
+            late[-1].main = True
+        else:
+            lead_rise = {e.bar: e.delta_db for e in events if e.drop == "drop"}
+            max(drops, key=lambda d: (len(d.joins), lead_rise.get(d.bar, 0.0))).main = True
     return drops
 
 
@@ -168,5 +220,5 @@ def detect_events(envelopes: dict, frame_hz: int, downbeats: list[float], durati
     events: list[Event] = []
     for s, lv in levels.items():
         events += stem_events(s, lv, downbeats, bar_of)
-    drops = mark_drops(events, levels, bar_index)
+    drops = mark_drops(events, levels, bar_index, downbeats, duration, bar_of)
     return sorted(events, key=lambda e: (e.time, e.drop != "drop")), drops

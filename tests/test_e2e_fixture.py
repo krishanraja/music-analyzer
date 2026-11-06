@@ -11,8 +11,11 @@
 
    bpm must match within 0.1; key must be the main key or the stated alternative; each
    drop time must start a section (within one bar) whose energy is "peak".
-   "events" maps a time to what happens there: "main drop", "drop", or a layer name
+   "events" maps a time to what happens there: "main drop", "drop", "cut" (the low
+   end goes out before a drop), "build" (a drop's run-up starts), or a layer name
    (kick, tops, bass, vocals, other) that must rise within one bar of that time.
+   Everything matches within one bar, except "build", which matches within four:
+   where a build "starts" is fuzzy by ear and by measurement.
 """
 
 import json
@@ -83,6 +86,10 @@ def test_matches_producer_truth(name):
         t = _secs(when)
         if what in ("main drop", "drop"):
             ok = any(abs(d["time"] - t) <= bar and (d["main"] or what == "drop") for d in card.drops)
+        elif what == "cut":
+            ok = any(d.get("cut") and abs(d["cut"]["time"] - t) <= bar for d in card.drops)
+        elif what == "build":
+            ok = any(d.get("build") and abs(d["build"]["time"] - t) <= 4 * bar for d in card.drops)
         else:
             ok = any(m["layer"] == what and m["delta_db"] > 0 and abs(m["time"] - t) <= bar for m in card.moments)
         if not ok:
