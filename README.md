@@ -129,7 +129,7 @@ pytest -m slow           # real Demucs run, plus the end-to-end test
 
 The fast suite generates its own audio: click tracks at known tempos (including the half-time case), chord progressions in known keys and modes, and a three-part track with known boundaries and stems. The end-to-end test runs the full pipeline on the first WAV it finds in `tests/fixtures/`. That folder is gitignored, and so is every audio file: put your own bounce there, it will never be committed. With no WAV present the test is skipped and says why.
 
-To check trackcard against your ear, add `tests/fixtures/truth.json` (also gitignored):
+To check trackcard against your ear, add entries to `taste/ear-checks.json` (committed; it holds names, tempos, keys and timestamps, never audio), or to a private `tests/fixtures/truth.json` (gitignored), which overrides it:
 
 ```json
 {"my_track.wav": {"bpm": 125, "key": "D minor", "events": {"3:04": "main drop", "3:20": "tops"}}}

@@ -1,0 +1,5 @@
+{
+  "closure.wav": {"bpm": 125, "key": "D minor"},
+  "closure_latest.wav": {"bpm": 125, "key": "D minor", "events": {"3:04": "main drop", "3:20": "tops"}},
+  "latin_beat_v2.wav": {"events": {"2:15": "cut", "2:30": "drop", "3:37": "build", "4:00": "main drop"}}
+}

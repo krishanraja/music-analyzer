@@ -1,8 +1,9 @@
 """End-to-end tests on real bounces. Nothing here is committed: tests/fixtures/ is gitignored.
 
 1. test_real_bounce_end_to_end runs the full pipeline (with Demucs) on the first WAV found.
-2. test_matches_producer_truth checks trackcard against what the producer heard, from an
-   optional tests/fixtures/truth.json, for example:
+2. test_matches_producer_truth checks trackcard against what the producer heard, from
+   taste/ear-checks.json (committed) and an optional private tests/fixtures/truth.json,
+   for example:
 
    {
      "closure.wav": {"bpm": 125, "key": "D minor"},
@@ -29,8 +30,14 @@ from trackcard.pipeline import analyze
 
 FIX = Path(__file__).parent / "fixtures"
 FIXTURES = sorted(p for p in FIX.glob("*") if p.suffix.lower() in {".wav", ".wave"})
+# Ear checks: the committed taste/ear-checks.json, overlaid by a private
+# tests/fixtures/truth.json if present. Audio stays local; only the facts are committed.
+EAR_CHECKS = Path(__file__).parent.parent / "taste" / "ear-checks.json"
 TRUTH_FILE = FIX / "truth.json"
-TRUTH = json.loads(TRUTH_FILE.read_text()) if TRUTH_FILE.exists() else {}
+TRUTH = {}
+for _f in (EAR_CHECKS, TRUTH_FILE):
+    if _f.exists():
+        TRUTH.update(json.loads(_f.read_text()))
 
 
 @pytest.mark.slow

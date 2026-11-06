@@ -68,3 +68,5 @@ Filter by the BPM and key from the track card. When trackcard is unsure of the k
 - **Nothing in this file is measured from the audio.** It comes from comments plus artist knowledge, labelled as "my read" where inferred. Spotify streams can't be analysed by trackcard; a WAV of a reference track could be.
 
 To add to this, append a row to the Google Sheet and ask Claude to refresh `taste/` from it.
+
+`ear-checks.json` in this folder records what Krish heard in his own bounces (tempo, key, drop and build times). trackcard's slow tests check every new version against it, with the WAVs placed in `tests/fixtures/`.
