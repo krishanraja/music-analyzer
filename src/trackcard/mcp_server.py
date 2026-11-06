@@ -34,6 +34,8 @@ TOOL = Tool(
             "path": {"type": "string", "description": "Absolute path to a WAV file on this computer."},
             "stems": {"type": "boolean", "default": True, "description": "Run Demucs stem separation (slower, more detail)."},
             "sections": {"type": "string", "enum": ["auto", "allin1", "laplacian"], "default": "auto"},
+            "bpm": {"type": "number", "description": "Project tempo, if the producer gave it. Overrides the measurement."},
+            "key": {"type": "string", "description": "Key, if the producer gave it, e.g. 'D minor', 'Dm', 'F# major' or '7A'."},
             "include_json": {"type": "boolean", "default": False, "description": "Append the card as JSON too."},
             "save": {"type": "boolean", "default": True, "description": "Also write <name>.trackcard.md next to the WAV."},
         },
@@ -54,7 +56,8 @@ def analyze_track(args: dict[str, Any]) -> str:
     path = args.get("path")
     if not path:
         raise TrackcardError("analyze_track needs a 'path' to a WAV file.")
-    card = analyze(path, sections_mode=args.get("sections", "auto"), stems=args.get("stems", True))
+    card = analyze(path, sections_mode=args.get("sections", "auto"), stems=args.get("stems", True),
+                   bpm=args.get("bpm"), key=args.get("key"))
     text = to_markdown(card)
     if args.get("save", True):
         write_card(card, Path(path), None, args.get("include_json", False))

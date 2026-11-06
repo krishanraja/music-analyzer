@@ -1,3 +1,3 @@
 """trackcard: local listening for AI. Turns a WAV bounce into a plain-text track card."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

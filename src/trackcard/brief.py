@@ -83,16 +83,21 @@ def bpm_range(bpm: float) -> str:
     return f"{b - 2}-{b + 2}"
 
 
-def key_text(layer: str, key_name: str, camelot: str) -> str:
+def key_text(layer: str, key_name: str, camelot: str, alt: tuple[str, str] | None = None) -> str:
     if layer in UNPITCHED:
         return "any (unpitched; skip the key filter)"
-    compat = [c for c in compatible_camelot(camelot)[1:]]
+    head = f"{key_name} ({camelot})"
+    skip = {camelot}
+    if alt:
+        head += f" or {alt[0]} ({alt[1]}); trackcard is unsure between the two, so confirm with the producer"
+        skip.add(alt[1])
+    compat = [c for c in compatible_camelot(camelot)[1:] if c not in skip]
     alts = ", ".join(f"{camelot_name(c)} ({c})" for c in compat)
-    return f"{key_name} ({camelot}); also works: {alts}"
+    return f"{head}; also works: {alts}"
 
 
-def _instr(layer, tags, bpm_rng, key_name, unpitched, bars, purpose):
-    k = "" if unpitched else f", key {key_name}"
+def _instr(layer, tags, bpm_rng, key_name, unpitched, bars, purpose, alt_name=None):
+    k = "" if unpitched else f", key {key_name}" + (f" (or {alt_name})" if alt_name else "")
     kind = "loops" if layer in ("drums", "percussion", "bass") else "samples"
     return (
         f"Search Splice for {layer} {kind} at {bpm_rng} BPM{k}, tags: {', '.join(tags[:3])}. "
@@ -122,7 +127,16 @@ def merge_repeats(items: list[Suggestion], labels: dict[str, str]) -> list[Sugge
     return out
 
 
-def build_brief(sections: list[SectionFacts], bpm: float, key_name: str, camelot: str, vocals_anywhere: bool | None) -> list[Suggestion]:
+def build_brief(
+    sections: list[SectionFacts],
+    bpm: float,
+    key_name: str,
+    camelot: str,
+    vocals_anywhere: bool | None,
+    alt_key: tuple[str, str] | None = None,
+) -> list[Suggestion]:
+    """alt_key: (name, camelot) of a second plausible key, or None."""
+    alt_name = alt_key[0] if alt_key else None
     rng = bpm_range(bpm)
     out: list[Suggestion] = []
 
@@ -131,8 +145,8 @@ def build_brief(sections: list[SectionFacts], bpm: float, key_name: str, camelot
         bucket.append(
             Suggestion(
                 section=sf.sid, bars=sf.bars, layer=layer, gap=gap, evidence=evidence,
-                bpm_range=rng, key=key_text(layer, key_name, camelot), tags=tags,
-                instruction=_instr(layer, tags, rng, key_name, layer in UNPITCHED, sf.bars, purpose),
+                bpm_range=rng, key=key_text(layer, key_name, camelot, alt_key), tags=tags,
+                instruction=_instr(layer, tags, rng, key_name, layer in UNPITCHED, sf.bars, purpose, alt_name),
                 rule=rule,
             )
         )
@@ -189,8 +203,8 @@ def build_brief(sections: list[SectionFacts], bpm: float, key_name: str, camelot
                 section="whole track", bars="any", layer="vocals",
                 gap="no vocals anywhere (optional: only if the track wants a human element)",
                 evidence="vocals stem absent in every section", bpm_range=rng,
-                key=key_text("vocals", key_name, camelot), tags=tags,
-                instruction=_instr("vocals", tags, rng, key_name, False, "of the highest-energy sections", "add a hook"),
+                key=key_text("vocals", key_name, camelot, alt_key), tags=tags,
+                instruction=_instr("vocals", tags, rng, key_name, False, "of the highest-energy sections", "add a hook", alt_name),
                 rule="R9",
             )
         )

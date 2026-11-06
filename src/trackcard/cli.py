@@ -27,7 +27,10 @@ def main() -> None:
 @click.option("--sections", "sections_mode", type=click.Choice(["auto", "allin1", "laplacian"]), default="auto",
               show_default=True, help="Section method. auto = allin1 if installed, else Laplacian.")
 @click.option("--print", "print_card", is_flag=True, help="Also print the card to stdout.")
-def analyze(path: Path, json_too: bool, out_dir: Path | None, no_stems: bool, sections_mode: str, print_card: bool) -> None:
+@click.option("--bpm", type=float, default=None, help="Project tempo, if you know it. Overrides the measurement.")
+@click.option("--key", "key", default=None, help="Key, if you know it: 'D minor', 'Dm', 'F# major', 'Bb' or '7A'.")
+def analyze(path: Path, json_too: bool, out_dir: Path | None, no_stems: bool, sections_mode: str, print_card: bool,
+            bpm: float | None, key: str | None) -> None:
     """Analyse PATH (a WAV bounce) and write <name>.trackcard.md."""
     from .card import to_markdown, write_card
     from .pipeline import analyze as run
@@ -38,7 +41,7 @@ def analyze(path: Path, json_too: bool, out_dir: Path | None, no_stems: bool, se
         click.echo(f"[{time.time() - t0:5.0f}s] {msg}...", err=True)
 
     try:
-        card = run(path, sections_mode=sections_mode, stems=not no_stems, progress=progress)
+        card = run(path, sections_mode=sections_mode, stems=not no_stems, progress=progress, bpm=bpm, key=key)
         written = write_card(card, Path(path), out_dir, json_too)
     except TrackcardError as exc:
         click.echo(f"trackcard: error: {exc}", err=True)

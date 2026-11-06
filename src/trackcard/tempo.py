@@ -18,8 +18,13 @@ Added in trackcard:
 - Off-beat check: if the low-band onset envelope is clearly stronger half a
   beat later than at the tracked beats, the grid is shifted by half a beat.
   This catches the tracker locking onto loud off-beat hats.
-- BPM is the slope of a straight-line fit through the beat times, which is
-  more precise than the median of frame-quantised beat intervals.
+- Fixed-grid refinement: a DAW bounce has one exact tempo, so trackcard
+  scores every steady grid (BPM within +/-2 of the estimate, every phase)
+  against the onset envelope across the whole file. When one grid stands out
+  clearly (best score at least 1.5x the median), that grid replaces the
+  tracked beats and gives the BPM to 0.01. Otherwise (live playing, tempo
+  changes) the tracked beats stay, and BPM is the slope of a straight-line fit
+  through them.
 """
 
 from __future__ import annotations
@@ -46,6 +51,7 @@ class TempoResult:
     confidence: str  # "high" | "medium" | "low"
     confidence_note: str
     downbeat_rule: str = ""
+    grid: str = "tracked"  # "fixed" | "tracked" | "producer"
     notes: list[str] = field(default_factory=list)
 
     def bar_at(self, t: float) -> int:
@@ -185,6 +191,86 @@ def offbeat_shift(beats: list[float], env: np.ndarray, sr: int, hop: int = 512) 
     return beats, False
 
 
+GRID_SHARPNESS = 1.5
+GRID_SEARCH_BPM = 2.0
+HOP = 512
+
+
+def _grid_scores(env: np.ndarray, frame_rate: float, n_frames: int, bpms: np.ndarray, phase_step: float = 0.005):
+    """For each BPM, the best mean onset strength over all grid phases. Returns (scores, phases)."""
+    duration = n_frames / frame_rate
+    scores, phases = np.zeros(len(bpms)), np.zeros(len(bpms))
+    for i, bpm in enumerate(bpms):
+        period = 60.0 / bpm
+        ph = np.arange(0.0, period, phase_step)
+        k = np.arange(int(duration / period) + 1)
+        t = ph[:, None] + k[None, :] * period
+        fr = np.round(t * frame_rate).astype(int)
+        valid = fr < n_frames
+        vals = np.where(valid, env[np.minimum(fr, n_frames - 1)], 0.0)
+        mean = vals.sum(1) / np.maximum(valid.sum(1), 1)
+        j = int(np.argmax(mean))
+        scores[i], phases[i] = mean[j], ph[j]
+    return scores, phases
+
+
+def refine_fixed_grid(env: np.ndarray, sr: int, bpm_estimate: float, fixed_bpm: float | None = None):
+    """Fit one steady grid to the whole file.
+
+    Returns (bpm, phase_seconds, sharpness) or None if no grid stands out.
+    With fixed_bpm, only the phase is searched and the result is always returned."""
+    from scipy.ndimage import maximum_filter1d
+
+    raw = np.asarray(env, dtype=float)
+    env = maximum_filter1d(raw, size=3)  # tolerate +/-1 frame
+    fps = sr / HOP
+    n = len(env)
+    if fixed_bpm is not None:
+        _, ph = _grid_scores(env, fps, n, np.array([fixed_bpm]))
+        return float(fixed_bpm), float(ph[0]), float("nan")
+    coarse = np.arange(bpm_estimate - GRID_SEARCH_BPM, bpm_estimate + GRID_SEARCH_BPM + 1e-9, 0.05)
+    sc, _ = _grid_scores(env, fps, n, coarse, phase_step=0.01)
+    best_i = int(np.argmax(sc))
+    sharp = float(sc[best_i] / (np.median(sc) + 1e-9))
+    if sharp < GRID_SHARPNESS:
+        return None
+    fine = np.arange(coarse[best_i] - 0.06, coarse[best_i] + 0.06 + 1e-9, 0.005)
+    fsc, fph = _grid_scores(env, fps, n, fine)
+    ties = np.flatnonzero(fsc >= fsc.max() * 0.999)  # clean audio can tie on a plateau
+    j = int(ties[len(ties) // 2])
+    bpm, phase = _regress_on_peaks(raw, fps, float(fine[j]), float(fph[j]))
+    return bpm, phase, sharp
+
+
+def _regress_on_peaks(env: np.ndarray, fps: float, bpm: float, phase: float, radius: int = 3):
+    """Snap each grid beat to the onset peak within +/-radius frames (strong beats only)
+    and fit a straight line, removing the bias of a flat-topped score."""
+    period = 60.0 / bpm
+    k = np.arange(int((len(env) / fps - phase) / period) + 1)
+    fr = np.round((phase + k * period) * fps).astype(int)
+    keep = fr < len(env)
+    k, fr = k[keep], fr[keep]
+    peaks, strength = [], []
+    for f in fr:
+        lo, hi = max(f - radius, 0), min(f + radius + 1, len(env))
+        i = lo + int(np.argmax(env[lo:hi]))
+        peaks.append(i / fps)
+        strength.append(env[i])
+    peaks, strength = np.asarray(peaks), np.asarray(strength)
+    strong = strength >= np.median(strength)
+    if strong.sum() < 8:
+        return bpm, phase
+    slope, icpt = np.polyfit(k[strong], peaks[strong], 1)
+    if slope <= 0 or abs(60.0 / slope - bpm) > 0.5:
+        return bpm, phase
+    return 60.0 / slope, float(icpt % slope)
+
+
+def grid_beats(bpm: float, phase: float, duration: float) -> list[float]:
+    period = 60.0 / bpm
+    return [float(t) for t in np.arange(phase, duration, period)]
+
+
 def first_sound(y: np.ndarray, sr: int, thresh_db: float = -40.0) -> float | None:
     idx = np.flatnonzero(np.abs(y) > 10 ** (thresh_db / 20))
     return float(idx[0] / sr) if len(idx) else None
@@ -224,7 +310,7 @@ def _confidence(beats: list[float], corrected: bool) -> tuple[str, str]:
     return level, "; ".join(parts)
 
 
-def analyze_tempo(y: np.ndarray, sr: int) -> TempoResult:
+def analyze_tempo(y: np.ndarray, sr: int, bpm_override: float | None = None) -> TempoResult:
     import librosa
 
     onset_env = librosa.onset.onset_strength(y=y, sr=sr)
@@ -236,6 +322,14 @@ def analyze_tempo(y: np.ndarray, sr: int) -> TempoResult:
     if fitted is not None:
         bpm = fitted
     notes = []
+    duration = len(y) / sr
+    grid = "tracked"
+    sharp = float("nan")
+    fit = refine_fixed_grid(onset_env, sr, bpm, fixed_bpm=bpm_override)
+    if fit is not None:
+        bpm, phase0, sharp = fit
+        beats = grid_beats(bpm, phase0, duration)
+        grid = "producer" if bpm_override is not None else "fixed"
     low_env = low_band_onset_env(y, sr)
     beats, shifted = offbeat_shift(beats, low_env, sr)
     if shifted:
@@ -265,9 +359,20 @@ def analyze_tempo(y: np.ndarray, sr: int) -> TempoResult:
         phase = phase_low
         rule = "beat 1 chosen from kick/bass (<250 Hz) onset strength (bounce does not start on a beat)"
     downbeats = beats[phase::BEATS_PER_BAR]
-    level, note = _confidence(beats, corrected)
+    if grid == "fixed":
+        level = "high"
+        note = (f"one steady tempo fits the whole track (grid score {sharp:.1f}x the typical "
+                "neighbouring tempo), as in a DAW bounce")
+        if corrected:
+            note += "; tempo was octave-corrected, so half or double time is possible"
+            level = "medium"
+    elif grid == "producer":
+        level, note = "set by producer", "grid fitted at the tempo the producer gave"
+    else:
+        level, note = _confidence(beats, corrected)
+        note += "; no single steady grid fits the whole file (tempo may drift or change)"
     return TempoResult(
-        bpm=round(bpm, 1),
+        bpm=round(bpm, 2),
         beats=beats,
         downbeats=downbeats,
         raw_bpm=round(raw, 1),
@@ -275,5 +380,6 @@ def analyze_tempo(y: np.ndarray, sr: int) -> TempoResult:
         confidence=level,
         confidence_note=note,
         downbeat_rule=rule,
+        grid=grid,
         notes=notes,
     )

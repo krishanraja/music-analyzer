@@ -55,12 +55,22 @@ def to_markdown(c: TrackCard) -> str:
     w("## 1. Basics")
     w("")
     w(f"- Duration: {ts(c.duration)} ({c.duration:.1f} s)")
-    w(f"- BPM: {c.bpm:.1f} measured, likely project tempo **{c.likely_project_bpm}**. "
-      f"Confidence {c.bpm_confidence}: {c.bpm_note}.")
+    if c.bpm_source == "producer":
+        meas = f"{c.measured_bpm:g}" if c.measured_bpm is not None else "n/a"
+        w(f"- BPM: **{c.bpm:g}** (set by the producer; trackcard measured {meas}). The bar grid is fitted at this tempo.")
+    else:
+        w(f"- BPM: {c.bpm:g} measured, likely project tempo **{c.likely_project_bpm}**. "
+          f"Confidence {c.bpm_confidence}: {c.bpm_note}.")
     w(f"- Time signature: {c.time_signature}")
     w(f"- Bar grid: {c.downbeat_rule}")
-    w(f"- Key: **{c.key}**, Camelot **{c.camelot}**. Confidence {c.key_confidence} "
-      f"(runner-up {c.key_runner_up}, margin {c.key_margin:.3f}).")
+    if c.key_source == "producer":
+        w(f"- Key: **{c.key}**, Camelot **{c.camelot}** (set by the producer; trackcard measured {c.measured_key}).")
+    else:
+        w(f"- Key: **{c.key}**, Camelot **{c.camelot}**. Confidence {c.key_confidence} "
+          f"(runner-up {c.key_runner_up}, margin {c.key_margin:.3f}).")
+        if c.key_alternative:
+            w(f"- Also likely: **{c.key_alternative} ({c.key_alternative_camelot})**: {c.key_alternative_reason}. "
+              "Ask the producer which one is home before filtering by key.")
     compat = ", ".join(f"{camelot_name(k)} ({k})" for k in c.compatible_keys[1:])
     w(f"- Harmonically compatible keys: {compat}")
     w("")
@@ -137,7 +147,10 @@ def to_markdown(c: TrackCard) -> str:
     if not c.stems_available:
         w("Stem separation did not run, so only frequency- and level-based gaps are listed (no missing-drums or missing-bass checks).")
         w("")
-    w(f"Track facts for every search: **{c.likely_project_bpm} BPM**, **{c.key} ({c.camelot})**. "
+    keyfact = f"**{c.key} ({c.camelot})**"
+    if c.key_alternative:
+        keyfact += f" or **{c.key_alternative} ({c.key_alternative_camelot})** (unconfirmed)"
+    w(f"Track facts for every search: **{c.likely_project_bpm} BPM**, {keyfact}. "
       "Each row is a gap trackcard measured, with the evidence. Use the BPM range and key as Splice filters, "
       "the layer as the instrument type, and try the candidate tags in order. Ask the producer before "
       "replacing anything that is already there.")

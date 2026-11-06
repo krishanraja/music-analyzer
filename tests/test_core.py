@@ -16,11 +16,27 @@ def _resample(y):
     return librosa.resample(y.astype(np.float32), orig_sr=SR, target_sr=22050), 22050
 
 
-@pytest.mark.parametrize("bpm", [124.0, 128.0, 140.0, 100.0])
-def test_click_track_bpm(bpm):
+@pytest.mark.parametrize("bpm", [124.0, 125.0, 128.0, 140.0, 100.0, 123.5])
+def test_click_track_bpm_exact_on_fixed_grid(bpm):
     y, sr = _resample(click_track(bpm, 30))
     r = analyze_tempo(y, sr)
-    assert abs(r.bpm - bpm) <= 1.0, (r.bpm, r.raw_bpm)
+    assert r.grid == "fixed"
+    assert abs(r.bpm - bpm) <= 0.05, (r.bpm, r.raw_bpm)
+
+
+def test_tempo_change_is_not_forced_onto_one_grid():
+    y = np.concatenate([click_track(120.0, 30), click_track(128.0, 30)])
+    r = analyze_tempo(*_resample(y))
+    assert r.grid == "tracked"
+    assert "no single steady grid" in r.confidence_note
+
+
+def test_bpm_override_uses_given_tempo():
+    y, sr = _resample(click_track(125.0, 30))
+    r = analyze_tempo(y, sr, bpm_override=125.0)
+    assert r.grid == "producer" and r.bpm == 125.0
+    assert abs(np.median(np.diff(r.beats)) - 0.48) < 1e-6
+    assert r.downbeats[0] < 0.05
 
 
 def test_downbeat_phase_on_accented_click():
@@ -134,3 +150,40 @@ def test_load_audio_ok(tmp_path):
     a = load_audio(p)
     assert a.native_sr == SR and a.channels == 2 and a.sr == 22050
     assert abs(a.duration - len(y) / SR) < 0.05
+
+
+def test_key_alternative_for_neighbour_keys():
+    # Pitch content of a D-minor riff that leans on G and A (the Closure case):
+    # strong A, G, Bb, D; weak F, E, C.
+    from trackcard.key import PITCHES
+
+    w = {"A": 0.42, "G": 0.41, "A#": 0.31, "D": 0.28, "G#": 0.25, "B": 0.17, "F#": 0.15,
+         "F": 0.12, "E": 0.11, "C": 0.10, "C#": 0.08, "D#": 0.04}
+    k = key_from_chroma(np.array([w[p] for p in PITCHES]))
+    assert {k.name, k.alternative} >= {"G minor", "D minor"}, (k.name, k.alternative)
+    assert k.alternative_camelot in {"6A", "7A"} and k.alternative_reason
+
+
+def test_no_alternative_for_unambiguous_key():
+    from trackcard.key import MAJOR
+
+    k = key_from_chroma(MAJOR ** 3)  # C major, exaggerated
+    assert k.name == "C major" and k.alternative is None
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("D minor", (2, False)), ("Dm", (2, False)), ("d min", (2, False)), ("7A", (2, False)),
+    ("Bb", (10, True)), ("Bbm", (10, False)), ("F# major", (6, True)), ("8B", (0, True)), ("E#m", (5, False)),
+])
+def test_parse_key(text, expected):
+    from trackcard.key import parse_key
+
+    assert parse_key(text) == expected
+
+
+@pytest.mark.parametrize("bad", ["H minor", "13A", "Dorian", ""])
+def test_parse_key_rejects(bad):
+    from trackcard.key import parse_key
+
+    with pytest.raises(ValueError, match="Use forms like"):
+        parse_key(bad)

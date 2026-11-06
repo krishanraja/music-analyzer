@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trackcard"
-version = "0.1.0"
+version = "0.2.0"
 description = "Listens to a WAV bounce locally and writes a plain-text track card an AI can read."
 readme = "README.md"
 license = {text = "MIT"}

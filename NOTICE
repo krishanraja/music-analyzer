@@ -26,6 +26,8 @@ MixMind (Intellligent15/MixMind--AI-DJ), no license file
 Published methods and models used
 =================================
 - Krumhansl & Kessler (1982) key profiles.
+- Temperley (1999), "What's key for key? The Krumhansl-Schmuckler key-finding
+  algorithm reconsidered" (second-opinion key profiles).
 - McFee & Ellis (2014), "Analyzing song structure with spectral clustering"
   (Laplacian segmentation), via librosa.
 - Demucs / Hybrid Transformer Demucs (Defossez et al., Meta AI), MIT License.
