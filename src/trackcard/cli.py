@@ -65,5 +65,85 @@ def mcp() -> None:
     run()
 
 
+@main.group()
+def brain() -> None:
+    """The Music Brain: evidence -> patterns -> proposed rules -> approved rules (taste/brain/)."""
+
+
+_TASTE = click.option("--taste", "taste_dir", type=click.Path(path_type=Path, file_okay=False), default=Path("taste"),
+                      show_default=True, help="The taste/ folder.")
+
+
+def _load(taste_dir: Path):
+    from . import brain as br
+    b = br.load(taste_dir)
+    problems = br.check(b)
+    if problems:
+        for p in problems:
+            click.echo(f"evidence problem: {p}", err=True)
+        sys.exit(1)
+    return br, b
+
+
+@brain.command("check")
+@_TASTE
+def brain_check(taste_dir: Path) -> None:
+    """Validate the evidence log against the vocabulary (quotes must match the words exactly)."""
+    _, b = _load(taste_dir)
+    click.echo(f"ok: {len(b.evidence)} evidence rows, {len(b.tracks)} playlist tracks, {len(b.claims)} claims")
+
+
+@brain.command("render")
+@_TASTE
+def brain_render(taste_dir: Path) -> None:
+    """Recount patterns and write taste/APPROVED.md and taste/brain/PATTERNS.md."""
+    br, b = _load(taste_dir)
+    br.write_views(b)
+    click.echo("wrote APPROVED.md and brain/PATTERNS.md")
+
+
+@brain.command("propose")
+@_TASTE
+def brain_propose(taste_dir: Path) -> None:
+    """Propose this week's rules (at most the weekly budget in policy.json), freeze them, and re-render."""
+    br, b = _load(taste_dir)
+    new = br.propose(b)
+    br.save(b)
+    br.write_views(b)
+    if not new:
+        click.echo("nothing new to propose this week")
+    for c in new:
+        click.echo(f"proposed {c['id']}: {c['text']}")
+
+
+def _decide(taste_dir: Path, claim_id: str, accept: bool, why: str) -> None:
+    br, b = _load(taste_dir)
+    try:
+        c = br.decide(b, claim_id, accept, why)
+    except br.BrainError as e:
+        click.echo(f"error: {e}", err=True)
+        sys.exit(1)
+    br.save(b)
+    br.write_views(b)
+    click.echo(f"{c['id']}: {c['status']}")
+
+
+@brain.command("accept")
+@click.argument("claim_id")
+@_TASTE
+def brain_accept(claim_id: str, taste_dir: Path) -> None:
+    """Accept a proposed rule; it moves into taste/APPROVED.md."""
+    _decide(taste_dir, claim_id, True, "")
+
+
+@brain.command("reject")
+@click.argument("claim_id")
+@click.option("--why", default="", help="Why it is wrong; kept with the claim.")
+@_TASTE
+def brain_reject(claim_id: str, why: str, taste_dir: Path) -> None:
+    """Reject a proposed rule; it is never proposed again."""
+    _decide(taste_dir, claim_id, False, why)
+
+
 if __name__ == "__main__":
     main()

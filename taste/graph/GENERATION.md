@@ -1,6 +1,7 @@
 # Generating from Krish's taste graph
 
-Read this before writing, arranging or choosing sounds for a new track. The graph (`graph.json`, `tracks.csv`) holds the
+Read this before writing, arranging or choosing sounds for a new track. Rules Krish has approved are in `taste/APPROVED.md`
+and win over anything here; the numbers below are evidence, not rules. The graph (`graph.json`, `tracks.csv`) holds the
 99 tracks of Krish's Spotify playlist "Chillout & Ambient" (read 2026-11-13), linked to their artists, labels, release years,
 keys, tempo bands, measured traits and inferred style families, plus `sounds_like` edges between the nearest tracks.
 

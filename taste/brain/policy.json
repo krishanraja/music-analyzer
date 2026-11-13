@@ -1,0 +1,9 @@
+{
+  "about": "Thresholds for turning evidence into proposed rules. Tune here, not in code.",
+  "words_min_strength": 2,
+  "words_min_sources": 1,
+  "measured_min_tracks": 10,
+  "measured_min_share": 0.6,
+  "proposals_per_week": 3,
+  "both_ways_min_share": 0.25
+}

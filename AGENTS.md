@@ -22,3 +22,15 @@ Its `docs/FALLBACKS.md` lists every route per platform.
 
 Every taste claim says where it came from: said by Krish or Calvin, measured by trackcard (full track or preview), read from
 a metadata source (Spotify, Discogs, label page), or inferred by Claude. Inferred lines say "my read".
+
+## The Music Brain (taste/brain/)
+
+- Rules a generator or Splice search may follow live only in `taste/APPROVED.md`. Everything else in `taste/` is evidence or
+  a pattern, and decides nothing on its own.
+- When Krish or Calvin says something about a track in a session, append it to `taste/brain/evidence.jsonl`: their words whole,
+  where and when said, and signals from `taste/brain/vocab.json` whose quotes appear character for character in the words.
+  Never write measured evidence there; it is derived from `taste/graph/tracks.csv`. A word that is not in the vocabulary goes
+  in as `other/<word>`; the vocabulary grows only by a change Krish merges.
+- Taken back? Set `"withdrawn": true` on the row; never delete it. Run `trackcard brain check` after any edit.
+- Weekly: `trackcard brain propose` (at most 3, frozen once proposed). Krish runs `trackcard brain accept|reject <id>`.
+- After any change to evidence, claims or the graph: `trackcard brain render`.

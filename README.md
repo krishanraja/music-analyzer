@@ -144,3 +144,19 @@ To check trackcard against your ear, add entries to `taste/ear-checks.json` (com
 ## Licence and credits
 
 MIT. See `LICENSE`, and `NOTICE` for attributions (Stem MCP's MCP server skeleton and Demucs approach, methods reimplemented from MixMind, Demucs, allin1, librosa, pyloudnorm).
+
+## The Music Brain
+
+`taste/brain/` turns what Krish and Calvin say about tracks, plus trackcard's measurements of Krish's playlist, into
+taste rules he approves one by one. Three layers stay apart: evidence (`evidence.jsonl`, their words, tagged from the
+fixed vocabulary in `vocab.json`), patterns (recounted from live evidence on every run, view in `PATTERNS.md`) and
+claims (`claims.jsonl`; at most 3 proposals a week, frozen once proposed). Accepted claims render to `taste/APPROVED.md`,
+the only file a generator should treat as rules.
+
+```bash
+trackcard brain check               # evidence valid? (quotes must match the words exactly)
+trackcard brain propose             # this week's proposals
+trackcard brain accept sound_design.growl_bass
+trackcard brain reject vocal.vocal_chops --why "only in moderation"
+trackcard brain render              # rewrite APPROVED.md and PATTERNS.md
+```

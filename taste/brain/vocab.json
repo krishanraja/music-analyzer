@@ -1,0 +1,52 @@
+{
+  "about": "The fixed music vocabulary. A signal must use one of these dimension/slug pairs; anything else is filed as other/<word> and counted, so the list grows only when Krish merges a change to this file. Polarity is per signal: he can like the bassline of a track whose vocal he dislikes.",
+  "dimensions": {
+    "groove": {
+      "tempo_118_125": "sits at 118-125 BPM",
+      "tempo_under_110": "under 110 BPM, downtempo",
+      "tempo_126_plus": "126 BPM or faster",
+      "percussive_groove": "the groove is carried by percussion",
+      "melodic_percussion": "pitched percussion: marimba, kalimba, tuned percs",
+      "call_and_response_rhythm": "one drum sound answers another",
+      "textured_snare": "a snare with a texture layered on top"
+    },
+    "harmony": {
+      "minor_key": "minor key",
+      "major_key": "major key",
+      "lush_chords": "rich, warm chord work",
+      "piano": "piano carries harmony",
+      "synth_chords": "synth chord stabs or pads as the harmony",
+      "call_and_response_melody": "a melodic call answered, e.g. 3 bars call, 1 bar answer"
+    },
+    "sound_design": {
+      "growl_bass": "growly, characterful bass",
+      "percussive_bass": "short, plucked, percussive bass",
+      "organic_textures": "organic, acoustic-feeling sounds",
+      "signature_fx_hit": "a recurring signature hit that marks the phrase",
+      "guitar": "guitar as a feature"
+    },
+    "arrangement": {
+      "quick_to_groove": "full energy within 16 bars",
+      "long_intro": "more than 16 bars before full energy",
+      "held_energy": "at full energy for 70% or more of the track",
+      "multiple_breakdowns": "two or more breakdowns",
+      "club_length": "6 minutes or longer",
+      "solo_tease": "tease an instrument for 8 bars before its solo",
+      "contrast_moments": "moments that give the ear a break from the main instrument"
+    },
+    "mix": {
+      "warm_low_end": "low or sub band is the loudest",
+      "soft_top": "air band 18 dB or more below the loudest band",
+      "airy_top": "air band within 14 dB of the loudest band",
+      "dynamic_master": "crest factor 11 dB or more",
+      "dense_master": "crest factor under 8.5 dB",
+      "stereo_movement": "panning and stereo detail",
+      "crisp_drums": "crisp, clean drum transients"
+    },
+    "vocal": {
+      "vocal_chops": "chopped vocals",
+      "song_vocal": "a sung song vocal",
+      "instrumental": "no lead vocal"
+    }
+  }
+}
