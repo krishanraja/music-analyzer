@@ -24,16 +24,16 @@ A pattern decides nothing until it becomes an accepted claim.
 | harmony | synth_chords | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | harmony | lush_chords | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | harmony | major_key | 0 | 0 | 0 | 39/95 | 41% | n/a |  |
-| mix | stereo_movement | 4 | 0 | 2 | n/a | n/a | n/a | proposed |
+| mix | stereo_movement | 4 | 0 | 2 | n/a | n/a | n/a | accepted |
 | mix | warm_low_end | 0 | 0 | 0 | 71/95 | 75% | n/a | ready to propose |
 | mix | dynamic_master | 0 | 0 | 0 | 61/95 | 64% | n/a | ready to propose |
 | mix | soft_top | 0 | 0 | 0 | 60/95 | 63% | n/a | ready to propose |
 | mix | crisp_drums | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | mix | airy_top | 0 | 0 | 0 | 6/95 | 6% | n/a |  |
 | mix | dense_master | 0 | 0 | 0 | 2/95 | 2% | n/a |  |
-| sound_design | growl_bass | 6 | 0 | 2 | n/a | n/a | n/a | proposed |
+| sound_design | growl_bass | 6 | 0 | 2 | n/a | n/a | n/a | accepted |
 | sound_design | signature_fx_hit | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | sound_design | organic_textures | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | sound_design | percussive_bass | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | sound_design | guitar | 1 | 0 | 1 | n/a | n/a | n/a |  |
-| vocal | vocal_chops | 4 | 0 | 2 | n/a | n/a | n/a | proposed |
+| vocal | vocal_chops | 4 | 0 | 2 | n/a | n/a | n/a | accepted |
