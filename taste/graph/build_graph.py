@@ -108,7 +108,7 @@ def traits(f: dict, duration_s: int) -> list[str]:
 
 
 def main(src: Path) -> None:
-    meta = json.loads((src / "meta.json").read_text())
+    meta = json.loads((src / "pl" / "meta.json").read_text())
     families = json.loads((HERE / "families.json").read_text())
     fam_of_artist = {a: fam for fam, d in families["families"].items() for a in d["artists"]}
 
@@ -150,7 +150,7 @@ def main(src: Path) -> None:
 
         card_path = src / "full" / f"{tid}.trackcard.json"
         if not card_path.exists():
-            card_path = src / "audio" / f"{tid}.trackcard.json"
+            card_path = src / "pl" / "audio" / f"{tid}.trackcard.json"
         row = {"id": tid, "title": r["title"], "artists": "; ".join(artists), "duration_s": r["duration_s"],
                "release_year": year, "label": label, "family": "; ".join(fams), "measured": False}
         if card_path.exists():
