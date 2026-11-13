@@ -68,6 +68,18 @@ def features(card: dict) -> dict:
     }
     for b in BANDS:
         f[f"band_{b}"] = round(weighted(secs, lambda s: s["bands_rel_db"][b]), 1)
+    # Arrangement, meaningful only on a full track: the energy arc across sections
+    energies = [s["energy"] for s in secs]
+    peaks = [s for s in secs if s["energy"] == "peak"]
+    f["full_track"] = card["duration"] > 120
+    if f["full_track"]:
+        f["sections"] = len(secs)
+        f["intro_bars_before_first_peak"] = (peaks[0]["start_bar"] - 1) if peaks else None
+        f["first_peak_s"] = round(peaks[0]["start"]) if peaks else None
+        f["peak_share"] = round(sum(s["end"] - s["start"] for s in peaks) / card["duration"], 2)
+        f["breakdowns"] = sum(1 for a, b in zip(energies, energies[1:]) if a == "peak" and b != "peak")
+        f["energy_arc"] = " > ".join(e[0].upper() for e in energies)  # P peak, M mid, L low
+        f["drops"] = len(card.get("drops") or [])
     if card.get("stems_available"):
         for st in STEMS:
             f[f"stem_{st}"] = round(weighted(secs, lambda s: s["stems"][st]["density"]), 2)
@@ -136,13 +148,16 @@ def main(src: Path) -> None:
             era = f"{year[:3]}0s" if int(year) < 2010 else year
             edge(tnode, "from_era", node(f"era:{era}", "era", name=era))
 
-        card_path = src / "audio" / f"{tid}.trackcard.json"
+        card_path = src / "full" / f"{tid}.trackcard.json"
+        if not card_path.exists():
+            card_path = src / "audio" / f"{tid}.trackcard.json"
         row = {"id": tid, "title": r["title"], "artists": "; ".join(artists), "duration_s": r["duration_s"],
                "release_year": year, "label": label, "family": "; ".join(fams), "measured": False}
         if card_path.exists():
             f = features(json.loads(card_path.read_text()))
             nodes[tnode]["measured"] = f
-            nodes[tnode]["measured_from"] = f"Spotify preview clip ({f['clip_seconds']} s) via trackcard"
+            nodes[tnode]["measured_from"] = ("full track from SoundCloud (length matched to Spotify within 6 s) via trackcard"
+                                             if f["full_track"] else f"Spotify preview clip ({f['clip_seconds']} s) via trackcard")
             row.update(f, measured=True)
             edge(tnode, "in_key", node(f"key:{f['camelot']}", "key", name=f["key"], camelot=f["camelot"]), confidence=f["key_confidence"])
             edge(tnode, "at_tempo", node(f"tempo:{tempo_band(f['bpm'])}", "tempo_band", name=tempo_band(f["bpm"])), bpm=f["bpm"], confidence=f["bpm_confidence"])
