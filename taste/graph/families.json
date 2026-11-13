@@ -1,0 +1,25 @@
+{
+  "about": "Style family per artist. Claude's read from artist knowledge, not measured and not stated by Krish. Correct freely.",
+  "families": {
+    "german_melodic_deep": {
+      "name": "German and Euro melodic deep house",
+      "description": "Warm, patient, melodic 4/4 at 118-124 BPM: long builds, emotive leads, deep subs. Berlin and the Stil vor Talent / Suol orbit.",
+      "artists": ["Fritz Kalkbrenner", "Paul Kalkbrenner", "Klangkarussell", "Max Manie", "KlangTherapeuten", "Sascha Braemer", "Niconé", "Narra", "andhim", "Oliver Koletzki", "Fran", "David August", "Wankelmut", "Monkey Safari", "Mollono.Bass", "Booka Shade", "Betoko", "Chopstick & Johnjon", "Breakdlaw", "The Glitchfox", "Lovebirds", "Electricano", "Passenger 10", "Sons of Maria", "Worakls", "Joachim Pastor", "Danism", "Crazy P", "Luciano", "Andrea Oliva", "Amine Edge", "DANCE", "Boss Axis", "Dimmi", "Magic Eye", "Pachanga Boys", "Maceo Plex", "Cedric Zeyenne", "David K feat. Yo-C", "Yo-C", "Hot Natured"]
+    },
+    "sunny_vocal_deep": {
+      "name": "Sunny deep house with a song in it",
+      "description": "The 2013-15 crossover sound: a folk or pop vocal, sax, marimba or plucked hook over a soft deep-house groove. Bright, major, warm.",
+      "artists": ["Robin Schulz", "Kygo", "Thomas Jack", "felix jaehn", "Bakermat", "De Hofnar", "GAMPER & DADONI", "Max Gamper", "Daniel Hoeft", "Jeroen Maas", "Klingande", "Nora En Pure", "Milky Chance", "Avicii", "Parra for Cuva", "Anna Naklab", "Mr. Probz", "Lilly Wood and The Prick", "Gabriel Rios", "Asaf Avidan & the Mojos", "Tom Odell", "Zwette", "Coldplay", "Kyla La Grange", "Nico & Vinz", "Crystal Fighters", "The Underdog Project", "Chassio", "GROUPLOVE", "Grandtheft", "Just Kiddin", "Bit Funk", "Dansir", "OMI", "Joel Compass", "FlicFlac"]
+    },
+    "uk_soulful_club": {
+      "name": "UK and soulful vocal house",
+      "description": "Garage swing, diva or soul vocals, organs and chunky basslines; disco and nu-disco edges.",
+      "artists": ["Duke Dumont", "Jax Jones", "Route 94", "Jess Glynne", "Storm Queen", "Kiesza", "Oliver Heldens", "Becky Hill", "Disciples", "Joe Goddard", "Valentina", "Chris Malinchak", "Phonique", "Ian Whitelaw", "Kyodai", "Stee Downes", "Claptone", "Mr. Scruff", "Faul & Wad", "PNAU", "Flight Facilities", "NÏKA", "ZHU", "RÜFÜS DU SOL", "Nina Simone", "Felix Da Housecat", "Dario G", "Mixed By Dario G & Mark Tucker"]
+    },
+    "global_downtempo": {
+      "name": "Downtempo, trip-hop and global fusion",
+      "description": "Under or around 100 BPM, or swung: breakbeats, live instruments, world and Latin elements, electro-swing, cinematic chill.",
+      "artists": ["Bonobo", "Andreya Triana", "Morcheeba", "Nitin Sawhney", "MJ Cole", "Parov Stelar", "Parov Stelar Trio", "Mattafix", "Orishas", "C2C", "Pretty Lights", "Nicolas Jaar", "GoldFish", "Variable D"]
+    }
+  }
+}
