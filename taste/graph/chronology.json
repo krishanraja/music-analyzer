@@ -1,0 +1,1088 @@
+{
+ "about": "Per-period taste figures by date added (Spotify added_at). Measured figures use only full-track trackcard measurements; families are inferred. Built by chronology.py from tracks.csv.",
+ "min_measured_per_period": 10,
+ "quarters_with_10_plus_tracks": 11,
+ "quarters_with_tracks": 46,
+ "periods": [
+  {
+   "period": "2014",
+   "years": [
+    "2014"
+   ],
+   "added": 97,
+   "measured_full": 96,
+   "bpm_median": 122.0,
+   "bpm_iqr": [
+    120.0,
+    125.0
+   ],
+   "major_share": 0.42,
+   "top_keys": [
+    [
+     "6A G minor",
+     13
+    ],
+    [
+     "8A A minor",
+     11
+    ],
+    [
+     "10B D major",
+     7
+    ]
+   ],
+   "family_share": {
+    "german_melodic_deep": 0.37,
+    "sunny_vocal_deep": 0.29,
+    "uk_soulful_club": 0.2,
+    "global_downtempo": 0.14
+   },
+   "air_db_median": -20.0,
+   "high_mid_db_median": -12.95,
+   "crest_db_median": 12.0,
+   "lufs_median": -10.45,
+   "length_s_median": 336.0,
+   "release_year_median": 2013.0,
+   "age_at_add_median": 1,
+   "intro_bars_before_first_peak_median": 16.0,
+   "peak_share_median": 0.7,
+   "breakdowns_median": 2.0,
+   "sections_median": 8.0,
+   "markers": {
+    "family": "german_melodic_deep",
+    "share_gain": null,
+    "tracks": [
+     {
+      "id": "5D9lXzBToXtDjnICizsW8q",
+      "artists": "Fritz Kalkbrenner",
+      "title": "Right In The Dark",
+      "added": "2014-04-28",
+      "bpm": "125",
+      "key": "G minor"
+     },
+     {
+      "id": "4ftfnryuTPdsuyCiAZAcx8",
+      "artists": "Fritz Kalkbrenner",
+      "title": "Wes",
+      "added": "2014-04-28",
+      "bpm": "128",
+      "key": "F# major"
+     },
+     {
+      "id": "2ubcTbAW76cxfzn2wrNCTZ",
+      "artists": "Fritz Kalkbrenner",
+      "title": "Layer Cake - Original Mix",
+      "added": "2014-04-28",
+      "bpm": "125",
+      "key": "D major"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2015",
+   "years": [
+    "2015"
+   ],
+   "added": 39,
+   "measured_full": 39,
+   "bpm_median": 121.0,
+   "bpm_iqr": [
+    115.0,
+    126.0
+   ],
+   "major_share": 0.31,
+   "top_keys": [
+    [
+     "6A G minor",
+     5
+    ],
+    [
+     "9A E minor",
+     4
+    ],
+    [
+     "11A F# minor",
+     3
+    ]
+   ],
+   "family_share": {
+    "uk_soulful_club": 0.26,
+    "future_bass_indie_electronic": 0.21,
+    "sunny_vocal_deep": 0.18,
+    "global_downtempo": 0.18,
+    "german_melodic_deep": 0.15,
+    "unassigned": 0.03
+   },
+   "air_db_median": -19.6,
+   "high_mid_db_median": -11.7,
+   "crest_db_median": 11.8,
+   "lufs_median": -10.0,
+   "length_s_median": 249.0,
+   "release_year_median": 2014.0,
+   "age_at_add_median": 1,
+   "intro_bars_before_first_peak_median": 10.0,
+   "peak_share_median": 0.73,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "future_bass_indie_electronic",
+    "share_gain": 0.21,
+    "tracks": [
+     {
+      "id": "1IFbx5PR6BASAJC8Yd4mch",
+      "artists": "Hayden James",
+      "title": "Something About You",
+      "added": "2015-04-02",
+      "bpm": "115",
+      "key": "A minor"
+     },
+     {
+      "id": "0240T0gP9w6xEgIciBrfVF",
+      "artists": "Chet Faker",
+      "title": "Talk Is Cheap",
+      "added": "2015-05-06",
+      "bpm": "140",
+      "key": "C minor"
+     },
+     {
+      "id": "4KtrE35pTuqwNc22QP58RT",
+      "artists": "Flume; Chet Faker",
+      "title": "Drop the Game",
+      "added": "2015-05-11",
+      "bpm": "158",
+      "key": "E minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2016",
+   "years": [
+    "2016"
+   ],
+   "added": 26,
+   "measured_full": 26,
+   "bpm_median": 117.5,
+   "bpm_iqr": [
+    101.5,
+    127.2
+   ],
+   "major_share": 0.54,
+   "top_keys": [
+    [
+     "8A A minor",
+     4
+    ],
+    [
+     "6A G minor",
+     3
+    ],
+    [
+     "5B D# major",
+     3
+    ]
+   ],
+   "family_share": {
+    "future_bass_indie_electronic": 0.54,
+    "sunny_vocal_deep": 0.15,
+    "german_melodic_deep": 0.15,
+    "uk_soulful_club": 0.08,
+    "melodic_progressive": 0.04,
+    "global_downtempo": 0.04
+   },
+   "air_db_median": -19.15,
+   "high_mid_db_median": -11.55,
+   "crest_db_median": 11.5,
+   "lufs_median": -9.2,
+   "length_s_median": 258.5,
+   "release_year_median": 2014.5,
+   "age_at_add_median": 1.5,
+   "intro_bars_before_first_peak_median": 16.0,
+   "peak_share_median": 0.64,
+   "breakdowns_median": 2.0,
+   "sections_median": 8.0,
+   "markers": {
+    "family": "future_bass_indie_electronic",
+    "share_gain": 0.33,
+    "tracks": [
+     {
+      "id": "51flut2tZisDAzULmOoQEu",
+      "artists": "Tomas Barfod; Nina Kinert",
+      "title": "November Skies",
+      "added": "2016-01-17",
+      "bpm": "127",
+      "key": "A minor"
+     },
+     {
+      "id": "0iHwnccPp214om2eGT5gzm",
+      "artists": "Chet Faker",
+      "title": "1998",
+      "added": "2016-01-26",
+      "bpm": "100",
+      "key": "D# major"
+     },
+     {
+      "id": "32Z54yyOInrL7bAk2ZRN2d",
+      "artists": "SAFIA",
+      "title": "Paranoia, Ghosts & Other Sounds",
+      "added": "2016-02-01",
+      "bpm": "107",
+      "key": "A# minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2017",
+   "years": [
+    "2017"
+   ],
+   "added": 19,
+   "measured_full": 19,
+   "bpm_median": 120.0,
+   "bpm_iqr": [
+    117.0,
+    125.0
+   ],
+   "major_share": 0.47,
+   "top_keys": [
+    [
+     "2B F# major",
+     2
+    ],
+    [
+     "10B D major",
+     2
+    ],
+    [
+     "5A C minor",
+     2
+    ]
+   ],
+   "family_share": {
+    "uk_soulful_club": 0.32,
+    "sunny_vocal_deep": 0.26,
+    "german_melodic_deep": 0.21,
+    "future_bass_indie_electronic": 0.11,
+    "unassigned": 0.05,
+    "global_downtempo": 0.05
+   },
+   "air_db_median": -20.8,
+   "high_mid_db_median": -12.2,
+   "crest_db_median": 12.1,
+   "lufs_median": -9.5,
+   "length_s_median": 246.0,
+   "release_year_median": 2015.0,
+   "age_at_add_median": 2,
+   "intro_bars_before_first_peak_median": 10.0,
+   "peak_share_median": 0.68,
+   "breakdowns_median": 2.0,
+   "sections_median": 6.0,
+   "markers": {
+    "family": "uk_soulful_club",
+    "share_gain": 0.24,
+    "tracks": [
+     {
+      "id": "4bhZAoj1dWP3zcxV25QKNa",
+      "artists": "Duke Dumont",
+      "title": "Be Here",
+      "added": "2017-01-31",
+      "bpm": "123",
+      "key": "F# major"
+     },
+     {
+      "id": "4Ri3oheN4pPHSea0IRqSLY",
+      "artists": "Claptone",
+      "title": "Heartbeat (feat. Nathan Nicholson)",
+      "added": "2017-01-31",
+      "bpm": "120",
+      "key": "A# minor"
+     },
+     {
+      "id": "2gpytjWqJVE3LICibhEUaK",
+      "artists": "Michael Calfan",
+      "title": "Treasured Soul - Radio Edit",
+      "added": "2017-04-02",
+      "bpm": "125",
+      "key": "D major"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2018",
+   "years": [
+    "2018"
+   ],
+   "added": 15,
+   "measured_full": 15,
+   "bpm_median": 120.0,
+   "bpm_iqr": [
+    105.0,
+    124.0
+   ],
+   "major_share": 0.27,
+   "top_keys": [
+    [
+     "6A G minor",
+     4
+    ],
+    [
+     "5A C minor",
+     2
+    ],
+    [
+     "9B G major",
+     2
+    ]
+   ],
+   "family_share": {
+    "sunny_vocal_deep": 0.27,
+    "future_bass_indie_electronic": 0.2,
+    "melodic_progressive": 0.2,
+    "uk_soulful_club": 0.13,
+    "german_melodic_deep": 0.13,
+    "global_downtempo": 0.07
+   },
+   "air_db_median": -22.8,
+   "high_mid_db_median": -13.6,
+   "crest_db_median": 11.8,
+   "lufs_median": -8.8,
+   "length_s_median": 251.0,
+   "release_year_median": 2016.0,
+   "age_at_add_median": 2,
+   "intro_bars_before_first_peak_median": 8.0,
+   "peak_share_median": 0.62,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "melodic_progressive",
+    "share_gain": 0.2,
+    "tracks": [
+     {
+      "id": "1xnes1lPrnFADq4jSkmeKJ",
+      "artists": "Above & Beyond; Alex Vargas; EDX",
+      "title": "Blue Sky Action - EDX's Indian Summer Remix",
+      "added": "2018-03-28",
+      "bpm": "122",
+      "key": "G major"
+     },
+     {
+      "id": "7r5lF3RJeOo5CCDZStBrZf",
+      "artists": "Vessels",
+      "title": "4AM",
+      "added": "2018-05-12",
+      "bpm": "101",
+      "key": "G minor"
+     },
+     {
+      "id": "28u92L77wqbWYXMnw0nPIW",
+      "artists": "Kiasmos",
+      "title": "Blurred",
+      "added": "2018-05-26",
+      "bpm": "122",
+      "key": "F# minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2019-20",
+   "years": [
+    "2019",
+    "2020"
+   ],
+   "added": 10,
+   "measured_full": 10,
+   "bpm_median": 120.5,
+   "bpm_iqr": [
+    119.0,
+    123.5
+   ],
+   "major_share": 0.6,
+   "top_keys": [
+    [
+     "4A F minor",
+     2
+    ],
+    [
+     "3B C# major",
+     2
+    ],
+    [
+     "6A G minor",
+     1
+    ]
+   ],
+   "family_share": {
+    "sunny_vocal_deep": 0.5,
+    "german_melodic_deep": 0.2,
+    "organic_afro_house": 0.1,
+    "future_bass_indie_electronic": 0.1,
+    "melodic_progressive": 0.1
+   },
+   "air_db_median": -16.9,
+   "high_mid_db_median": -12.35,
+   "crest_db_median": 11.1,
+   "lufs_median": -9.0,
+   "length_s_median": 251.5,
+   "release_year_median": 2016.5,
+   "age_at_add_median": 2.5,
+   "intro_bars_before_first_peak_median": 24.0,
+   "peak_share_median": 0.59,
+   "breakdowns_median": 2.0,
+   "sections_median": 8.0,
+   "markers": {
+    "family": "sunny_vocal_deep",
+    "share_gain": 0.23,
+    "tracks": [
+     {
+      "id": "6qdDpbBw84WvSOtehKYFDd",
+      "artists": "LVNDSCAPE",
+      "title": "Himalaya",
+      "added": "2019-01-01",
+      "bpm": "120",
+      "key": "F minor"
+     },
+     {
+      "id": "1ubVPccf8Vb9mL0XYpVpCV",
+      "artists": "The Avener; Phoebe Killdeer",
+      "title": "Fade Out Lines - The Avener Rework",
+      "added": "2019-01-01",
+      "bpm": "119",
+      "key": "C# major"
+     },
+     {
+      "id": "0MCZksPtemC2ZTS8yzKnrr",
+      "artists": "Pascal Junior",
+      "title": "Holdin' On",
+      "added": "2019-01-11",
+      "bpm": "122",
+      "key": "G minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2021",
+   "years": [
+    "2021"
+   ],
+   "added": 14,
+   "measured_full": 13,
+   "bpm_median": 122.0,
+   "bpm_iqr": [
+    110.0,
+    123.5
+   ],
+   "major_share": 0.54,
+   "top_keys": [
+    [
+     "10B D major",
+     3
+    ],
+    [
+     "8A A minor",
+     2
+    ],
+    [
+     "4A F minor",
+     2
+    ]
+   ],
+   "family_share": {
+    "melodic_progressive": 0.29,
+    "sunny_vocal_deep": 0.21,
+    "unassigned": 0.14,
+    "uk_soulful_club": 0.14,
+    "organic_afro_house": 0.14,
+    "global_downtempo": 0.07
+   },
+   "air_db_median": -17.6,
+   "high_mid_db_median": -11.6,
+   "crest_db_median": 11.9,
+   "lufs_median": -9.9,
+   "length_s_median": 322.5,
+   "release_year_median": 2015.5,
+   "age_at_add_median": 5.5,
+   "intro_bars_before_first_peak_median": 8.0,
+   "peak_share_median": 0.75,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "melodic_progressive",
+    "share_gain": 0.19,
+    "tracks": [
+     {
+      "id": "0DfyZltoqIjthHmyowoL0i",
+      "artists": "MEHÍLOVE",
+      "title": "Aspiration",
+      "added": "2021-01-22",
+      "bpm": "124",
+      "key": "D major"
+     },
+     {
+      "id": "35N6vLbB8EPnWrAXPXi3QT",
+      "artists": "Dusky; Janai",
+      "title": "It's Not Enough",
+      "added": "2021-07-16",
+      "bpm": "123",
+      "key": "G minor"
+     },
+     {
+      "id": "0SbDNXZYqfsMarINcb72X5",
+      "artists": "Ben Böhmer",
+      "title": "Beyond Beliefs",
+      "added": "2021-07-17",
+      "bpm": "124",
+      "key": "C# major"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2022",
+   "years": [
+    "2022"
+   ],
+   "added": 13,
+   "measured_full": 13,
+   "bpm_median": 120.0,
+   "bpm_iqr": [
+    116.0,
+    123.5
+   ],
+   "major_share": 0.23,
+   "top_keys": [
+    [
+     "9A E minor",
+     2
+    ],
+    [
+     "4A F minor",
+     2
+    ],
+    [
+     "2A D# minor",
+     2
+    ]
+   ],
+   "family_share": {
+    "melodic_progressive": 0.46,
+    "sunny_vocal_deep": 0.15,
+    "organic_afro_house": 0.08,
+    "uk_soulful_club": 0.08,
+    "german_melodic_deep": 0.08,
+    "future_bass_indie_electronic": 0.08,
+    "global_downtempo": 0.08
+   },
+   "air_db_median": -20.0,
+   "high_mid_db_median": -13.4,
+   "crest_db_median": 11.7,
+   "lufs_median": -10.5,
+   "length_s_median": 311.0,
+   "release_year_median": 2020.0,
+   "age_at_add_median": 2,
+   "intro_bars_before_first_peak_median": 16.0,
+   "peak_share_median": 0.68,
+   "breakdowns_median": 2.0,
+   "sections_median": 8.0,
+   "markers": {
+    "family": "melodic_progressive",
+    "share_gain": 0.17,
+    "tracks": [
+     {
+      "id": "4V5qPm2ENO3BbPNTiltkfF",
+      "artists": "Marsh; Amonita",
+      "title": "There For Me - Amonita Extended Mix",
+      "added": "2022-02-08",
+      "bpm": "121",
+      "key": "E minor"
+     },
+     {
+      "id": "2lFgEmYUYrQBIeyqVLcQgX",
+      "artists": "Bow Anderson; Icarus",
+      "title": "Heavy - Icarus Extended Remix",
+      "added": "2022-03-19",
+      "bpm": "123",
+      "key": "F minor"
+     },
+     {
+      "id": "2tIv3DITNBTTayAM6Rewqi",
+      "artists": "Lane 8; Massane",
+      "title": "And We Knew It Was Our Time",
+      "added": "2022-06-15",
+      "bpm": "124",
+      "key": "D# minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2023",
+   "years": [
+    "2023"
+   ],
+   "added": 18,
+   "measured_full": 18,
+   "bpm_median": 120.5,
+   "bpm_iqr": [
+    112.5,
+    124.0
+   ],
+   "major_share": 0.44,
+   "top_keys": [
+    [
+     "8B C major",
+     3
+    ],
+    [
+     "4A F minor",
+     2
+    ],
+    [
+     "9A E minor",
+     2
+    ]
+   ],
+   "family_share": {
+    "german_melodic_deep": 0.33,
+    "melodic_progressive": 0.22,
+    "sunny_vocal_deep": 0.22,
+    "future_bass_indie_electronic": 0.17,
+    "global_downtempo": 0.06
+   },
+   "air_db_median": -21.8,
+   "high_mid_db_median": -15.05,
+   "crest_db_median": 11.8,
+   "lufs_median": -10.25,
+   "length_s_median": 254.0,
+   "release_year_median": 2020.0,
+   "age_at_add_median": 3.0,
+   "intro_bars_before_first_peak_median": 18.0,
+   "peak_share_median": 0.6,
+   "breakdowns_median": 2.0,
+   "sections_median": 6.0,
+   "markers": {
+    "family": "german_melodic_deep",
+    "share_gain": 0.25,
+    "tracks": [
+     {
+      "id": "7CuXB3Dr61IvDFEWfqG3sE",
+      "artists": "Jan Blomqvist; Elena Pitoulis",
+      "title": "More",
+      "added": "2023-01-02",
+      "bpm": "124",
+      "key": "G# major"
+     },
+     {
+      "id": "2S5Ddttb7db90WNDde1UJx",
+      "artists": "Klangkarussell",
+      "title": "Home",
+      "added": "2023-02-04",
+      "bpm": "113",
+      "key": "A major"
+     },
+     {
+      "id": "1iGZ9C0IXDk0qoVHMTDgXI",
+      "artists": "Rhythm Masters; Klangfabrik; Harold van Lennep",
+      "title": "Dayhunter - Harold van Lennep Remix",
+      "added": "2023-02-19",
+      "bpm": "110",
+      "key": "C major"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2024",
+   "years": [
+    "2024"
+   ],
+   "added": 33,
+   "measured_full": 33,
+   "bpm_median": 122.0,
+   "bpm_iqr": [
+    119.5,
+    124.0
+   ],
+   "major_share": 0.58,
+   "top_keys": [
+    [
+     "10B D major",
+     5
+    ],
+    [
+     "8B C major",
+     3
+    ],
+    [
+     "5B D# major",
+     3
+    ]
+   ],
+   "family_share": {
+    "melodic_progressive": 0.21,
+    "german_melodic_deep": 0.21,
+    "uk_soulful_club": 0.15,
+    "future_bass_indie_electronic": 0.15,
+    "sunny_vocal_deep": 0.12,
+    "groove_tech_house": 0.09,
+    "global_downtempo": 0.03,
+    "organic_afro_house": 0.03
+   },
+   "air_db_median": -22.2,
+   "high_mid_db_median": -14.5,
+   "crest_db_median": 11.2,
+   "lufs_median": -9.3,
+   "length_s_median": 224.0,
+   "release_year_median": 2020.0,
+   "age_at_add_median": 4,
+   "intro_bars_before_first_peak_median": 12.0,
+   "peak_share_median": 0.67,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "uk_soulful_club",
+    "share_gain": 0.15,
+    "tracks": [
+     {
+      "id": "75uYEu5GZl5VVF1BR0MjHm",
+      "artists": "Laid Back; Soul Clap",
+      "title": "Bakerman - Soul Clap Remix",
+      "added": "2024-01-19",
+      "bpm": "122",
+      "key": "C major"
+     },
+     {
+      "id": "1ShfKpLJ36nds13gOlNCUg",
+      "artists": "Boston Bun",
+      "title": "Missing You",
+      "added": "2024-09-08",
+      "bpm": "126",
+      "key": "G minor"
+     },
+     {
+      "id": "7oklbyYBpXg9Uvl4tMW2iU",
+      "artists": "Barry Can't Swim",
+      "title": "Rah That's A Mad Question",
+      "added": "2024-09-11",
+      "bpm": "121",
+      "key": "A minor"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2025",
+   "years": [
+    "2025"
+   ],
+   "added": 33,
+   "measured_full": 31,
+   "bpm_median": 124.0,
+   "bpm_iqr": [
+    120.0,
+    126.0
+   ],
+   "major_share": 0.45,
+   "top_keys": [
+    [
+     "6A G minor",
+     6
+    ],
+    [
+     "5B D# major",
+     5
+    ],
+    [
+     "4A F minor",
+     4
+    ]
+   ],
+   "family_share": {
+    "uk_soulful_club": 0.3,
+    "melodic_progressive": 0.24,
+    "organic_afro_house": 0.12,
+    "groove_tech_house": 0.12,
+    "german_melodic_deep": 0.09,
+    "global_downtempo": 0.06,
+    "unassigned": 0.03,
+    "sunny_vocal_deep": 0.03
+   },
+   "air_db_median": -17.1,
+   "high_mid_db_median": -12.0,
+   "crest_db_median": 11.7,
+   "lufs_median": -9.7,
+   "length_s_median": 272.0,
+   "release_year_median": 2020.0,
+   "age_at_add_median": 5,
+   "intro_bars_before_first_peak_median": 16.0,
+   "peak_share_median": 0.68,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "uk_soulful_club",
+    "share_gain": 0.15,
+    "tracks": [
+     {
+      "id": "5kCmJdIdFqKQiiCYYpa0xo",
+      "artists": "Dam Swindle",
+      "title": "That's Right - Edit",
+      "added": "2025-02-21",
+      "bpm": "120",
+      "key": "G minor"
+     },
+     {
+      "id": "3ykTMt7CD5jgJOY27NWceD",
+      "artists": "Voilaaa; Sir Jean; Patchworks",
+      "title": "Spies Are Watching Me - Patchworks Remix",
+      "added": "2025-02-21",
+      "bpm": "127",
+      "key": "E major"
+     },
+     {
+      "id": "4X4crurLdVGvDfGcmbFwrn",
+      "artists": "Jupiter; A.N.D.Y.",
+      "title": "One O Six (A.N.D.Y. Remix) - Mixed",
+      "added": "2025-02-21",
+      "bpm": "120",
+      "key": "F# major"
+     }
+    ]
+   }
+  },
+  {
+   "period": "2026",
+   "years": [
+    "2026"
+   ],
+   "added": 29,
+   "measured_full": 29,
+   "bpm_median": 122.0,
+   "bpm_iqr": [
+    120.0,
+    124.5
+   ],
+   "major_share": 0.48,
+   "top_keys": [
+    [
+     "4A F minor",
+     4
+    ],
+    [
+     "8B C major",
+     3
+    ],
+    [
+     "5B D# major",
+     3
+    ]
+   ],
+   "family_share": {
+    "melodic_progressive": 0.31,
+    "organic_afro_house": 0.28,
+    "groove_tech_house": 0.17,
+    "global_downtempo": 0.1,
+    "german_melodic_deep": 0.03,
+    "uk_soulful_club": 0.03,
+    "unassigned": 0.03,
+    "sunny_vocal_deep": 0.03
+   },
+   "air_db_median": -21.0,
+   "high_mid_db_median": -15.0,
+   "crest_db_median": 11.6,
+   "lufs_median": -9.8,
+   "length_s_median": 236.0,
+   "release_year_median": 2023.0,
+   "age_at_add_median": 3,
+   "intro_bars_before_first_peak_median": 8.0,
+   "peak_share_median": 0.69,
+   "breakdowns_median": 2.0,
+   "sections_median": 7.0,
+   "markers": {
+    "family": "organic_afro_house",
+    "share_gain": 0.16,
+    "tracks": [
+     {
+      "id": "0OMcDzTcEyM8Fdu6obV6fA",
+      "artists": "Tube & Berger; Paji; German Brigante",
+      "title": "Reliquia - German Brigante Remix",
+      "added": "2026-01-05",
+      "bpm": "120",
+      "key": "G# minor"
+     },
+     {
+      "id": "0IAIsE9u9AYUH3wh7p77AE",
+      "artists": "Carlita",
+      "title": "Time",
+      "added": "2026-02-20",
+      "bpm": "125",
+      "key": "D# major"
+     },
+     {
+      "id": "5n17yNYZg7BthatWbtFDEJ",
+      "artists": "Hugo Samba; Sounds Of Sirin",
+      "title": "Blonde de Soleil",
+      "added": "2026-02-20",
+      "bpm": "122",
+      "key": "E minor"
+     }
+    ]
+   }
+  }
+ ],
+ "references": [
+  {
+   "date": "2026-03-03",
+   "shared_by": "Calvin",
+   "artist": "Issam Dahmani",
+   "title": "No Limoncello",
+   "year": 2025,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-03-24",
+   "shared_by": "Krish",
+   "artist": "oskar med k",
+   "title": "On The Ground",
+   "year": 2026,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-04-02",
+   "shared_by": "Krish",
+   "artist": "Kollektiv Turmstrasse",
+   "title": "Sorry I Am Late (Extended)",
+   "year": 2016,
+   "in_playlist_added": "2026-03-30"
+  },
+  {
+   "date": "2026-04-16",
+   "shared_by": "Krish",
+   "artist": "Amber Mark, Franc Moody",
+   "title": "Lose My Cool (Franc Moody Remix)",
+   "year": 2017,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-04-24",
+   "shared_by": "Calvin",
+   "artist": "Kanye West, Dwele",
+   "title": "Flashing Lights",
+   "year": 2007,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-06-12",
+   "shared_by": "Krish",
+   "artist": "with Franc Moody, Miami Horror, NEIL FRANCES and more",
+   "title": "Hypnotised Radio (Spotify radio playlist)",
+   "year": null,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-08-08",
+   "shared_by": "Krish",
+   "artist": "Sébastien Léger",
+   "title": "Lanarka",
+   "year": 2019,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-10-15",
+   "shared_by": "Calvin",
+   "artist": "Darius",
+   "title": "Omeo",
+   "year": 2014,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-10-23",
+   "shared_by": "Krish",
+   "artist": "JAIV",
+   "title": "Childhood Dreams",
+   "year": 2026,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-10-24",
+   "shared_by": "Krish",
+   "artist": "Spencer Brown",
+   "title": "5th & Concord (Original Mix)",
+   "year": 2017,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-10-24",
+   "shared_by": "Krish",
+   "artist": "Spencer Brown",
+   "title": "Vernal",
+   "year": 2017,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-10-30",
+   "shared_by": "Krish",
+   "artist": "Jody Wisternoff, Sian Evans",
+   "title": "The Bridge (Original Mix)",
+   "year": 2015,
+   "in_playlist_added": null
+  },
+  {
+   "date": "2026-11-05",
+   "shared_by": "Krish",
+   "artist": "Essáy",
+   "title": "Archangel",
+   "year": 2019,
+   "in_playlist_added": "2026-11-04"
+  }
+ ],
+ "overall": {
+  "added": 346,
+  "measured_full": 342,
+  "bpm_median": 122.0,
+  "bpm_iqr": [
+   118.0,
+   125.0
+  ],
+  "major_share": 0.44,
+  "top_keys": [
+   [
+    "6A G minor",
+    40
+   ],
+   [
+    "4A F minor",
+    26
+   ],
+   [
+    "8A A minor",
+    25
+   ]
+  ],
+  "family_share": {
+   "german_melodic_deep": 0.21,
+   "sunny_vocal_deep": 0.2,
+   "uk_soulful_club": 0.17,
+   "melodic_progressive": 0.12,
+   "future_bass_indie_electronic": 0.11,
+   "global_downtempo": 0.1,
+   "organic_afro_house": 0.05,
+   "groove_tech_house": 0.03,
+   "unassigned": 0.02
+  },
+  "air_db_median": -19.6,
+  "high_mid_db_median": -12.8,
+  "crest_db_median": 11.7,
+  "lufs_median": -9.9,
+  "length_s_median": 272.0,
+  "release_year_median": 2014.0,
+  "age_at_add_median": 2.0,
+  "intro_bars_before_first_peak_median": 12.0,
+  "peak_share_median": 0.69,
+  "breakdowns_median": 2.0,
+  "sections_median": 7.0
+ }
+}

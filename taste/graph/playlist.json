@@ -1,0 +1,4670 @@
+{
+ "about": "Krish's Spotify playlist 'Chillout & Ambient' (https://open.spotify.com/playlist/7Dc4MlTqtq5emstTLd0JUT). Every field is from the Spotify Web API (GET /v1/playlists/{id}/items, authorization-code flow) unless label_source says otherwise.",
+ "playlist_id": "7Dc4MlTqtq5emstTLd0JUT",
+ "read_at": "2026-11-13T23:14:16Z",
+ "label_lookup": "album endpoint refused: https://api.spotify.com/v1/albums/1mN1oXwwt5QGEnwqqgyNwV -> 429 b'{\"error\":{\"status\":429,\"message\":\"Too many requests\",\"reason\":\"QUOTA_EXCEEDED\"}}'",
+ "count": 346,
+ "tracks": [
+  {
+   "id": "3EBHcU11daLLlDIUc6jHfB",
+   "title": "Need You",
+   "artists": [
+    "Flight Facilities",
+    "NÏKA"
+   ],
+   "duration_s": 201,
+   "album_id": "0KyCRAvPQ5t4nPmdHI1PLx",
+   "release_date": "2018-02-28",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-08-09T02:40:22Z"
+  },
+  {
+   "id": "3u443qbzetPXOCCClulrQB",
+   "title": "El kilo",
+   "artists": [
+    "Orishas"
+   ],
+   "duration_s": 265,
+   "album_id": "5xgTBQZrbZiLcxm7sme15t",
+   "release_date": "2005",
+   "label": "℗ Emi Music Publishing Spain con licencia exclusiva para Parlophone Music Spain S.A",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-07-28T19:14:01Z"
+  },
+  {
+   "id": "1a8eu0ojjmrh6rNeitEEaC",
+   "title": "Time",
+   "artists": [
+    "Pachanga Boys"
+   ],
+   "duration_s": 251,
+   "album_id": "4JpnpOay7vT3Xj2y3YNUX4",
+   "release_date": "2017-09-29",
+   "label": "Subliminal Records Inc. under exclusive license to Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-07-25T16:41:07Z"
+  },
+  {
+   "id": "5D9lXzBToXtDjnICizsW8q",
+   "title": "Right In The Dark",
+   "artists": [
+    "Fritz Kalkbrenner"
+   ],
+   "duration_s": 371,
+   "album_id": "6guE9R5xGIB95gR1zoGKKV",
+   "release_date": "2010-10-15",
+   "label": "Suol",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "4ftfnryuTPdsuyCiAZAcx8",
+   "title": "Wes",
+   "artists": [
+    "Fritz Kalkbrenner"
+   ],
+   "duration_s": 436,
+   "album_id": "6gM7acS4fnIj8JJU8ONqf1",
+   "release_date": "2012-07-16",
+   "label": "Cr2 Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "2ubcTbAW76cxfzn2wrNCTZ",
+   "title": "Layer Cake - Original Mix",
+   "artists": [
+    "Fritz Kalkbrenner"
+   ],
+   "duration_s": 357,
+   "album_id": "3uCF97OYaz47MpsVy2kUy2",
+   "release_date": "2009-10-16",
+   "label": "Peacelounge Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "7GQDbC7GVYUpODdEFt0l9u",
+   "title": "Wicked Games",
+   "artists": [
+    "Parra for Cuva",
+    "Anna Naklab"
+   ],
+   "duration_s": 358,
+   "album_id": "1Ebjc8s01VLuM6t3yOiUZB",
+   "release_date": "2013-09-23",
+   "label": "Spinnin' Deep / SpinninRecords.com",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "4hO2eDEaz4hUTLvN4LN8DQ",
+   "title": "If U Got It - Radio Edit",
+   "artists": [
+    "Chris Malinchak"
+   ],
+   "duration_s": 202,
+   "album_id": "76UFgfDW7BumDekbt99Rq5",
+   "release_date": "2014-01-24",
+   "label": "Universal Republic Records, a division of UMG Recordings, Inc. under license to Ultra Records / Sony Music Entertainment",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "7vDdTswXq16TgSherz1Ksh",
+   "title": "Uitzicht",
+   "artists": [
+    "Bakermat"
+   ],
+   "duration_s": 309,
+   "album_id": "2ZrsQEU9kzTQWDNYCUEQBP",
+   "release_date": "2013-06-21",
+   "label": "Bakermat",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "7tqZMrWT6OhqgqbU3uonOA",
+   "title": "I See Fire",
+   "artists": [
+    "Kygo"
+   ],
+   "duration_s": 317,
+   "album_id": "3HYcSAlqJuZt5c2Lh8fTi6",
+   "release_date": "2014-03-21",
+   "label": "Kygo",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:29:28Z"
+  },
+  {
+   "id": "2z1oXXAJMbhNgoexZQIyZJ",
+   "title": "Good Night My Love - Joachim Pastor Remix",
+   "artists": [
+    "Worakls",
+    "Joachim Pastor"
+   ],
+   "duration_s": 403,
+   "album_id": "5KlMusswYpczLK4vMomIQX",
+   "release_date": "2013-08-09",
+   "label": "Parquet Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "5hEkDQIx1ldvR0DrboggvK",
+   "title": "Tanquilla",
+   "artists": [
+    "Boss Axis"
+   ],
+   "duration_s": 182,
+   "album_id": "161bRNsmTOW7pTh9FIApM1",
+   "release_date": "2014-01-24",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "6lWuJS86p0q5JAKekgETcN",
+   "title": "Sky and Sand",
+   "artists": [
+    "Paul Kalkbrenner"
+   ],
+   "duration_s": 230,
+   "album_id": "0iKtb6FvaIh82Xr2bc95de",
+   "release_date": "2013-07-12",
+   "label": "Paul Kalkbrenner Musik",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:31:50Z"
+  },
+  {
+   "id": "3YcAw0Uc94mb7n8DHMFWRa",
+   "title": "Sunday - KlangTherapeuten \"Looking For Summer\" Remix",
+   "artists": [
+    "Max Manie",
+    "KlangTherapeuten"
+   ],
+   "duration_s": 368,
+   "album_id": "7D2sQ7G0waCT2JuWSkuD8m",
+   "release_date": "2012-01-01",
+   "label": "Maximilian Schimke under exclusive licence to CROSSWALK",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:52:51Z"
+  },
+  {
+   "id": "5CeTuypSIJIOq0nUs4uhBh",
+   "title": "Vogelvlucht",
+   "artists": [
+    "De Hofnar"
+   ],
+   "duration_s": 401,
+   "album_id": "1ZA146RN2Cu9HCpDk8PpQK",
+   "release_date": "2013",
+   "label": "Crosswalk",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "5Sf3GyLEAzJXxZ5mbCPXTu",
+   "title": "Waves - Robin Schulz Radio Edit",
+   "artists": [
+    "Mr. Probz",
+    "Robin Schulz"
+   ],
+   "duration_s": 208,
+   "album_id": "7l4LGPXk2mB80WgXy4VeuB",
+   "release_date": "2014-02-07",
+   "label": "Left Lane Recordings exclusively licensed to Ultra / Sony Music Entertainment Netherlands B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "0kOAb3xuZgllRnqWnRgkBn",
+   "title": "Paloma (Bit Funk Remix)",
+   "artists": [
+    "Just Kiddin",
+    "Bit Funk"
+   ],
+   "duration_s": 329,
+   "album_id": "6v0BFPLKZrCf0l2qjJ6Dfu",
+   "release_date": "2012-05-15",
+   "label": null,
+   "label_source": null,
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "2RAi5Py1o0MMokWLhz9zNU",
+   "title": "Come With Me - Original Mix",
+   "artists": [
+    "Nora En Pure"
+   ],
+   "duration_s": 385,
+   "album_id": "1Z83BApqk19O0J3QAMRqaR",
+   "release_date": "2013-03-11",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "7D3OMIwbMuZEk60Bxq2dK6",
+   "title": "Love The Way - Crazy P Remix",
+   "artists": [
+    "Danism"
+   ],
+   "duration_s": 420,
+   "album_id": "1uR7BWjdoiZGc6UFbh2W8D",
+   "release_date": "2012-06-26",
+   "label": "Defected Records Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "6gGx9gqDkvBIIqRggUkVjV",
+   "title": "in white rooms",
+   "artists": [
+    "Booka Shade"
+   ],
+   "duration_s": 407,
+   "album_id": "4bJkdD07hjxEemkqmFT51u",
+   "release_date": "2006",
+   "label": "P&C Get Physical Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T06:07:22Z"
+  },
+  {
+   "id": "6lWe25e0UvIVU0mQR33GCM",
+   "title": "Rise Of The Angel - Andrea Oliva Remix",
+   "artists": [
+    "Luciano"
+   ],
+   "duration_s": 494,
+   "album_id": "01DlcGlswBdBUU3g9gSv14",
+   "release_date": "2013-07-21",
+   "label": "Cr2 Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "2cbuYoso5lyGo1fgoVNp4L",
+   "title": "Sonnentanz",
+   "artists": [
+    "Klangkarussell"
+   ],
+   "duration_s": 363,
+   "album_id": "4EOZqWyJfJmlXqWHsPiOew",
+   "release_date": "2013-01-01",
+   "label": "Klangkarussell, under exclusive license to Virgin Records, a division of Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "60Vf6CzsBSVCElQnddU2n0",
+   "title": "Taking Over",
+   "artists": [
+    "Joe Goddard"
+   ],
+   "duration_s": 337,
+   "album_id": "5poPIaIkqBUUJt9vKFSWdj",
+   "release_date": "2013-06-24",
+   "label": "Greco-Roman Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:41:10Z"
+  },
+  {
+   "id": "0XiHcuUEf1wmvmX1cOaVR9",
+   "title": "Eyesdown",
+   "artists": [
+    "Bonobo",
+    "Andreya Triana"
+   ],
+   "duration_s": 326,
+   "album_id": "5m1RkwKeU7MV0Ni6PH2lPy",
+   "release_date": "2010-03-29",
+   "label": "Ninja Tune",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:30:00Z"
+  },
+  {
+   "id": "5snyhxAh55A2wlNRH7VVZJ",
+   "title": "Another Love - Zwette Edit",
+   "artists": [
+    "Tom Odell",
+    "Zwette"
+   ],
+   "duration_s": 395,
+   "album_id": "3Bi2XO3N9AL5f7VvVmyVna",
+   "release_date": "2013-09-27",
+   "label": "Sony Music Entertainment UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T22:48:48Z"
+  },
+  {
+   "id": "3EICmI9QNviAUB17cT3HZz",
+   "title": "Get a Move On",
+   "artists": [
+    "Mr. Scruff"
+   ],
+   "duration_s": 333,
+   "album_id": "0dR6oNfg1pqmBrm9IAQNjD",
+   "release_date": "1999-11-16",
+   "label": "Pschent Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:30:29Z"
+  },
+  {
+   "id": "5IiwHzIYP0HyiBf7onR3Sm",
+   "title": "Sweet Melody - Radio Mix",
+   "artists": [
+    "Nora En Pure"
+   ],
+   "duration_s": 170,
+   "album_id": "7fekWkLTkMot4CkX3Tz20T",
+   "release_date": "2013-08-13",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:28:03Z"
+  },
+  {
+   "id": "1y2xXHKRBgxJPedtr68dfE",
+   "title": "Facing The Sun",
+   "artists": [
+    "Fritz Kalkbrenner"
+   ],
+   "duration_s": 313,
+   "album_id": "6guE9R5xGIB95gR1zoGKKV",
+   "release_date": "2010-10-15",
+   "label": "Suol",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:33:50Z"
+  },
+  {
+   "id": "3s04qwYAYZQLhUEYC9Uvfv",
+   "title": "Down By The River",
+   "artists": [
+    "Milky Chance"
+   ],
+   "duration_s": 243,
+   "album_id": "49KbcjuU6fhmeMmXgRSkmB",
+   "release_date": "2013-03-02",
+   "label": "Lichtdicht Records under exclusive licence to Ignition Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:35:06Z"
+  },
+  {
+   "id": "3WS7spXVlbeC5kjePmHMQW",
+   "title": "Finally Moving",
+   "artists": [
+    "Pretty Lights"
+   ],
+   "duration_s": 278,
+   "album_id": "5E5U9ckjlBvJ3qkNAAqESY",
+   "release_date": "2006-10-23",
+   "label": "Pretty Lights Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:30:29Z"
+  },
+  {
+   "id": "3oBbsA0Etxg0doF0b4nrd0",
+   "title": "Blood Like Lemonade",
+   "artists": [
+    "Morcheeba"
+   ],
+   "duration_s": 293,
+   "album_id": "7cItd7m5La8KtwMk9T63MQ",
+   "release_date": "2010-06-07",
+   "label": "Morcheeba Partnership. Released under exclusive license by [PIAS] Recordings.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:30:29Z"
+  },
+  {
+   "id": "0HrsjBDJhO7xuuppEjv2FV",
+   "title": "Square 1",
+   "artists": [
+    "Paul Kalkbrenner"
+   ],
+   "duration_s": 396,
+   "album_id": "0iKtb6FvaIh82Xr2bc95de",
+   "release_date": "2013-07-12",
+   "label": "Paul Kalkbrenner Musik",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:41:21Z"
+  },
+  {
+   "id": "3HapsrNmCcEo201ukHqKgw",
+   "title": "Aaron",
+   "artists": [
+    "Paul Kalkbrenner"
+   ],
+   "duration_s": 354,
+   "album_id": "0iKtb6FvaIh82Xr2bc95de",
+   "release_date": "2013-07-12",
+   "label": "Paul Kalkbrenner Musik",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:41:50Z"
+  },
+  {
+   "id": "5xerAGVHww51GPrZpNWVjs",
+   "title": "Gabriel",
+   "artists": [
+    "Joe Goddard",
+    "Valentina"
+   ],
+   "duration_s": 336,
+   "album_id": "0T63MuPQsy5USHrJCtRwPc",
+   "release_date": "2011-08-01",
+   "label": "Greco-Roman Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:42:04Z"
+  },
+  {
+   "id": "5QmHSW3ERBIW0TdDCQKyzF",
+   "title": "Gravy Train - Nicolas Jaar Remix",
+   "artists": [
+    "Maceo Plex"
+   ],
+   "duration_s": 333,
+   "album_id": "5KqxZji4lOSNZ4c1DGLxVE",
+   "release_date": "2011-09-26",
+   "label": "Pschent",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:33:18Z"
+  },
+  {
+   "id": "26QjIIrrUIngt7ecu4ekRq",
+   "title": "Wake Me Up - Reggae Mix",
+   "artists": [
+    "Avicii"
+   ],
+   "duration_s": 272,
+   "album_id": "025ROb3r19luTGtBRBCJhq",
+   "release_date": "2013-01-01",
+   "label": "Avicii Music AB, under exclusive license to Universal Music AB",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T00:40:54Z"
+  },
+  {
+   "id": "0idc0XRnLRovVqpWnGQ6hC",
+   "title": "My Love",
+   "artists": [
+    "Route 94",
+    "Jess Glynne"
+   ],
+   "duration_s": 262,
+   "album_id": "4qugvZbeFLghKN67aQ6PAb",
+   "release_date": "2014-01-01",
+   "label": "Ammunition Promotions Ltd, under exclusive licence to UMO",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T22:44:08Z"
+  },
+  {
+   "id": "0jDMEPMyIR45IltKlwyHcZ",
+   "title": "Music Rises Up (Claptone Remix) [feat. Stee Downes]",
+   "artists": [
+    "Kyodai",
+    "Stee Downes",
+    "Claptone"
+   ],
+   "duration_s": 395,
+   "album_id": "6rRVtnHiKhsUmBUoKE9nxW",
+   "release_date": "2013-10-08",
+   "label": "Exploited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T07:33:08Z"
+  },
+  {
+   "id": "4jwi5N687bv6y5G7iRXk6r",
+   "title": "Hausch",
+   "artists": [
+    "andhim"
+   ],
+   "duration_s": 446,
+   "album_id": "04AoELNiQQoAEzgz2QgRvC",
+   "release_date": "2013-06-07",
+   "label": "Get Physical Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T22:50:47Z"
+  },
+  {
+   "id": "3HU4Hv48X6xFcmO12RiJqY",
+   "title": "Paint Me Like A French Girl - Max Manie & Scheinizzl a.k.a. Maniezzl Remix",
+   "artists": [
+    "Breakdlaw",
+    "The Glitchfox"
+   ],
+   "duration_s": 338,
+   "album_id": "6e9MTWl3tPbbe7MoD5vx9f",
+   "release_date": "2014-03-28",
+   "label": "Ego / Vae Victis S.r.l. under exclusive licence from F! Records, a division of Soul Candi Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-28T22:44:34Z"
+  },
+  {
+   "id": "4r8hRPbidDIoDPphxi78aY",
+   "title": "I Got U",
+   "artists": [
+    "Duke Dumont",
+    "Jax Jones"
+   ],
+   "duration_s": 286,
+   "album_id": "5F47pY1Lmj3DXPg1mzLjkE",
+   "release_date": "2014-01-01",
+   "label": "Adam Dyment, under exclusive licence to Virgin EMI, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-26T02:09:30Z"
+  },
+  {
+   "id": "2CilxULlxN3nhicigDuPqK",
+   "title": "People - Orginal Version",
+   "artists": [
+    "Sascha Braemer"
+   ],
+   "duration_s": 355,
+   "album_id": "0i0BS24SRger23HNokIaLt",
+   "release_date": "2011-04-25",
+   "label": "Stil vor Talent",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:49:16Z"
+  },
+  {
+   "id": "47ALsONvk0QXI3iDyXXXnf",
+   "title": "Jubel - Nora En Pure Remix",
+   "artists": [
+    "Klingande"
+   ],
+   "duration_s": 378,
+   "album_id": "5O21ZN20b6lzWa6FreEpUJ",
+   "release_date": "2014-05-09",
+   "label": "Klingande Music under exclusive license to Warner Music UK Ltd.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-26T02:16:52Z"
+  },
+  {
+   "id": "3Zg6kO3S4FQ0jMfTIgHzyl",
+   "title": "Oxas",
+   "artists": [
+    "GAMPER & DADONI",
+    "De Hofnar",
+    "Max Gamper",
+    "Daniel Hoeft",
+    "Jeroen Maas"
+   ],
+   "duration_s": 301,
+   "album_id": "0u8v6tjFwtiVkbt0MwqfrN",
+   "release_date": "2013-01-01",
+   "label": "Max Gamper",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-10T23:14:55Z"
+  },
+  {
+   "id": "5sxTi8jc150oXGzYENAURr",
+   "title": "Listen - Original Mix",
+   "artists": [
+    "Chopstick & Johnjon"
+   ],
+   "duration_s": 448,
+   "album_id": "2aG8rETDMYNAaaGYe7Zolj",
+   "release_date": "2013-11-15",
+   "label": "Suol",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:50:49Z"
+  },
+  {
+   "id": "2KDyMV4Gnd7ELHI1TzSLUD",
+   "title": "Before I Lose Control",
+   "artists": [
+    "Betoko"
+   ],
+   "duration_s": 482,
+   "album_id": "0qdsIDyjoNbfHHp8ylEd0G",
+   "release_date": "2013-06-10",
+   "label": "541 / N.E.W.S.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:42:01Z"
+  },
+  {
+   "id": "0YQznyH9mJn6UTwWFHqy4b",
+   "title": "El Bandido",
+   "artists": [
+    "Nicolas Jaar"
+   ],
+   "duration_s": 397,
+   "album_id": "3LPOvF8M3DijXowBs1MdDr",
+   "release_date": "2009-03-08",
+   "label": "Edicion Wolf + Lamb / Friebank",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:52:01Z"
+  },
+  {
+   "id": "1gyaQpujNoRXJBdNJSUIZI",
+   "title": "In Love - Robin Schulz Remix",
+   "artists": [
+    "David K feat. Yo-C",
+    "Yo-C"
+   ],
+   "duration_s": 410,
+   "album_id": "6wWzUZ7rhMh8Qnhd2Aw2DA",
+   "release_date": "2013-10-25",
+   "label": "Beatbrothers Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-04-29T05:53:16Z"
+  },
+  {
+   "id": "28yU9kjRYIU68AjYF3yWFp",
+   "title": "Faded",
+   "artists": [
+    "ZHU"
+   ],
+   "duration_s": 223,
+   "album_id": "2vGon5JZR4Tfx3ve6VaMPE",
+   "release_date": "2014-04-20",
+   "label": "Mind of a Genius",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-19T10:22:10Z"
+  },
+  {
+   "id": "19F74vJPCnGp8urLT1LFX2",
+   "title": "Astronaut",
+   "artists": [
+    "Joel Compass"
+   ],
+   "duration_s": 231,
+   "album_id": "1gGh03WAV93FKjBwMxerCp",
+   "release_date": "2013-01-01",
+   "label": "Outsiders Recorded Music Limited, under exclusive licence to Black Butter Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-22T23:58:03Z"
+  },
+  {
+   "id": "5RJc9Ex116Dx1zHGUOZGgX",
+   "title": "Benediction",
+   "artists": [
+    "Hot Natured"
+   ],
+   "duration_s": 399,
+   "album_id": "5w2vOtzeCbWhxcrHTzkwO6",
+   "release_date": "2013-08-30",
+   "label": "Warner Music UK Limited / FFRR",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-26T02:21:14Z"
+  },
+  {
+   "id": "0ph615yspvK8q2H4wjnxz8",
+   "title": "Vibe",
+   "artists": [
+    "Disciples"
+   ],
+   "duration_s": 315,
+   "album_id": "7jhd9spjyMqksMfcIJKrpe",
+   "release_date": "2014-04-04",
+   "label": "New State Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-11T01:32:23Z"
+  },
+  {
+   "id": "3gpNOBjGxjB0kKvoAFdnon",
+   "title": "Inside My Love",
+   "artists": [
+    "Magic Eye"
+   ],
+   "duration_s": 432,
+   "album_id": "29H13B3tXN6ofR7INWbQiD",
+   "release_date": "2013-09-06",
+   "label": "Strictly Rhythm",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-03T23:00:43Z"
+  },
+  {
+   "id": "3zGB8rE7Guy8R1FJ1csX95",
+   "title": "Caje [feat. Narra] - Orginal Version",
+   "artists": [
+    "Niconé",
+    "Sascha Braemer",
+    "Narra"
+   ],
+   "duration_s": 440,
+   "album_id": "25MgNmB8Ab7bB3NtQNX1CN",
+   "release_date": "2011-11-11",
+   "label": "Stil vor Talent",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-26T02:23:23Z"
+  },
+  {
+   "id": "0CTc19yGofNg8y8UxBJ2PI",
+   "title": "The Cell",
+   "artists": [
+    "C2C"
+   ],
+   "duration_s": 299,
+   "album_id": "3bJg5G91aADhnnYNkMel3z",
+   "release_date": "2012-01-01",
+   "label": "On And On Records, under exclusive license to Virgin Records France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-04T05:13:56Z"
+  },
+  {
+   "id": "6hFYIJDwADard4Z8dvlpzp",
+   "title": "One Day / Reckoning Song (Wankelmut Remix) [Radio Edit]",
+   "artists": [
+    "Asaf Avidan & the Mojos",
+    "Wankelmut"
+   ],
+   "duration_s": 212,
+   "album_id": "4aUQP9kw5kVQyCcCiC2yVv",
+   "release_date": "2012-06-29",
+   "label": "Columbia Berlin a unit of Sony Music Entertainment Germany GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-11T01:30:08Z"
+  },
+  {
+   "id": "2wqaekenSQZm7hxQOYt8oE",
+   "title": "Am I Wrong",
+   "artists": [
+    "Nico & Vinz"
+   ],
+   "duration_s": 248,
+   "album_id": "1uaIXmroQAjO7DB6zZPcpV",
+   "release_date": "2014-01-21",
+   "label": "Warner Records Inc.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T13:32:43Z"
+  },
+  {
+   "id": "4Dxgxs6v4APlvtIXVN62km",
+   "title": "Sundream",
+   "artists": [
+    "RÜFÜS DU SOL"
+   ],
+   "duration_s": 275,
+   "album_id": "1eu0stBpUQ20Mp6AxAUghK",
+   "release_date": "2014-04-25",
+   "label": "Sweat It Out Music! under exclusive license Sony Music Entertainment Australia Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-18T01:27:20Z"
+  },
+  {
+   "id": "1iXBApi39l5r6lJj9WEXXS",
+   "title": "Hideaway",
+   "artists": [
+    "Kiesza"
+   ],
+   "duration_s": 252,
+   "album_id": "5LJxFU1n51T8l3QN47GkQF",
+   "release_date": "2014-01-01",
+   "label": "Chronicles (Lokal Legend)",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-27T05:10:31Z"
+  },
+  {
+   "id": "4jTkRRMeGqtaXZi9aDEhtU",
+   "title": "Feel You - Radio Edit",
+   "artists": [
+    "Cedric Zeyenne"
+   ],
+   "duration_s": 217,
+   "album_id": "2mlDRQdFI6lhQLAfHllmpI",
+   "release_date": "2014-01-20",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-18T23:07:09Z"
+  },
+  {
+   "id": "7b2smfixeFK1ebLPINC7sv",
+   "title": "Lost",
+   "artists": [
+    "Amine Edge",
+    "DANCE"
+   ],
+   "duration_s": 353,
+   "album_id": "5uhHzcGAzJKsnAuCFPgO1Q",
+   "release_date": "2013-11-25",
+   "label": "Sleazy G 2013",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-06-19T00:08:50Z"
+  },
+  {
+   "id": "39gkp66XFaY2hkC2RUzXyr",
+   "title": "Look Right Through - MK Vocal Edit",
+   "artists": [
+    "Storm Queen"
+   ],
+   "duration_s": 148,
+   "album_id": "0X8dowmNvHi6IiEvrJq8eL",
+   "release_date": "2013-11-03",
+   "label": "Ministry of Sound Recordings Ltd.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T06:11:59Z"
+  },
+  {
+   "id": "2CgFbtumH4RQHEzezv214D",
+   "title": "In My Heart",
+   "artists": [
+    "Route 94"
+   ],
+   "duration_s": 353,
+   "album_id": "5xFm6nI7bWRcZR1JktaPbC",
+   "release_date": "2014-04-04",
+   "label": "Defected Records Limited under exclusive license from Route 94",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T06:12:44Z"
+  },
+  {
+   "id": "3q4zNC35eIv15Zt4cEDicP",
+   "title": "Same - Bakermat Remix",
+   "artists": [
+    "Robin Schulz"
+   ],
+   "duration_s": 343,
+   "album_id": "6OWtLSnr98VMydbMplBgla",
+   "release_date": "2013-08-27",
+   "label": "Pleinvrees Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T12:31:20Z"
+  },
+  {
+   "id": "483XiZ5o13Cc1zoWV7jGml",
+   "title": "Gecko (Overdrive) - Radio Edit",
+   "artists": [
+    "Oliver Heldens",
+    "Becky Hill"
+   ],
+   "duration_s": 165,
+   "album_id": "4cJyCdYZKnIhxQCSymU2ES",
+   "release_date": "2014-06-03",
+   "label": "Spinnin Records BV under exclusive license to Parlophone Records Ltd, a Warner Music Group Company.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T13:30:25Z"
+  },
+  {
+   "id": "5nam07J4oFVf7cxvRmOUrQ",
+   "title": "This Feeling",
+   "artists": [
+    "Lovebirds"
+   ],
+   "duration_s": 508,
+   "album_id": "6NDGYnxQbjsAeswNKqKvOW",
+   "release_date": "2013-05-14",
+   "label": "Om Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T12:33:30Z"
+  },
+  {
+   "id": "1BB151pbykmiEkyf3FwuKQ",
+   "title": "Time To Say - Original Mix",
+   "artists": [
+    "Electricano"
+   ],
+   "duration_s": 488,
+   "album_id": "1upglWhEezfPFqR7UQbJma",
+   "release_date": "2013-02-04",
+   "label": "Copyright Control",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T13:24:55Z"
+  },
+  {
+   "id": "65szOSvpGJKt9jCYo974b3",
+   "title": "You Are My Life - Original Mix",
+   "artists": [
+    "Passenger 10"
+   ],
+   "duration_s": 358,
+   "album_id": "4n305eckK8LxDgz6exSmsp",
+   "release_date": "2013-07-22",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:39:58Z"
+  },
+  {
+   "id": "4GFccYxQI6C08uqYd3BDm0",
+   "title": "Never Know Me - Original Mix",
+   "artists": [
+    "Robin Schulz",
+    "Dansir"
+   ],
+   "duration_s": 404,
+   "album_id": "5F18lS8sKJKbUWqTBD1DEx",
+   "release_date": "2013-06-21",
+   "label": "Lausbuben",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:45:27Z"
+  },
+  {
+   "id": "6f6E4WpkxBZy7OFOYFEudg",
+   "title": "Homelands",
+   "artists": [
+    "Nitin Sawhney"
+   ],
+   "duration_s": 362,
+   "album_id": "1IRzjAaf0c93kLKZQqfEH0",
+   "release_date": "1999-06-21",
+   "label": "Outcaste Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:55:49Z"
+  },
+  {
+   "id": "3rteoZGo4vb956pPf0R7p9",
+   "title": "Sunset",
+   "artists": [
+    "Nitin Sawhney"
+   ],
+   "duration_s": 285,
+   "album_id": "2Czg9SJIY7BT1ACCfRrw9k",
+   "release_date": "2001-01-01",
+   "label": "V2 Music Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:56:32Z"
+  },
+  {
+   "id": "26KKQY3bjTByfCdbSnssW5",
+   "title": "Sunset - MJ Cole Remix",
+   "artists": [
+    "Nitin Sawhney"
+   ],
+   "duration_s": 367,
+   "album_id": "07BOiqorqIwkUlVPe45Dir",
+   "release_date": "2004-01-01",
+   "label": "V2 Music Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:57:54Z"
+  },
+  {
+   "id": "1EDJdC4JOTVKOuoVdvT7pA",
+   "title": "Breathing Light",
+   "artists": [
+    "Nitin Sawhney"
+   ],
+   "duration_s": 290,
+   "album_id": "2Czg9SJIY7BT1ACCfRrw9k",
+   "release_date": "2001-01-01",
+   "label": "V2 Music Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:58:20Z"
+  },
+  {
+   "id": "6cdC0lhbPzi8FETx01aPTY",
+   "title": "Stories - Sons of Maria Remix",
+   "artists": [
+    "Passenger 10"
+   ],
+   "duration_s": 388,
+   "album_id": "01jquYOYcT1KA7ufTjdmrS",
+   "release_date": "2014-03-03",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-07-28T13:20:39Z"
+  },
+  {
+   "id": "7InLmQLA7t5hvV8DtkdOWk",
+   "title": "Changes",
+   "artists": [
+    "Faul & Wad",
+    "PNAU"
+   ],
+   "duration_s": 344,
+   "album_id": "1728TsIEW6Ecr3HjO2z4fp",
+   "release_date": "2014-03-23",
+   "label": "WePLAY Music and Management & Co. KG under exclusive license to Four Music Productions GmbH, a unit of Sony Music En",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-05-11T22:26:06Z"
+  },
+  {
+   "id": "0xdS4Mxugf1ePeqPL4Pwsw",
+   "title": "Believe Me - Original Mix",
+   "artists": [
+    "Electricano"
+   ],
+   "duration_s": 392,
+   "album_id": "1upglWhEezfPFqR7UQbJma",
+   "release_date": "2013-02-04",
+   "label": "Copyright Control",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:34:26Z"
+  },
+  {
+   "id": "4HN5KZp3L6XjXxlVFMZDYK",
+   "title": "Doses and Mimosas",
+   "artists": [
+    "Variable D"
+   ],
+   "duration_s": 336,
+   "album_id": "4WASFkAsaXXhjvvSYHzqAR",
+   "release_date": "2014-07-01",
+   "label": "Variable D",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T14:46:42Z"
+  },
+  {
+   "id": "2fqyUzJF8rIfe3WLiwr09q",
+   "title": "Our Time Our Chance feat. Ian Whitelaw",
+   "artists": [
+    "Phonique",
+    "Ian Whitelaw"
+   ],
+   "duration_s": 314,
+   "album_id": "4LmYA63ggi6e6W73IJ1yfH",
+   "release_date": "2010-04-28",
+   "label": "Dessous Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-08T05:38:44Z"
+  },
+  {
+   "id": "4zNcOicCRnJDYz0QYXwBUL",
+   "title": "Street Names - Nora en Pure Remix",
+   "artists": [
+    "Passenger 10"
+   ],
+   "duration_s": 400,
+   "album_id": "5uwZNiUHsnjGrbr8aql46Y",
+   "release_date": "2013-04-15",
+   "label": "GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-01T15:13:15Z"
+  },
+  {
+   "id": "3Hl0KkrDuyOblnpbK5vV30",
+   "title": "Go Down Sunshine",
+   "artists": [
+    "Pretty Lights"
+   ],
+   "duration_s": 305,
+   "album_id": "0okq27WOMbdHpDiyCWhnZC",
+   "release_date": "2014-06-30",
+   "label": "(p) 8 Minutes 20 Seconds",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-11-24T04:49:30Z"
+  },
+  {
+   "id": "1Lj7RXoQXv4PB0S17uTR0F",
+   "title": "Summer Jam - Chassio Remix Edit",
+   "artists": [
+    "The Underdog Project",
+    "Chassio"
+   ],
+   "duration_s": 201,
+   "album_id": "7h7omQeQnaoWvGSsODduFw",
+   "release_date": "2014-08-01",
+   "label": "Kontor Records GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-25T06:57:12Z"
+  },
+  {
+   "id": "3Vp4wBSQGO0QxvmyJRalnK",
+   "title": "Ways to Go - Grandtheft Remix",
+   "artists": [
+    "GROUPLOVE",
+    "Grandtheft"
+   ],
+   "duration_s": 203,
+   "album_id": "1EPB1wksi6wgPk6fCkkFdR",
+   "release_date": "2013-08-13",
+   "label": "Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United Stat",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-27T04:56:35Z"
+  },
+  {
+   "id": "1y4Kln6VEjQMpmHW7j9GeY",
+   "title": "Cut Your Teeth - Kygo Remix",
+   "artists": [
+    "Kyla La Grange",
+    "Kygo"
+   ],
+   "duration_s": 399,
+   "album_id": "2i4AbvFA9e6XszmH1x4G2h",
+   "release_date": "2014-03-14",
+   "label": "Kyla La Grange under exclusive licence to Sony Music Entertainment UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-08-29T00:59:42Z"
+  },
+  {
+   "id": "0yAv6ZMtepBgggOKcwxXHE",
+   "title": "Jubel",
+   "artists": [
+    "Klingande"
+   ],
+   "duration_s": 284,
+   "album_id": "5O21ZN20b6lzWa6FreEpUJ",
+   "release_date": "2014-05-09",
+   "label": "Klingande Music under exclusive license to Warner Music UK Ltd.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-01T22:57:04Z"
+  },
+  {
+   "id": "4RHTFtXwMcKHJUiLKskUfk",
+   "title": "Sunchyme",
+   "artists": [
+    "Dario G",
+    "Mixed By Dario G & Mark Tucker"
+   ],
+   "duration_s": 379,
+   "album_id": "1j8KFJFP0kJYrZshhHjLnS",
+   "release_date": "1998-05-18",
+   "label": "Warner Music UK Ltd.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-04T07:08:17Z"
+  },
+  {
+   "id": "7t5VwAEPTzucO58Bi13XLC",
+   "title": "Living Darfur",
+   "artists": [
+    "Mattafix"
+   ],
+   "duration_s": 255,
+   "album_id": "5tT3LW5nlnXYxLvpzUwKOf",
+   "release_date": "2007-09-07",
+   "label": "Beegood t/a Buddhist Punk, under exclusive licence to Delabel, a division of Parlophone Music France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-15T06:32:58Z"
+  },
+  {
+   "id": "1M71KUbwyr3IKweEaXT2xM",
+   "title": "Hypnotized",
+   "artists": [
+    "Oliver Koletzki",
+    "Fran"
+   ],
+   "duration_s": 341,
+   "album_id": "6olb3iX7WtI2mhDGDF4quI",
+   "release_date": "2012-10-01",
+   "label": "Pschent Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-08T05:52:30Z"
+  },
+  {
+   "id": "4dEgavTGAWXZ3bQpQkbC7V",
+   "title": "Stolen Dance - FlicFlac Club Edit",
+   "artists": [
+    "Milky Chance"
+   ],
+   "duration_s": 215,
+   "album_id": "2kMoTbWmeLpLJi7ptJivnm",
+   "release_date": "2014-06-29",
+   "label": "Lichtdicht Records under exclusive license to Ignition Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-09-02T06:44:06Z"
+  },
+  {
+   "id": "5fnA9mkIfScSqHIpeDyvck",
+   "title": "Prayer in C - Robin Schulz Radio Edit",
+   "artists": [
+    "Lilly Wood and The Prick",
+    "Robin Schulz"
+   ],
+   "duration_s": 189,
+   "album_id": "6Ps0kbvAjuz75uK0uuZzWa",
+   "release_date": "2014-05-16",
+   "label": "Choke Industry / Tonspiel under exclusive license to Warner Music Group Germany Holding GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-10-18T02:57:31Z"
+  },
+  {
+   "id": "2CoWJhDYVENsByS7rPInSr",
+   "title": "Midnight - Kygo Remix",
+   "artists": [
+    "Coldplay",
+    "Kygo"
+   ],
+   "duration_s": 316,
+   "album_id": "7tI4UrXr27WbduHuVJlCp5",
+   "release_date": "2014-06-09",
+   "label": "Parlophone Records Ltd, a Warner Music Group Company",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-10-20T21:56:38Z"
+  },
+  {
+   "id": "05ZroIPvy6d2wlQ9AIDcWp",
+   "title": "Promesses",
+   "artists": [
+    "Dimmi"
+   ],
+   "duration_s": 210,
+   "album_id": "56rAGBOlYCJFdqwgAZV7W2",
+   "release_date": "2014-01-16",
+   "label": "CROSSWALK",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-10-30T18:24:12Z"
+  },
+  {
+   "id": "19GjJDdF4DB91OpSe63i8N",
+   "title": "The Invisible Girl",
+   "artists": [
+    "Parov Stelar Trio",
+    "Parov Stelar"
+   ],
+   "duration_s": 347,
+   "album_id": "5jP8OLPZJmOV0JdJgfV0dX",
+   "release_date": "2013-03-22",
+   "label": "Etage Noir Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-10-30T18:27:00Z"
+  },
+  {
+   "id": "4aQKtoGs97E1juXc6SPWAd",
+   "title": "Sirens - Mollono.Bass Remix",
+   "artists": [
+    "Monkey Safari",
+    "Mollono.Bass"
+   ],
+   "duration_s": 466,
+   "album_id": "5bNRYJch74G9GzyLUAolhF",
+   "release_date": "2012-07-20",
+   "label": "Mambo",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-10-30T18:30:29Z"
+  },
+  {
+   "id": "4fTHdMTq0Znl3djLI1Typn",
+   "title": "Cheerleader (Felix Jaehn Remix) - Radio Edit",
+   "artists": [
+    "OMI",
+    "felix jaehn"
+   ],
+   "duration_s": 180,
+   "album_id": "6OGsd4ZWO6kA22UbghEYcm",
+   "release_date": "2015-01-23",
+   "label": "Ultra Records, LLC under exclusive license to Columbia",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-11-17T03:30:51Z"
+  },
+  {
+   "id": "1Tymc486DwkvvuFrHkmQqs",
+   "title": "Champion Sound - Alt. Version",
+   "artists": [
+    "Crystal Fighters"
+   ],
+   "duration_s": 206,
+   "album_id": "1bj3W2riKHMas7gH2TxNrn",
+   "release_date": "2010-10-03",
+   "label": null,
+   "label_source": null,
+   "added_at": "2014-11-24T04:49:23Z"
+  },
+  {
+   "id": "3heDU39IBfiespWweM21qA",
+   "title": "Hold Tight",
+   "artists": [
+    "GoldFish"
+   ],
+   "duration_s": 392,
+   "album_id": "4JjAt65rldQTE962K4zx42",
+   "release_date": "2009-05-15",
+   "label": "Pacha Multimedia S.L",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-11-24T05:15:43Z"
+  },
+  {
+   "id": "6eWsgrQLZhLqy5VfGB9iFs",
+   "title": "Gold - Thomas Jack Radio Edit",
+   "artists": [
+    "Gabriel Rios",
+    "Thomas Jack"
+   ],
+   "duration_s": 196,
+   "album_id": "3hcn0miMXdXynTRJmAJKYs",
+   "release_date": "2014-09-12",
+   "label": "Angelhead BVBA exclusively licensed to Sony Music Entertainment Belgium NV/SA",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-11-17T03:21:44Z"
+  },
+  {
+   "id": "3lUGiYoiFRZ4dA6xogR6KN",
+   "title": "Sinnerman - Felix Da Housecat's Heavenly House Mix",
+   "artists": [
+    "Nina Simone",
+    "Felix Da Housecat"
+   ],
+   "duration_s": 275,
+   "album_id": "6sHssbd2OeNYv6Xeq1VNL9",
+   "release_date": "2003-01-01",
+   "label": "The Verve Music Group, a Division of UMG Recordings, Inc.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-11-24T04:14:13Z"
+  },
+  {
+   "id": "5yPhSWvZ5KdHhz8R7z7oyI",
+   "title": "Blossom",
+   "artists": [
+    "David August"
+   ],
+   "duration_s": 300,
+   "album_id": "6nmBiCTv4yyB6a74otnv75",
+   "release_date": "2013-04-19",
+   "label": "Diynamic Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-12-04T07:06:34Z"
+  },
+  {
+   "id": "0Dxi7iWtxgQPsz5JQoJjd8",
+   "title": "Garden",
+   "artists": [
+    "TEED"
+   ],
+   "duration_s": 276,
+   "album_id": "06fAhsaZzs4AOmjJY8eU6m",
+   "release_date": "2011-01-01",
+   "label": "Polydor Ltd. (UK)",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2014-12-05T01:18:59Z"
+  },
+  {
+   "id": "5E6dbwD4F55zeAGSoG5sRG",
+   "title": "Happy Endings",
+   "artists": [
+    "Faul"
+   ],
+   "duration_s": 396,
+   "album_id": "5SHcx5l9hbyP72fI7PFLTk",
+   "release_date": "2013-05-04",
+   "label": "Faul",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-09T01:01:26Z"
+  },
+  {
+   "id": "22jRrJwhkCqNS4RbaJSRGD",
+   "title": "Back Home - Radio Edit",
+   "artists": [
+    "MYNGA",
+    "Cosmo Klein"
+   ],
+   "duration_s": 193,
+   "album_id": "78QbRqArQddIlvFWWDF68n",
+   "release_date": "2014-01-01",
+   "label": "Philipp Weidenbach & Simon Lechner",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-09T01:19:41Z"
+  },
+  {
+   "id": "4VHZWHsp9WnbcqNcAJzFHi",
+   "title": "Walk This Way - Kant Remix (Club Version)",
+   "artists": [
+    "MØ",
+    "KANT"
+   ],
+   "duration_s": 314,
+   "album_id": "4ROcfZVam2pemXs3hxXLQo",
+   "release_date": "2014-08-03",
+   "label": "Sony Music Entertainment UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-08T23:24:41Z"
+  },
+  {
+   "id": "22OXdbTHyxrDQEFJ3vbt97",
+   "title": "Heart Girls (Original Mix)",
+   "artists": [
+    "Lekesch & Schekel"
+   ],
+   "duration_s": 448,
+   "album_id": "6HspM76YgeG1dk3mFCyNh1",
+   "release_date": "2013-06-01",
+   "label": "Lekesch&schekel",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-09T00:36:35Z"
+  },
+  {
+   "id": "6i17Doz0kSvS8ZihdTrsGJ",
+   "title": "Stay",
+   "artists": [
+    "Henry Krinkle"
+   ],
+   "duration_s": 386,
+   "album_id": "5h1gIH9j1esCGe61Hp0fFO",
+   "release_date": "2014-11-27",
+   "label": "This compilation (P) 2014 Sony Music Entertainment UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-13T22:28:34Z"
+  },
+  {
+   "id": "00lopN8UjPU58scvfgjSPK",
+   "title": "Pushing On",
+   "artists": [
+    "Oliver Dollar",
+    "Jimi Jules"
+   ],
+   "duration_s": 163,
+   "album_id": "7DyRCoXF2BYUxX5E8WE2CU",
+   "release_date": "2014-08-25",
+   "label": "Defected Records Limited under exclusive license to Ultra Records, LLC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-08T23:24:03Z"
+  },
+  {
+   "id": "64yyY22zIihs01OpURdsh8",
+   "title": "Booty Swing",
+   "artists": [
+    "Parov Stelar"
+   ],
+   "duration_s": 197,
+   "album_id": "2djW68ErXMloNYhZaqDZdx",
+   "release_date": "2010-11-19",
+   "label": "Etage Noir Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-15T06:09:12Z"
+  },
+  {
+   "id": "6xVfTx01TnGrzH1mqXfOmf",
+   "title": "Pony",
+   "artists": [
+    "Deluxe"
+   ],
+   "duration_s": 208,
+   "album_id": "5AxInyNlKGVNSD0SNMwKIw",
+   "release_date": "2011-11-28",
+   "label": "Chinese Man Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-15T06:21:13Z"
+  },
+  {
+   "id": "46u45Dhe0ArF7CuPEi2Jxl",
+   "title": "Baby I'm Yours (feat. Irfane)",
+   "artists": [
+    "Breakbot",
+    "Irfane"
+   ],
+   "duration_s": 216,
+   "album_id": "18qNUu7MKc9fogpwUd04Ku",
+   "release_date": "2010-02-25",
+   "label": "Ed Banger Records under exclusive license to Because Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-15T05:59:10Z"
+  },
+  {
+   "id": "2vKTAOY02olXymef33NUMq",
+   "title": "Wrong",
+   "artists": [
+    "Claptone"
+   ],
+   "duration_s": 423,
+   "album_id": "7Cfip8BR4sf9yCdES2Bgdw",
+   "release_date": "2013-02-04",
+   "label": "Exploited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-01-23T05:58:44Z"
+  },
+  {
+   "id": "6euRvhoyzVtjdKohdL78QH",
+   "title": "Fading Nights - Original Mix",
+   "artists": [
+    "Parra for Cuva",
+    "Anna Naklab"
+   ],
+   "duration_s": 425,
+   "album_id": "21MzJxNQ2HSgEAWtTlrjbd",
+   "release_date": "2013-05-08",
+   "label": "Délicieuse Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-02-03T02:31:43Z"
+  },
+  {
+   "id": "4prbLTFEqw9JvcIz9mkXZs",
+   "title": "Moments",
+   "artists": [
+    "Klangkarussell",
+    "Will Heard"
+   ],
+   "duration_s": 302,
+   "album_id": "33SQzqLVfBgyxEmUZzWzdm",
+   "release_date": "2014-01-01",
+   "label": "Klangkarussell, under exclusive license to Virgin Records, a division of Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-03-27T06:00:31Z"
+  },
+  {
+   "id": "1IFbx5PR6BASAJC8Yd4mch",
+   "title": "Something About You",
+   "artists": [
+    "Hayden James"
+   ],
+   "duration_s": 223,
+   "album_id": "74dDF2QXPn8yA94jIv9Iec",
+   "release_date": "2014-12-19",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-04-02T05:46:19Z"
+  },
+  {
+   "id": "758qW1kx54rx4jhzVGxk1E",
+   "title": "Netzwerk (Falls Like Rain)",
+   "artists": [
+    "Klangkarussell"
+   ],
+   "duration_s": 229,
+   "album_id": "33SQzqLVfBgyxEmUZzWzdm",
+   "release_date": "2014-01-01",
+   "label": "Klangkarussell, under exclusive license to Virgin Records, a division of Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-03-27T06:16:04Z"
+  },
+  {
+   "id": "4WioIdutSBOKc4AaSew7rw",
+   "title": "Hamburg Is for Lovers",
+   "artists": [
+    "David August"
+   ],
+   "duration_s": 485,
+   "album_id": "64cX3C7ywPgBB28AWzW3Uf",
+   "release_date": "2011-01-03",
+   "label": "DIYNAMIC MUSIC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-04-02T07:44:13Z"
+  },
+  {
+   "id": "0240T0gP9w6xEgIciBrfVF",
+   "title": "Talk Is Cheap",
+   "artists": [
+    "Chet Faker"
+   ],
+   "duration_s": 218,
+   "album_id": "2ytxqdwQ0Hn9JeQmcIWHuh",
+   "release_date": "2014-04-14",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-06T09:12:43Z"
+  },
+  {
+   "id": "4KtrE35pTuqwNc22QP58RT",
+   "title": "Drop the Game",
+   "artists": [
+    "Flume",
+    "Chet Faker"
+   ],
+   "duration_s": 222,
+   "album_id": "3iiYLxi349roViLyQJcCh3",
+   "release_date": "2013-11-22",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-11T07:39:29Z"
+  },
+  {
+   "id": "1CGLurVTmoqp8fJoOTKWJ0",
+   "title": "Unmissable",
+   "artists": [
+    "Gorgon City",
+    "Zak Abel"
+   ],
+   "duration_s": 218,
+   "album_id": "1tfrh7jInz0lgBamg12OFj",
+   "release_date": "2014-10-03",
+   "label": "Virgin EMI Records, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-19T04:20:09Z"
+  },
+  {
+   "id": "3pP1spRSIslLbY0MKiTuod",
+   "title": "The High Life",
+   "artists": [
+    "Maya Jane Coles"
+   ],
+   "duration_s": 324,
+   "album_id": "03CT9zdGm1kkClglvnX8XS",
+   "release_date": "2011-06-12",
+   "label": "2020Vision",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-19T04:23:04Z"
+  },
+  {
+   "id": "6G3PTnAbB18pWElixeBDdQ",
+   "title": "Dark Doo Wop",
+   "artists": [
+    "MS MR"
+   ],
+   "duration_s": 171,
+   "album_id": "3OzeRt6qBaj92n9yjiZBPt",
+   "release_date": "2013-05-10",
+   "label": "2012, 2013 Columbia Records, a Division of Sony Music Entertainment",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-19T04:33:37Z"
+  },
+  {
+   "id": "4Iu0WRLGNnpxgZfTdf2QUC",
+   "title": "A Night In Torino",
+   "artists": [
+    "Parov Stelar"
+   ],
+   "duration_s": 359,
+   "album_id": "4DzdG6kScJW0Ez1e9E5Mha",
+   "release_date": "2005-05-23",
+   "label": "Etage Noir Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-19T04:46:44Z"
+  },
+  {
+   "id": "6vXrGqAYf8v2MH6zysD4Nc",
+   "title": "I Remember",
+   "artists": [
+    "Ryan Dupree"
+   ],
+   "duration_s": 374,
+   "album_id": "1DEsO6NLHKBypAwat0aMUF",
+   "release_date": "2014-04-28",
+   "label": "Karera",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-19T04:50:45Z"
+  },
+  {
+   "id": "0yZYoAoh0EUhW21qUsWJqE",
+   "title": "No More",
+   "artists": [
+    "Gorgon City",
+    "Liv"
+   ],
+   "duration_s": 216,
+   "album_id": "3u3wA2mFU0UgAtyMJW3xa5",
+   "release_date": "2014-01-01",
+   "label": "Virgin EMI Records, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-20T01:41:24Z"
+  },
+  {
+   "id": "5FvmTpeAJyhndzSDkEihNV",
+   "title": "Zero",
+   "artists": [
+    "Alpines"
+   ],
+   "duration_s": 193,
+   "album_id": "2ZXbyCcrgcLJWiO2v7u6Wc",
+   "release_date": "2014-05-26",
+   "label": "Alpines Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-20T04:31:57Z"
+  },
+  {
+   "id": "48zDhnQEaMEK1809LvsBNv",
+   "title": "Doo Uap, Doo Uap, Doo Uap",
+   "artists": [
+    "Gabin"
+   ],
+   "duration_s": 441,
+   "album_id": "2biY37iNIvCmX2HEd0Dp6m",
+   "release_date": "2012-05-10",
+   "label": "CLS Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-20T04:36:31Z"
+  },
+  {
+   "id": "51YwdJfFbswzUIOoFApdTJ",
+   "title": "Mandala",
+   "artists": [
+    "Thievery Corporation"
+   ],
+   "duration_s": 241,
+   "album_id": "5eniusG8yp2DfC8fX57uU2",
+   "release_date": "2008",
+   "label": null,
+   "label_source": null,
+   "added_at": "2015-05-20T04:54:31Z"
+  },
+  {
+   "id": "7i5qFECCLhlPZKMETYcnFF",
+   "title": "Never",
+   "artists": [
+    "Phonat"
+   ],
+   "duration_s": 203,
+   "album_id": "0zf8aaJoRzvsRffF31Le1s",
+   "release_date": "2014-02-21",
+   "label": "OWSLA inder exclusive license to onelove",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-05-28T06:52:04Z"
+  },
+  {
+   "id": "6EbSJq0RTcIgkffkm2D69j",
+   "title": "Falling - Duke Dumont Remix",
+   "artists": [
+    "HAIM",
+    "Duke Dumont"
+   ],
+   "duration_s": 334,
+   "album_id": "7CzrzGbCwqT8Y43tvIUPBX",
+   "release_date": "2013-01-01",
+   "label": "HAIM Productions Inc., under exclusive licence to Polydor Records, a division of Universal Music Operations Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-06-02T05:33:08Z"
+  },
+  {
+   "id": "0hxcmfs56A4c4mLnqxhLGE",
+   "title": "Clair De Lune",
+   "artists": [
+    "Flight Facilities",
+    "Christine Hoberg"
+   ],
+   "duration_s": 460,
+   "album_id": "3Jcgj3nUTrd6O8grfcJFLE",
+   "release_date": "2014-10-24",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-06-02T05:33:20Z"
+  },
+  {
+   "id": "7pkwqey3FebhhRnauRE42z",
+   "title": "Flashed Junk Mind",
+   "artists": [
+    "Milky Chance"
+   ],
+   "duration_s": 262,
+   "album_id": "2pza66DUreALycIoqlieMo",
+   "release_date": "2014-06-20",
+   "label": "Lichtdicht Records GmbH, under exclusive license to Neon Records Pty Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-06-11T03:24:15Z"
+  },
+  {
+   "id": "5YJPdRp7zcqjo7xXmrwZLb",
+   "title": "Searchlight Reprise",
+   "artists": [
+    "Hermitude",
+    "Yeo"
+   ],
+   "duration_s": 269,
+   "album_id": "4qWHwJCpjIOPTwYgwjOwTO",
+   "release_date": "2015-05-15",
+   "label": "Elefant Traks",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-06-16T23:26:59Z"
+  },
+  {
+   "id": "4piae89WoVnwucdJzWrB7M",
+   "title": "O.P.P. (Re-Recorded)",
+   "artists": [
+    "Naughty By Nature"
+   ],
+   "duration_s": 250,
+   "album_id": "6smksVgwxaPFGdSsIloCjo",
+   "release_date": "2011-12-13",
+   "label": "Entertainment One Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-06-22T01:03:38Z"
+  },
+  {
+   "id": "3qmaExOi8Ujx1s6ylv5kCX",
+   "title": "You Were Right",
+   "artists": [
+    "RÜFÜS DU SOL"
+   ],
+   "duration_s": 239,
+   "album_id": "3bsjTVnAYeEqtDUnRFFJ8Q",
+   "release_date": "2015-06-26",
+   "label": "Sweat It Out Music! Distributed in Australia & New Zealand by Sony Music Entertainment Australia Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-07-07T00:16:47Z"
+  },
+  {
+   "id": "4WbNyQy4wVdfopMrApBWQA",
+   "title": "HyperParadise - Flume Remix",
+   "artists": [
+    "Hermitude",
+    "Flume"
+   ],
+   "duration_s": 268,
+   "album_id": "4pGa16elDzoTznDk1Jn1Zj",
+   "release_date": "2012-06-08",
+   "label": "Elefant Traks",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-07-13T05:52:55Z"
+  },
+  {
+   "id": "0lFsdfJay6AM4m23hJYGEG",
+   "title": "The Buzz",
+   "artists": [
+    "Hermitude",
+    "Mataya",
+    "Young Tapz"
+   ],
+   "duration_s": 222,
+   "album_id": "4qWHwJCpjIOPTwYgwjOwTO",
+   "release_date": "2015-05-15",
+   "label": "Elefant Traks",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-07-22T23:16:02Z"
+  },
+  {
+   "id": "0j0DNujXWeupLpZobbABoo",
+   "title": "Nothing Left (feat. Will Heard)",
+   "artists": [
+    "Kygo",
+    "Will Heard"
+   ],
+   "duration_s": 237,
+   "album_id": "1E9zz9IxN16wb23Ru2rfDl",
+   "release_date": "2015-07-31",
+   "label": "Kygo under exclusive license to Sony Music Entertainment International Ltd / Ultra Records, LLC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-08-10T05:42:52Z"
+  },
+  {
+   "id": "5Xu7nrKiVHslrdlNHRsSsP",
+   "title": "Reality",
+   "artists": [
+    "Lost Frequencies",
+    "Janieck"
+   ],
+   "duration_s": 159,
+   "album_id": "7JhwZ7qr8knsl9iX1lidtx",
+   "release_date": "2015-05-18",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-08-10T07:23:34Z"
+  },
+  {
+   "id": "1twLxJP3DWzN4NDOV01sQ5",
+   "title": "Epsilon - Original Mix",
+   "artists": [
+    "Kygo"
+   ],
+   "duration_s": 365,
+   "album_id": "4NavAbvW8BjjV2DFqqaZVw",
+   "release_date": "2013-05-15",
+   "label": "Ensis Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-08-10T09:16:32Z"
+  },
+  {
+   "id": "58vcKGLqVYCgYeoFMd9NFC",
+   "title": "Desire - Original Mix",
+   "artists": [
+    "West.K",
+    "Nathalie"
+   ],
+   "duration_s": 321,
+   "album_id": "1zuD68zwiS8RY2rbquMkXn",
+   "release_date": "2014-12-08",
+   "label": "LoveStyle Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-04T19:53:41Z"
+  },
+  {
+   "id": "3OAi0Y1MS62b2XA16s8fT0",
+   "title": "Minor Swing",
+   "artists": [
+    "Belleruche"
+   ],
+   "duration_s": 249,
+   "album_id": "5s9ppT3i8OW0aJ10NkhZu2",
+   "release_date": "2007-07-16",
+   "label": "Tru Thoughts",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2015-12-07T00:00:11Z"
+  },
+  {
+   "id": "1vQ92830bxiBcIhpUj4qrn",
+   "title": "The Veldt - Radio Edit",
+   "artists": [
+    "deadmau5"
+   ],
+   "duration_s": 170,
+   "album_id": "0pJJgBzj26qnE1nSQUxaB0",
+   "release_date": "2012-01-01",
+   "label": "mau5trap Recordings Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-02T12:15:26Z"
+  },
+  {
+   "id": "0yomhqoETEC3360pML8nEx",
+   "title": "Woman of the Ghetto - Akshin Alizadeh Remix",
+   "artists": [
+    "Marlena Shaw",
+    "Akshin Alizadeh"
+   ],
+   "duration_s": 302,
+   "album_id": "7GuS63e6BG71ZBhQRWhh5f",
+   "release_date": "2014-06-17",
+   "label": "Cold Busted Record Company",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-04T19:52:31Z"
+  },
+  {
+   "id": "00I72yT8FVfFej3zNspn0p",
+   "title": "Kenia",
+   "artists": [
+    "Joachim Pastor"
+   ],
+   "duration_s": 474,
+   "album_id": "65Li0uWM1dKiM9Cj9Wpl2p",
+   "release_date": "2014-05-29",
+   "label": "Hungry Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-04T20:43:57Z"
+  },
+  {
+   "id": "3GPZQoYHZ13hij5hcV42ig",
+   "title": "Hungry - Niklas Ibach Remix",
+   "artists": [
+    "Dotan"
+   ],
+   "duration_s": 249,
+   "album_id": "7oiLCQj8F5Kj3d5cqMCbPo",
+   "release_date": "2015-08-21",
+   "label": "Universal Music International Division, a division of Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-09T13:51:05Z"
+  },
+  {
+   "id": "51flut2tZisDAzULmOoQEu",
+   "title": "November Skies",
+   "artists": [
+    "Tomas Barfod",
+    "Nina Kinert"
+   ],
+   "duration_s": 348,
+   "album_id": "6s8YRCiHSpgSf3UbEIi1YC",
+   "release_date": "2012-11-27",
+   "label": "Friends Of Friends",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-17T23:22:10Z"
+  },
+  {
+   "id": "5dRcHQnH0EQUTMUSJrpaug",
+   "title": "Flocon de Neige",
+   "artists": [
+    "Worakls"
+   ],
+   "duration_s": 381,
+   "album_id": "5tkSv489Lew3epNQCOhKaF",
+   "release_date": "2014-03-25",
+   "label": "Hungry Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-19T15:10:05Z"
+  },
+  {
+   "id": "0T1pF6xq73aLqlfWFsMVAf",
+   "title": "Porto (Radio Edit)",
+   "artists": [
+    "Worakls"
+   ],
+   "duration_s": 178,
+   "album_id": "46lfRg91uo3wq2eZEIq4dY",
+   "release_date": "2014-06-21",
+   "label": "Happy Music under exclusive license from Hungry Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-19T15:10:15Z"
+  },
+  {
+   "id": "32Z54yyOInrL7bAk2ZRN2d",
+   "title": "Paranoia, Ghosts & Other Sounds",
+   "artists": [
+    "SAFIA"
+   ],
+   "duration_s": 266,
+   "album_id": "6UlXiebJm9TYJXc9oJ6fTn",
+   "release_date": "2014-04-11",
+   "label": "Safia",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-02-01T04:39:36Z"
+  },
+  {
+   "id": "0iHwnccPp214om2eGT5gzm",
+   "title": "1998",
+   "artists": [
+    "Chet Faker"
+   ],
+   "duration_s": 365,
+   "album_id": "2ytxqdwQ0Hn9JeQmcIWHuh",
+   "release_date": "2014-04-14",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-01-26T22:27:23Z"
+  },
+  {
+   "id": "4iFbpj8YwYkgJdbI5hFFlt",
+   "title": "Holdin On",
+   "artists": [
+    "Flume"
+   ],
+   "duration_s": 154,
+   "album_id": "21m7s6qWpksbj6l08OM7Pu",
+   "release_date": "2012-11-12",
+   "label": "Transgressive Records Ltd.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-02-21T13:38:39Z"
+  },
+  {
+   "id": "3W2ZcrRsInZbjWylOi6KhZ",
+   "title": "You & Me - Flume Remix",
+   "artists": [
+    "Disclosure",
+    "Eliza Doolittle",
+    "Flume"
+   ],
+   "duration_s": 283,
+   "album_id": "7bdjtx1RTkWoSoOaIl7a8E",
+   "release_date": "2013-06-03",
+   "label": "Universal Island Records, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-02-21T13:39:26Z"
+  },
+  {
+   "id": "0IeFn6mSeSiXvB2dGgpdEI",
+   "title": "Something About You - Odesza Remix",
+   "artists": [
+    "Hayden James",
+    "ODESZA"
+   ],
+   "duration_s": 342,
+   "album_id": "4BsD9djw2227pz2FJGRjpB",
+   "release_date": "2015-08-21",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-03-02T10:06:32Z"
+  },
+  {
+   "id": "2mrQ4PrgokqMC8TA4z0yOE",
+   "title": "Indian Summer",
+   "artists": [
+    "Jai Wolf"
+   ],
+   "duration_s": 248,
+   "album_id": "1sTZdpb3v2PkYIP2yeFZPM",
+   "release_date": "2015-06-10",
+   "label": "Foreign Family Collective",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-05-01T22:50:51Z"
+  },
+  {
+   "id": "7uSZPbd8DxdkmSauCKnITY",
+   "title": "We Rise",
+   "artists": [
+    "San Holo"
+   ],
+   "duration_s": 266,
+   "album_id": "1fgSS7d1R3fin79TUkhuxW",
+   "release_date": "2015-02-23",
+   "label": "Nest",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-05-01T22:51:14Z"
+  },
+  {
+   "id": "17Fd6Yb7mSbinKG8LoWfFl",
+   "title": "I Took A Pill In Ibiza - Seeb Remix",
+   "artists": [
+    "Mike Posner",
+    "Seeb"
+   ],
+   "duration_s": 198,
+   "album_id": "3teu4biw5zhcN7QgjmKzGS",
+   "release_date": "2016-05-06",
+   "label": "Island Records, a division of UMG Recordings, Inc.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-06-11T14:59:02Z"
+  },
+  {
+   "id": "15O20RQyWJgKrkHID9ynT9",
+   "title": "Never Be Like You",
+   "artists": [
+    "Flume",
+    "kai"
+   ],
+   "duration_s": 233,
+   "album_id": "2lBRNqB9iOJZFNu1JOSUBW",
+   "release_date": "2016-05-27",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-06-11T15:01:50Z"
+  },
+  {
+   "id": "5SNCLuZZKVRR3nS0PQ9mqb",
+   "title": "Oh My",
+   "artists": [
+    "Boo Seeka"
+   ],
+   "duration_s": 196,
+   "album_id": "39yBCR0BbNAl2K9HxuMedO",
+   "release_date": "2016-04-01",
+   "label": "Sureshaker",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-07-04T00:27:40Z"
+  },
+  {
+   "id": "2k5FoesT1X099NL1wsUgsZ",
+   "title": "Get Money! (feat. Mallrat)",
+   "artists": [
+    "E^ST",
+    "Mallrat"
+   ],
+   "duration_s": 199,
+   "album_id": "0n3YC7WKRbEZsFZ06JOK0I",
+   "release_date": "2016-06-06",
+   "label": "Warner Music Australia Pty Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-07-04T00:30:55Z"
+  },
+  {
+   "id": "3ymIvH70wEVh05CeI6rOro",
+   "title": "Make Them Wheels Roll",
+   "artists": [
+    "SAFIA"
+   ],
+   "duration_s": 246,
+   "album_id": "4OgEMOzHdOdd7f4kt99mnl",
+   "release_date": "2016-03-04",
+   "label": "Warner Music Australia Pty Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-07-05T02:09:12Z"
+  },
+  {
+   "id": "54fgVvj2y9fTTgEUK95CZN",
+   "title": "Sunshine",
+   "artists": [
+    "Flight Facilities",
+    "Reggie Watts"
+   ],
+   "duration_s": 265,
+   "album_id": "3Jcgj3nUTrd6O8grfcJFLE",
+   "release_date": "2014-10-24",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-07-07T01:38:01Z"
+  },
+  {
+   "id": "2Uu7xInCLYm2pgjNhBw909",
+   "title": "Common Emotion (feat. MNEK) - The Golden Pony Remix",
+   "artists": [
+    "Rudimental",
+    "MNEK",
+    "The Golden Pony"
+   ],
+   "duration_s": 252,
+   "album_id": "2FA9nxa3KLuiYtkoZj6WPd",
+   "release_date": "2016-03-25",
+   "label": "Asylum Records UK, a division of Atlantic Records UK. A Warner Music Group company",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-07-08T00:53:59Z"
+  },
+  {
+   "id": "4CKbDMJTJokYsUvIVrvCqb",
+   "title": "Embracing Me",
+   "artists": [
+    "SAFIA"
+   ],
+   "duration_s": 231,
+   "album_id": "7kFnLUSpWoPAPiNswZYw7l",
+   "release_date": "2015-07-10",
+   "label": "Warner Music Australia Pty Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-08-17T22:35:40Z"
+  },
+  {
+   "id": "6HsbMH5Bgkp4QgAp7MVZ8z",
+   "title": "For What It's Worth (feat. Angus & Julia Stone)",
+   "artists": [
+    "Kygo",
+    "Angus & Julia Stone"
+   ],
+   "duration_s": 183,
+   "album_id": "0uMIzWh1uEpHEBell4rlF8",
+   "release_date": "2016-05-13",
+   "label": "Kygo under exclusive license to Sony Music Entertainment International Ltd / Ultra Records, LLC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-10-06T01:59:39Z"
+  },
+  {
+   "id": "5Ldkz9SwI7nkAAunQld3aF",
+   "title": "Sonnenkind - MÖWE Remix",
+   "artists": [
+    "MÖWE",
+    "Charlie Boulala"
+   ],
+   "duration_s": 383,
+   "album_id": "2hjDhLZ7Nju244X6mpPIym",
+   "release_date": "2013-01-01",
+   "label": "Crosswalk",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-10-19T19:37:21Z"
+  },
+  {
+   "id": "5RWMlD6s4i8fECJkDvdt7D",
+   "title": "Closer",
+   "artists": [
+    "Lemaitre",
+    "Jennie A."
+   ],
+   "duration_s": 272,
+   "album_id": "0bBmdFUiNNkE7ZbiEiAziZ",
+   "release_date": "2015-06-30",
+   "label": "Astralwerks",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2016-10-21T03:44:53Z"
+  },
+  {
+   "id": "4bhZAoj1dWP3zcxV25QKNa",
+   "title": "Be Here",
+   "artists": [
+    "Duke Dumont"
+   ],
+   "duration_s": 316,
+   "album_id": "2qUVXfZWHgZBCvm6QuPldS",
+   "release_date": "2016-08-05",
+   "label": "Adam Dyment, under exclusive licence to Virgin EMI, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-01-31T03:22:28Z"
+  },
+  {
+   "id": "0DQEvC22c60Hk0nHTXVRSY",
+   "title": "Bloom",
+   "artists": [
+    "ODESZA"
+   ],
+   "duration_s": 196,
+   "album_id": "7eq7Um3f3NMlHuNQSpicsz",
+   "release_date": "2014-09-04",
+   "label": "Counter Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-01-31T03:22:36Z"
+  },
+  {
+   "id": "2CylUcZGI81nhek3kJQkJ3",
+   "title": "Those Days",
+   "artists": [
+    "KAASI"
+   ],
+   "duration_s": 320,
+   "album_id": "3NeynrdysMtEJoSn0ESyYE",
+   "release_date": "2015-06-02",
+   "label": "ANNOA Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-01-31T03:22:46Z"
+  },
+  {
+   "id": "4Ri3oheN4pPHSea0IRqSLY",
+   "title": "Heartbeat (feat. Nathan Nicholson)",
+   "artists": [
+    "Claptone"
+   ],
+   "duration_s": 330,
+   "album_id": "5FKY3IRWnaSMTWAOJdEjcM",
+   "release_date": "2015-10-16",
+   "label": "Different Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-01-31T03:22:55Z"
+  },
+  {
+   "id": "33htp89ONduEbmetaoLSme",
+   "title": "You Can't Hide from Yourself",
+   "artists": [
+    "Teddy Pendergrass"
+   ],
+   "duration_s": 246,
+   "album_id": "1O3hSAyzAbaEyCxQPWlqQ2",
+   "release_date": "1977",
+   "label": "Assorted Music, Inc. d/b/a Philadelphia International Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-01-31T03:23:21Z"
+  },
+  {
+   "id": "5SAx8D5am4Beq16AsSPyb4",
+   "title": "Hey Now",
+   "artists": [
+    "London Grammar"
+   ],
+   "duration_s": 201,
+   "album_id": "6oL2G6TgAo3mq4O2i6n2JI",
+   "release_date": "2013-01-01",
+   "label": "Metal & Dust Recordings Ltd, under exclusive license by Dew Process/Universal Music Australia Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-02-02T21:56:56Z"
+  },
+  {
+   "id": "4auZhbHhgbiSMeh0kiHCRk",
+   "title": "Say My Name",
+   "artists": [
+    "ODESZA",
+    "Zyra"
+   ],
+   "duration_s": 263,
+   "album_id": "7eq7Um3f3NMlHuNQSpicsz",
+   "release_date": "2014-09-04",
+   "label": "Counter Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-02-03T14:28:03Z"
+  },
+  {
+   "id": "2gpytjWqJVE3LICibhEUaK",
+   "title": "Treasured Soul - Radio Edit",
+   "artists": [
+    "Michael Calfan"
+   ],
+   "duration_s": 178,
+   "album_id": "2EQnAJqa6iRpzbepnN0yEf",
+   "release_date": "2015-02-18",
+   "label": "Spinnin Records BV under exclusive licence to Warner Music UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-04-02T02:48:18Z"
+  },
+  {
+   "id": "4jwUBgENtGb2uTgPhw9fW0",
+   "title": "Nothing Stopping Me (Oli Hanson Remix) [feat. Kat Nestel]",
+   "artists": [
+    "Vicetone",
+    "Kat Nestel"
+   ],
+   "duration_s": 187,
+   "album_id": "0n1SkhfqMtEQRI4ahhvVyO",
+   "release_date": "2015-09-11",
+   "label": "Vicetone Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-04-02T02:48:26Z"
+  },
+  {
+   "id": "64dkTKKNLwbjBuU4xnS2ei",
+   "title": "Games Continued (feat. Marie Plassard) - Radio Edit",
+   "artists": [
+    "Bakermat",
+    "GoldFish",
+    "Marie Plassard"
+   ],
+   "duration_s": 204,
+   "album_id": "0uCoaNdQ32ZMk0XJXYGI4Y",
+   "release_date": "2016-02-05",
+   "label": "B1 Recordings GmbH, a Sony Music Entertainment company under exclusive license from Be Yourself Catalogue B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-05-29T07:41:23Z"
+  },
+  {
+   "id": "143Lzl9x5wkveE71YQb3N7",
+   "title": "Innerbloom - Radio Edit",
+   "artists": [
+    "RÜFÜS DU SOL"
+   ],
+   "duration_s": 238,
+   "album_id": "5TPCncDnL52PkzrcBGZx3J",
+   "release_date": "2016-09-30",
+   "label": "Sweat It Out Music! Distributed in Australia & New Zealand by Sony Music Entertainment Australia Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-08-02T23:47:51Z"
+  },
+  {
+   "id": "7CNRVEMSXo0fRJwZyM0L2n",
+   "title": "Hometown Girl",
+   "artists": [
+    "ZHU"
+   ],
+   "duration_s": 252,
+   "album_id": "6Xhb46t8f3z8FkuXQAj4UV",
+   "release_date": "2016-07-29",
+   "label": "Columbia Records, a Division of Sony Music Entertainment",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-08-02T23:49:09Z"
+  },
+  {
+   "id": "4pwVjkJKNnFVUnJJWkyIPW",
+   "title": "Come Fly Away - KANT Remix",
+   "artists": [
+    "Maverick Sabre",
+    "KANT"
+   ],
+   "duration_s": 392,
+   "album_id": "044nh9qdLmq8xxNR55Je3y",
+   "release_date": "2015-12-04",
+   "label": "Mercury Records Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-09-13T05:13:37Z"
+  },
+  {
+   "id": "13W1gm27facLk17drkH4jQ",
+   "title": "Bright Eyes, Dirty Hair",
+   "artists": [
+    "Lake Powel"
+   ],
+   "duration_s": 494,
+   "album_id": "2S82waAV3yyCCKsD9KcLkA",
+   "release_date": "2012-09-14",
+   "label": "fenou",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-09-14T17:13:10Z"
+  },
+  {
+   "id": "0psrSwsDcH2R2xzMSO4wxo",
+   "title": "On the Beach - Short Edit",
+   "artists": [
+    "Nora En Pure"
+   ],
+   "duration_s": 211,
+   "album_id": "4rntQwFlC83iKJ6uQaC2eI",
+   "release_date": "2016-07-04",
+   "label": "Enormous Tunes, A Division Of GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-10-06T08:42:46Z"
+  },
+  {
+   "id": "63sY25l01xtT4yiFKqS7n1",
+   "title": "Lonely Boy",
+   "artists": [
+    "The Avener"
+   ],
+   "duration_s": 244,
+   "album_id": "6dUvmAyjqJv11TAWNoxsBP",
+   "release_date": "2015-02-20",
+   "label": "96 Musique, Under exclusive licence to Capitol Music France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-11-19T02:22:06Z"
+  },
+  {
+   "id": "4IQgbTjXZfINWOS5TKL6T0",
+   "title": "To Let Myself Go",
+   "artists": [
+    "The Avener",
+    "Ane Brun"
+   ],
+   "duration_s": 254,
+   "album_id": "6dUvmAyjqJv11TAWNoxsBP",
+   "release_date": "2015-02-20",
+   "label": "96 Musique, Under exclusive licence to Capitol Music France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-11-19T02:22:14Z"
+  },
+  {
+   "id": "0XJxz1eTq9ceNyUmOlD7Hl",
+   "title": "Liberation - Extended Mix",
+   "artists": [
+    "Harold van Lennep"
+   ],
+   "duration_s": 266,
+   "album_id": "2B8lEl4nUDscMCFAJl5fq6",
+   "release_date": "2014-06-19",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-11-20T06:32:02Z"
+  },
+  {
+   "id": "6KEsl67me4YM6pgwX4PS72",
+   "title": "Outta Here",
+   "artists": [
+    "Two Can"
+   ],
+   "duration_s": 228,
+   "album_id": "1W4zIobHBQXa6yw3uyyRob",
+   "release_date": "2017-04-21",
+   "label": "Two Can Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2017-12-18T08:08:19Z"
+  },
+  {
+   "id": "7JXQuXWam9QELDj1mOhS3w",
+   "title": "Wicked Winds",
+   "artists": [
+    "Mazde"
+   ],
+   "duration_s": 232,
+   "album_id": "5MKW5NnAxdudAR48TgCJpo",
+   "release_date": "2016-11-18",
+   "label": "Buttermilk",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-02-16T14:39:01Z"
+  },
+  {
+   "id": "7orgljr0C4GHS6n8c0ewLi",
+   "title": "Forest of Gold",
+   "artists": [
+    "Mazde"
+   ],
+   "duration_s": 251,
+   "album_id": "4GL5TccKaD3rJQp3boQ8gf",
+   "release_date": "2014-10-17",
+   "label": "Buttermilk",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-03-08T12:31:55Z"
+  },
+  {
+   "id": "1xnes1lPrnFADq4jSkmeKJ",
+   "title": "Blue Sky Action - EDX's Indian Summer Remix",
+   "artists": [
+    "Above & Beyond",
+    "Alex Vargas",
+    "EDX"
+   ],
+   "duration_s": 309,
+   "album_id": "2rtKwVmJBEi8OZ6ORhnuPV",
+   "release_date": "2014-09-28",
+   "label": "Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-03-28T21:51:14Z"
+  },
+  {
+   "id": "6R1ArLLvqPvS3AHg9YgmrQ",
+   "title": "True Feeling",
+   "artists": [
+    "Galantis"
+   ],
+   "duration_s": 240,
+   "album_id": "7DNmxxEuJe19wNVrinaXx4",
+   "release_date": "2017-09-15",
+   "label": "Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United Stat",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-04-01T05:21:48Z"
+  },
+  {
+   "id": "1UTezB7YYwldJ7DK1iPDXf",
+   "title": "Everyday My Life",
+   "artists": [
+    "LVNDSCAPE"
+   ],
+   "duration_s": 196,
+   "album_id": "4Qqpzs4AuKFMtzoy35ZQEn",
+   "release_date": "2016-08-12",
+   "label": "SpinninRecords.com",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-04-01T05:22:04Z"
+  },
+  {
+   "id": "7r5lF3RJeOo5CCDZStBrZf",
+   "title": "4AM",
+   "artists": [
+    "Vessels"
+   ],
+   "duration_s": 395,
+   "album_id": "2pa73V4e5X67c4aUMGkihE",
+   "release_date": "2016-04-01",
+   "label": "Vessels Ltd under exclusive license to Different Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-05-12T07:03:10Z"
+  },
+  {
+   "id": "2NDZ6i6UfOUSKgFiTQKbnv",
+   "title": "My Life",
+   "artists": [
+    "ZHU",
+    "Tame Impala"
+   ],
+   "duration_s": 294,
+   "album_id": "7mjgGNr0d9YXywp7luOqHh",
+   "release_date": "2018-03-05",
+   "label": "Mind of a Genius",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-05-12T14:51:54Z"
+  },
+  {
+   "id": "28u92L77wqbWYXMnw0nPIW",
+   "title": "Blurred",
+   "artists": [
+    "Kiasmos"
+   ],
+   "duration_s": 306,
+   "album_id": "38eOsz4hCaXPmDD0zua42L",
+   "release_date": "2017-08-15",
+   "label": "Erased Tapes",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-05-26T06:35:20Z"
+  },
+  {
+   "id": "11BAVEGi1ivJ6JWLqKUNrZ",
+   "title": "Catch & Release - Deepend Remix",
+   "artists": [
+    "Matt Simons",
+    "Deepend"
+   ],
+   "duration_s": 195,
+   "album_id": "58QMygeIUrtywKMkasnDUk",
+   "release_date": "2015-09-30",
+   "label": "Maspeth Music BV, under exclusive license to Republic Records, a division of UMG Recordings, Inc. (Eddie O Ent.)",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-08-13T08:01:58Z"
+  },
+  {
+   "id": "3nljQygQZvUTEpiVwAkIa0",
+   "title": "On Trees And Birds And Fire - Sam Feldt & Bloombox Remix Edit",
+   "artists": [
+    "I Am Oak",
+    "Bloombox",
+    "Sam Feldt"
+   ],
+   "duration_s": 178,
+   "album_id": "5qRo5QLmNjDRZlkXx6p17i",
+   "release_date": "2014-09-01",
+   "label": "Spinnin'Deep / SpinninRecords.com",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-08-28T07:57:04Z"
+  },
+  {
+   "id": "4ZAD9GzfwZH1ctLfi0mK2I",
+   "title": "Bleu",
+   "artists": [
+    "Worakls"
+   ],
+   "duration_s": 466,
+   "album_id": "5KlMusswYpczLK4vMomIQX",
+   "release_date": "2013-08-09",
+   "label": "Parquet Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-10-02T22:58:20Z"
+  },
+  {
+   "id": "3x63A5hq4vldKE8hWIi1tE",
+   "title": "Woke up in Bangkok",
+   "artists": [
+    "Deepend",
+    "YouNotUs",
+    "Martin Gallop"
+   ],
+   "duration_s": 169,
+   "album_id": "3wTF7jBER1wfpq8C6SZmgh",
+   "release_date": "2018-05-18",
+   "label": "Raison Music, a division of Guesstimate",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2018-10-31T18:37:13Z"
+  },
+  {
+   "id": "6qdDpbBw84WvSOtehKYFDd",
+   "title": "Himalaya",
+   "artists": [
+    "LVNDSCAPE"
+   ],
+   "duration_s": 264,
+   "album_id": "37cqgOCaVpUq7INZxzMlMW",
+   "release_date": "2016-09-02",
+   "label": "SpinninRecords.com",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2019-01-01T04:44:03Z"
+  },
+  {
+   "id": "1ubVPccf8Vb9mL0XYpVpCV",
+   "title": "Fade Out Lines - The Avener Rework",
+   "artists": [
+    "The Avener",
+    "Phoebe Killdeer"
+   ],
+   "duration_s": 277,
+   "album_id": "6dUvmAyjqJv11TAWNoxsBP",
+   "release_date": "2015-02-20",
+   "label": "96 Musique, Under exclusive licence to Capitol Music France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2019-01-01T16:18:56Z"
+  },
+  {
+   "id": "0MCZksPtemC2ZTS8yzKnrr",
+   "title": "Holdin' On",
+   "artists": [
+    "Pascal Junior"
+   ],
+   "duration_s": 383,
+   "album_id": "6Tv0jFuoYhmeWXceFQG0gf",
+   "release_date": "2017-11-29",
+   "label": "Ultra Records, LLC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2019-01-11T16:59:16Z"
+  },
+  {
+   "id": "1jri87kDjYUER3X7pHP3US",
+   "title": "The Legacy",
+   "artists": [
+    "MYNGA"
+   ],
+   "duration_s": 184,
+   "album_id": "7BTrty75Fc4dbEkjL1ldmf",
+   "release_date": "2017-03-24",
+   "label": "One of Us Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2019-11-10T02:14:46Z"
+  },
+  {
+   "id": "2qRWNDee5Hfi6DFjfiu58c",
+   "title": "Know Some",
+   "artists": [
+    "Vandelux"
+   ],
+   "duration_s": 312,
+   "album_id": "4iFbE2fIQuFhYa3QsrTtXc",
+   "release_date": "2019-07-25",
+   "label": "Polk Street Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-01-21T04:29:38Z"
+  },
+  {
+   "id": "4DU9rzgRaYPDrdrWieP5Ko",
+   "title": "Want You In My Soul - Club Mix",
+   "artists": [
+    "Lovebirds",
+    "Stee Downes"
+   ],
+   "duration_s": 498,
+   "album_id": "0dGZWAxekPJ2FHbZBQubHx",
+   "release_date": "2015-03-30",
+   "label": "Winding Road Records, under exclusive licence to Island Records, a division of Universal Music Operations Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-02-29T17:47:14Z"
+  },
+  {
+   "id": "3BBHRu7z6JetC5R8Ow3E4U",
+   "title": "Need You - Radio Mix",
+   "artists": [
+    "Sons Of Maria"
+   ],
+   "duration_s": 166,
+   "album_id": "7MjQzM2Y2SurbshRNQAyID",
+   "release_date": "2014-05-26",
+   "label": "Enormous Tunes, A Division Of GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-04-06T04:35:21Z"
+  },
+  {
+   "id": "4nlvKIIetOWGIMyhjQXgOZ",
+   "title": "The Difference",
+   "artists": [
+    "Flume",
+    "Toro y Moi"
+   ],
+   "duration_s": 140,
+   "album_id": "3QgFzksD4J43TnGIJOOrRV",
+   "release_date": "2020-03-11",
+   "label": "Future Classic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-04-17T11:34:02Z"
+  },
+  {
+   "id": "0GSU6yLOJqO10ziQuBLWOE",
+   "title": "One Day (Vandaag) - Radio Edit",
+   "artists": [
+    "Bakermat"
+   ],
+   "duration_s": 219,
+   "album_id": "1N00DzAsGJbOqUgITlQUxU",
+   "release_date": "2014-03-14",
+   "label": "B1 Recordings GmbH, a Sony Music Entertainment Company",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-05-14T06:06:48Z"
+  },
+  {
+   "id": "0PlfrExI5Jal0x6d7DMam5",
+   "title": "Grow - Kidnap Dub",
+   "artists": [
+    "Kidnap",
+    "Leo Stannard"
+   ],
+   "duration_s": 239,
+   "album_id": "2SDHfha3SMTWjBeOVE9YCh",
+   "release_date": "2019-09-20",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2020-08-14T05:27:59Z"
+  },
+  {
+   "id": "0DfyZltoqIjthHmyowoL0i",
+   "title": "Aspiration",
+   "artists": [
+    "MEHÍLOVE"
+   ],
+   "duration_s": 395,
+   "album_id": "6Hzx1Fnh6tsGXFxvdHcM8K",
+   "release_date": "2020-04-24",
+   "label": "Silk Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-01-22T06:00:28Z"
+  },
+  {
+   "id": "7aRGb3vZGMLNpK2PEdUjdA",
+   "title": "He Got Game",
+   "artists": [
+    "Public Enemy",
+    "Stephen Stills"
+   ],
+   "duration_s": 286,
+   "album_id": "265OEkRcX40ppxgHGuu4cI",
+   "release_date": "1998-04-21",
+   "label": "The Island Def Jam Music Group",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-01-22T10:01:47Z"
+  },
+  {
+   "id": "51AXsgpHP8R1QWzFZRWZJk",
+   "title": "For the People",
+   "artists": [
+    "Nesian Mystik"
+   ],
+   "duration_s": 194,
+   "album_id": "6HZlLnjU5CzMyFgCkdIqrF",
+   "release_date": "2002-01-01",
+   "label": "Bounce Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-02-28T07:48:55Z"
+  },
+  {
+   "id": "1iMOlA78LDd12ZHhuBNDh6",
+   "title": "Thinking of You",
+   "artists": [
+    "Lord Echo"
+   ],
+   "duration_s": 421,
+   "album_id": "321yVLOxEIaALmZVvVxYzD",
+   "release_date": "2010-12-06",
+   "label": "Soundway Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-15T08:56:48Z"
+  },
+  {
+   "id": "2rvsMBNzzIgp1bd9AXANu7",
+   "title": "Treat You Better",
+   "artists": [
+    "RÜFÜS DU SOL"
+   ],
+   "duration_s": 274,
+   "album_id": "7o06GNJMwRUWC15bK4wmVT",
+   "release_date": "2018-10-19",
+   "label": "RÜFÜS DU SOL",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-15T09:08:25Z"
+  },
+  {
+   "id": "5JIYwUnUPkpbAln3ZqjSsa",
+   "title": "Bullit",
+   "artists": [
+    "Watermät"
+   ],
+   "duration_s": 427,
+   "album_id": "3tysTvJAfaNmJ19WQeuF4O",
+   "release_date": "2014-01-01",
+   "label": "Polydor Ltd. (UK)",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-15T10:04:43Z"
+  },
+  {
+   "id": "2Rs0skCIDXUFnDacEfzyKZ",
+   "title": "Blk & Blu",
+   "artists": [
+    "Chase & Status",
+    "Ed Thomas"
+   ],
+   "duration_s": 320,
+   "album_id": "34Pxr45ESaUvUvqD7LPVZD",
+   "release_date": "2013-01-01",
+   "label": "Chase & Status, under exclusive licence to Mercury Records Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-16T01:02:11Z"
+  },
+  {
+   "id": "35N6vLbB8EPnWrAXPXi3QT",
+   "title": "It's Not Enough",
+   "artists": [
+    "Dusky",
+    "Janai"
+   ],
+   "duration_s": 410,
+   "album_id": "5C4sHl92Z43ipKMgZ5jlcm",
+   "release_date": "2011-11-14",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-16T01:02:28Z"
+  },
+  {
+   "id": "0pAZJEKmhJZPYGBgm1tDVn",
+   "title": "White Dress - Extended",
+   "artists": [
+    "Set Mo",
+    "Deutsch Duke"
+   ],
+   "duration_s": 325,
+   "album_id": "3pDlB7WSqOpzlR2NLDdrFy",
+   "release_date": "2015-04-10",
+   "label": "etcetc Music Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-16T01:02:46Z"
+  },
+  {
+   "id": "3nPd8hPudLShjM3rgsHYRM",
+   "title": "Night Tales",
+   "artists": [
+    "Bross (RO)",
+    "VICTHOR"
+   ],
+   "duration_s": 422,
+   "album_id": "3euhzUoPnyiNLlpaw3IV1i",
+   "release_date": "2019-08-09",
+   "label": "All Day I Dream",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-16T22:52:52Z"
+  },
+  {
+   "id": "4PqD4wAf77OxpAiOODf1Rg",
+   "title": "Ashes in the Wind",
+   "artists": [
+    "Sébastien Léger"
+   ],
+   "duration_s": 604,
+   "album_id": "1aZ3SBhJnP4B8G4gQ65fT1",
+   "release_date": "2020-02-28",
+   "label": "All Day I Dream",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-17T00:55:41Z"
+  },
+  {
+   "id": "248CYIX8Y5f8U7J4guhtvr",
+   "title": "Comfort You - Extended Mix",
+   "artists": [
+    "Set Mo",
+    "Fractures"
+   ],
+   "duration_s": 312,
+   "album_id": "5mJcIuRBU1osrBzMDexmVP",
+   "release_date": "2016-05-24",
+   "label": "etcetc Music Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-17T00:55:57Z"
+  },
+  {
+   "id": "0SbDNXZYqfsMarINcb72X5",
+   "title": "Beyond Beliefs",
+   "artists": [
+    "Ben Böhmer"
+   ],
+   "duration_s": 314,
+   "album_id": "5bjamshqsgnOFuEktHNKru",
+   "release_date": "2021-07-07",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-07-17T00:56:18Z"
+  },
+  {
+   "id": "1ouUKlviYOWl5yOi3dUcAJ",
+   "title": "Fire Walk",
+   "artists": [
+    "YOTTO"
+   ],
+   "duration_s": 304,
+   "album_id": "3OkJZf2ekMrxX3zMGSD6AY",
+   "release_date": "2016-11-25",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2021-08-05T23:55:36Z"
+  },
+  {
+   "id": "2SCLswvRP8hAYdIKsrLV6h",
+   "title": "The Finishing",
+   "artists": [
+    "Stavroz"
+   ],
+   "duration_s": 483,
+   "album_id": "0cGZbzIbVOXPRr3eBA9ZLJ",
+   "release_date": "2015-01-01",
+   "label": "Délicieuse Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-01-30T02:34:18Z"
+  },
+  {
+   "id": "4V5qPm2ENO3BbPNTiltkfF",
+   "title": "There For Me - Amonita Extended Mix",
+   "artists": [
+    "Marsh",
+    "Amonita"
+   ],
+   "duration_s": 469,
+   "album_id": "3nyZUTQXOsA6KbMkUVXXhR",
+   "release_date": "2021-01-27",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-02-08T07:44:40Z"
+  },
+  {
+   "id": "482orWhvmr6K2fj6Bxkvjp",
+   "title": "To You - Chill Mix",
+   "artists": [
+    "Taiki Nulight",
+    "Jem Cooke"
+   ],
+   "duration_s": 211,
+   "album_id": "1etFABBfm75a4zNvHT7bKW",
+   "release_date": "2021-03-19",
+   "label": "Cr2 Records Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-02-09T04:57:16Z"
+  },
+  {
+   "id": "6VItPBZ0fchgQTxgJI50m8",
+   "title": "Super Flu 3 < Isaac",
+   "artists": [
+    "Super Flu"
+   ],
+   "duration_s": 507,
+   "album_id": "0NTx7EWDD4EUbo207LrJMW",
+   "release_date": "2013-06-28",
+   "label": "Clubstar",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-03-02T21:31:29Z"
+  },
+  {
+   "id": "2lFgEmYUYrQBIeyqVLcQgX",
+   "title": "Heavy - Icarus Extended Remix",
+   "artists": [
+    "Bow Anderson",
+    "Icarus"
+   ],
+   "duration_s": 315,
+   "album_id": "6Z8zzgW7LmquoFLKMP7yiy",
+   "release_date": "2020-07-31",
+   "label": "BSW Music Limited, under exclusive license to Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-03-19T03:41:28Z"
+  },
+  {
+   "id": "3cY2nHVVX2ZER1ttxGzLav",
+   "title": "Fisher",
+   "artists": [
+    "Camel Power Club"
+   ],
+   "duration_s": 325,
+   "album_id": "6Vn9Qabk9ADw96OSmx83R6",
+   "release_date": "2019-01-11",
+   "label": "Bramar Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-04-12T00:18:35Z"
+  },
+  {
+   "id": "2tIv3DITNBTTayAM6Rewqi",
+   "title": "And We Knew It Was Our Time",
+   "artists": [
+    "Lane 8",
+    "Massane"
+   ],
+   "duration_s": 563,
+   "album_id": "1Qx4huHXc6oY2gE5X6V7hS",
+   "release_date": "2020-08-27",
+   "label": "This Never Happened",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-06-15T08:56:06Z"
+  },
+  {
+   "id": "2IA4VclVqexM3FFRF5ihXF",
+   "title": "Muse Of Mine - Mixed",
+   "artists": [
+    "Westseven",
+    "Ross Farren"
+   ],
+   "duration_s": 287,
+   "album_id": "0UadfyD6H5G4fnb6kjpV6M",
+   "release_date": "2022-03-25",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-06-15T08:56:23Z"
+  },
+  {
+   "id": "4d2Gndzn9dnmUC8jIzI9d4",
+   "title": "Time - feat. Jules Buckley",
+   "artists": [
+    "Tale Of Us",
+    "Pete Tong",
+    "Jules Buckley"
+   ],
+   "duration_s": 311,
+   "album_id": "77wNbVUueAga2P28GqHovW",
+   "release_date": "2021-10-08",
+   "label": "Under Exclusive Licence to Ministry of Sound Recordings Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-07-01T20:51:19Z"
+  },
+  {
+   "id": "1hgX0ZmmP7IRRjUFCIBrnQ",
+   "title": "Feel Your Weight - Poolside Remix",
+   "artists": [
+    "Rhye",
+    "Poolside"
+   ],
+   "duration_s": 310,
+   "album_id": "1AvkRISSdzC7cq7eLoS5w1",
+   "release_date": "2018-11-16",
+   "label": "Loma Vista Recordings, A Concord Label Group Release.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-07-23T05:24:11Z"
+  },
+  {
+   "id": "5MTfg2X92IaMysF4rsv6DY",
+   "title": "Roll the Dice (Radio Edit) - Urban Contact Remix",
+   "artists": [
+    "Dawa",
+    "Urban Contact"
+   ],
+   "duration_s": 191,
+   "album_id": "19fIsoJZ8TL6IThhrhHfeI",
+   "release_date": "2014",
+   "label": "LasVegas Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-07-29T07:53:11Z"
+  },
+  {
+   "id": "7kKECBsO5HseLZUPlJSWoW",
+   "title": "Us",
+   "artists": [
+    "Nora En Pure"
+   ],
+   "duration_s": 165,
+   "album_id": "6RhM26ZvicDiZbdQPEDAdt",
+   "release_date": "2022-04-22",
+   "label": "Enormous Tunes, A Division Of GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-09-11T13:29:21Z"
+  },
+  {
+   "id": "2Tp9hQdu1sklAlbRrm2DGM",
+   "title": "Shivers - Tiaem Remix",
+   "artists": [
+    "Levasseur",
+    "TIAEM"
+   ],
+   "duration_s": 275,
+   "album_id": "1cUeSsujm5sDS7JmsdRCvv",
+   "release_date": "2022-08-08",
+   "label": "Enormous Vision, A Division Of GNKP Goodnight Kiss Productions GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2022-10-08T02:20:48Z"
+  },
+  {
+   "id": "3jXgTAxKG8IbnzxJxaW7lw",
+   "title": "Vale",
+   "artists": [
+    "BICEP"
+   ],
+   "duration_s": 297,
+   "album_id": "3pMH4AwOjRFSW5L2FoDgbj",
+   "release_date": "2017-08-24",
+   "label": "Ninja Tune",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-01-02T07:55:04Z"
+  },
+  {
+   "id": "7CuXB3Dr61IvDFEWfqG3sE",
+   "title": "More",
+   "artists": [
+    "Jan Blomqvist",
+    "Elena Pitoulis"
+   ],
+   "duration_s": 217,
+   "album_id": "7DAyAlObwl5f8mcrqFCeWm",
+   "release_date": "2016-02-05",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-01-02T07:57:28Z"
+  },
+  {
+   "id": "0qa1IOTxhwmfUPSVOqVgiM",
+   "title": "The Rope (feat. POLIÇA) - Anderholm Remix",
+   "artists": [
+    "Lane 8",
+    "Anderholm"
+   ],
+   "duration_s": 336,
+   "album_id": "3V1XuaywmPel3z1iw4tAfY",
+   "release_date": "2020-03-05",
+   "label": "This Never Happened",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-01-02T07:57:44Z"
+  },
+  {
+   "id": "2S5Ddttb7db90WNDde1UJx",
+   "title": "Home",
+   "artists": [
+    "Klangkarussell"
+   ],
+   "duration_s": 225,
+   "album_id": "5lPsz3CMDz5KTYCqvTmagD",
+   "release_date": "2021-05-27",
+   "label": "Bias Beach Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-02-04T02:01:10Z"
+  },
+  {
+   "id": "1iGZ9C0IXDk0qoVHMTDgXI",
+   "title": "Dayhunter - Harold van Lennep Remix",
+   "artists": [
+    "Rhythm Masters",
+    "Klangfabrik",
+    "Harold van Lennep"
+   ],
+   "duration_s": 181,
+   "album_id": "7GarpwxL76cpB14fOwo7ME",
+   "release_date": "2018-03-19",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-02-19T07:09:49Z"
+  },
+  {
+   "id": "6FOOwpGF5GLCotjnic8evC",
+   "title": "SWIM - ford. Remix",
+   "artists": [
+    "Mild Minds",
+    "ford."
+   ],
+   "duration_s": 212,
+   "album_id": "1TgGIBh9vR7h9s4fIe6SnW",
+   "release_date": "2020-09-25",
+   "label": "Foreign Family Collective under exclusive license to Counter Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-02-22T07:59:33Z"
+  },
+  {
+   "id": "2tFwzcCV32MZeDAvJPstur",
+   "title": "Early Bird - Sasha Kaktus Remix",
+   "artists": [
+    "Jerome Noak Feat. Sax&apos;n&apos;house"
+   ],
+   "duration_s": 421,
+   "album_id": "2091y5V1qoeklcDzWLR4bP",
+   "release_date": "2011-12-05",
+   "label": "Tronic Soundz",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-04-09T10:03:53Z"
+  },
+  {
+   "id": "40UlFC0dIxv7lAEJaPZLnm",
+   "title": "Alone in Kyoto",
+   "artists": [
+    "Air"
+   ],
+   "duration_s": 291,
+   "album_id": "0hQOqvZv1nQvPiBjzyn363",
+   "release_date": "2004-01-26",
+   "label": "Source, a division of Parlophone Music France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-05-22T03:51:56Z"
+  },
+  {
+   "id": "6w6ZQaYwK6yzBqjQ9vHzFK",
+   "title": "Longing - Short Version",
+   "artists": [
+    "Blindsmyth"
+   ],
+   "duration_s": 292,
+   "album_id": "3oVjcaDGaKXxvlsJeVpU3b",
+   "release_date": "2019-07-05",
+   "label": "Diynamic Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-06-18T04:59:35Z"
+  },
+  {
+   "id": "1GHOLip5jcgRIBqd8QUx7N",
+   "title": "Believer - Marsh's Guatape Remix",
+   "artists": [
+    "Above & Beyond",
+    "Marsh"
+   ],
+   "duration_s": 256,
+   "album_id": "7GGVUzqEZQFwbHsBO3Fzam",
+   "release_date": "2022-01-06",
+   "label": "Cercle under exclusive licence from Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-08-08T22:19:07Z"
+  },
+  {
+   "id": "5GdKP4ArXep4kyTgVkwunS",
+   "title": "KNOW ME",
+   "artists": [
+    "BRONSON",
+    "ODESZA",
+    "Golden Features",
+    "Gallant"
+   ],
+   "duration_s": 180,
+   "album_id": "0Z78pMtq563O6ApUA2xum1",
+   "release_date": "2020-08-07",
+   "label": "Bronson LLC, under exclusive licence to Warner Music Australia Pty Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-09-14T17:27:37Z"
+  },
+  {
+   "id": "6iAOKNXA0JUWxFBwzugcsH",
+   "title": "Shipwreck",
+   "artists": [
+    "Klangkarussell"
+   ],
+   "duration_s": 243,
+   "album_id": "0llItTravRMl6izsF6ADMV",
+   "release_date": "2020-06-24",
+   "label": "Bias Beach Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-09-14T17:27:45Z"
+  },
+  {
+   "id": "0I04jKhqWDv55sRz3LGLzh",
+   "title": "Second Line",
+   "artists": [
+    "Set Mo",
+    "Sumner"
+   ],
+   "duration_s": 252,
+   "album_id": "1urJXJzqJ3JkAz8V1kiZUO",
+   "release_date": "2023-02-09",
+   "label": "High Vibrations Recordings Pty Ltd, under exclusive license to AWAL Recordings Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-09-18T18:24:23Z"
+  },
+  {
+   "id": "1NJH4ROnDMzFuFDGLsDo4S",
+   "title": "White Flag",
+   "artists": [
+    "Romain Garcia"
+   ],
+   "duration_s": 198,
+   "album_id": "6fBl7RMVGNMylLOSwZJ7QF",
+   "release_date": "2021-01-08",
+   "label": "Ton Töpferei",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-10-30T01:49:40Z"
+  },
+  {
+   "id": "2lraO4YutU0N07ZXiFXHwz",
+   "title": "The Last Ones Standing",
+   "artists": [
+    "Tep No"
+   ],
+   "duration_s": 208,
+   "album_id": "7vnHu5NyRZEXwfbEZnq8xb",
+   "release_date": "2021-04-12",
+   "label": "Tep No Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-11-20T22:13:45Z"
+  },
+  {
+   "id": "02JRU5lHhypYRUKlF4mw8o",
+   "title": "Turning Away - Parra for Cuva Remix",
+   "artists": [
+    "Monolink",
+    "Parra for Cuva"
+   ],
+   "duration_s": 262,
+   "album_id": "1lIxiDKxX65zzDz9J1UVVs",
+   "release_date": "2023-04-13",
+   "label": "Parra for Cuva under exclusive licence to Cercle Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-12-17T10:12:19Z"
+  },
+  {
+   "id": "78YxzNOYX8D4kcct5G8fcf",
+   "title": "Swept Away",
+   "artists": [
+    "Parra for Cuva",
+    "Anna Naklab"
+   ],
+   "duration_s": 346,
+   "album_id": "51ICSJv35BaLYkYHVKJfkA",
+   "release_date": "2013-05-08",
+   "label": "Parra for Cuva",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-12-17T20:13:19Z"
+  },
+  {
+   "id": "7lX1trm9MEznmmsMIrU3pl",
+   "title": "LoCKeDoWN2",
+   "artists": [
+    "MEUTE"
+   ],
+   "duration_s": 466,
+   "album_id": "6ApclqoXAhb1XxQhP0yYDA",
+   "release_date": "2023-11-29",
+   "label": "TUMULT serviced by NEUBAU Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2023-12-18T06:53:41Z"
+  },
+  {
+   "id": "75uYEu5GZl5VVF1BR0MjHm",
+   "title": "Bakerman - Soul Clap Remix",
+   "artists": [
+    "Laid Back",
+    "Soul Clap"
+   ],
+   "duration_s": 539,
+   "album_id": "57JDNbpsn8SZpDPluZ8EVo",
+   "release_date": "2011-04-25",
+   "label": null,
+   "label_source": null,
+   "added_at": "2024-01-19T05:27:06Z"
+  },
+  {
+   "id": "780be5fB7823aHG06mwTat",
+   "title": "Baianá",
+   "artists": [
+    "Bakermat"
+   ],
+   "duration_s": 181,
+   "album_id": "5pmFI5q0ob82elppBCel0W",
+   "release_date": "2020-10-09",
+   "label": "B1 Recordings GmbH, a Sony Music Entertainment company under exclusive license from Be Yourself Catalogue B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-04-03T20:28:05Z"
+  },
+  {
+   "id": "24CU3VcY0KpF4frH20OY4x",
+   "title": "Parrot Cay",
+   "artists": [
+    "Deep Chills"
+   ],
+   "duration_s": 160,
+   "album_id": "7I50ZlgGYtuzeag3GuR20S",
+   "release_date": "2021-01-22",
+   "label": "Miami Beats, under exclusive license to ATLAST - atlast.fm",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-04-12T01:21:27Z"
+  },
+  {
+   "id": "3perZKNgGD1XlJP4k9jCNY",
+   "title": "Gandalf & Hobbits - Amonita Remix",
+   "artists": [
+    "Talemates",
+    "Amonita"
+   ],
+   "duration_s": 461,
+   "album_id": "4pQRsVK0QlJsx3e7IVc1N4",
+   "release_date": "2022-01-20",
+   "label": "Rubicunda",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-04-19T11:02:58Z"
+  },
+  {
+   "id": "1pJ4Gp5SYdYwJbfBLSJVVA",
+   "title": "The UK Sound - Original Mix",
+   "artists": [
+    "Chunk & Twist"
+   ],
+   "duration_s": 428,
+   "album_id": "4hCgkJjwBJnp4cDUBB8ITf",
+   "release_date": "2007-08-13",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-04-19T11:18:43Z"
+  },
+  {
+   "id": "5MXKzI1r8cjrkoxhNDBJoJ",
+   "title": "Jump - Extended Mix",
+   "artists": [
+    "Levi"
+   ],
+   "duration_s": 254,
+   "album_id": "6RyWbtser6LYefUpnemhIO",
+   "release_date": "2024-03-29",
+   "label": "Get Together Records & Resound Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-04-19T11:21:47Z"
+  },
+  {
+   "id": "0PUepC3WMLlc3FaHI9HBW3",
+   "title": "You're so High",
+   "artists": [
+    "Eli & Fur"
+   ],
+   "duration_s": 325,
+   "album_id": "0CrHXX08nM6ovmzCBWfGXA",
+   "release_date": "2013-07-22",
+   "label": "XRL Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-06-10T12:02:24Z"
+  },
+  {
+   "id": "77aKtsd1ZO94xmQmX671db",
+   "title": "Gratitude - Sébastien Léger Remix",
+   "artists": [
+    "Above & Beyond",
+    "anamē",
+    "Marty Longstaff",
+    "Sébastien Léger"
+   ],
+   "duration_s": 630,
+   "album_id": "4KoMuCqirpAf8ZY0ak8xB5",
+   "release_date": "2022-08-05",
+   "label": "Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-06-29T09:44:42Z"
+  },
+  {
+   "id": "6YSKCz3wvwfRkccFH3AyxG",
+   "title": "Brick Lane",
+   "artists": [
+    "Funk Cartel"
+   ],
+   "duration_s": 373,
+   "album_id": "5rjGJT7RQ1DC1wK2CFjkSk",
+   "release_date": "2019-01-05",
+   "label": "THUNDR",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-07-18T10:03:09Z"
+  },
+  {
+   "id": "5Ocqb8QuiwSfqHHFE7cz4X",
+   "title": "Tied to You",
+   "artists": [
+    "Lipless",
+    "LöKii"
+   ],
+   "duration_s": 224,
+   "album_id": "2NYRONIjh6mVjU25O4V2bn",
+   "release_date": "2022-04-22",
+   "label": "pink pineapple",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-07-19T03:38:29Z"
+  },
+  {
+   "id": "0fp6PDlnCkmdE0F3s0tfr6",
+   "title": "Original Sin",
+   "artists": [
+    "SOFI TUKKER"
+   ],
+   "duration_s": 172,
+   "album_id": "4DB6Xuvp4AlrNRNGRdhdEW",
+   "release_date": "2022-02-04",
+   "label": "Sofi Tukker, LLC under exclusive license to Ultra Records, LLC",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-09T04:42:40Z"
+  },
+  {
+   "id": "1s6Cvc0F0xTc6PBIlpnMgK",
+   "title": "Bloom",
+   "artists": [
+    "Piece Wise",
+    "Abroad"
+   ],
+   "duration_s": 209,
+   "album_id": "3bpIZ07uuvhX5pMTkNVNvf",
+   "release_date": "2022-08-11",
+   "label": "Setting Sail Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-15T05:08:11Z"
+  },
+  {
+   "id": "1gcbDj7nfYolTr09LklGlr",
+   "title": "Water Flow",
+   "artists": [
+    "Klyne"
+   ],
+   "duration_s": 224,
+   "album_id": "4WUzT9TZGfU5sGsAXXjyaG",
+   "release_date": "2017-06-30",
+   "label": "Because Music LC33186",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-15T05:21:34Z"
+  },
+  {
+   "id": "7wwA5QBXfOkeYHzNbbVXtT",
+   "title": "Same Mistake - But Different Remix",
+   "artists": [
+    "Jan Blomqvist"
+   ],
+   "duration_s": 216,
+   "album_id": "59E8RmwnW9IaJx0CmHJOSe",
+   "release_date": "2017-05-19",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-15T05:24:09Z"
+  },
+  {
+   "id": "41P4eKCJGvuWyIqBllKhB8",
+   "title": "The Ocean - Radio Mix",
+   "artists": [
+    "Max Manie"
+   ],
+   "duration_s": 230,
+   "album_id": "0EAOxyDKeFttLC6cNvgC3a",
+   "release_date": "2014-10-31",
+   "label": "Crosswalk Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-15T05:38:25Z"
+  },
+  {
+   "id": "0fqjSPXKTf1b4zBQXFnxSb",
+   "title": "Feel You",
+   "artists": [
+    "Tapetenwechsel"
+   ],
+   "duration_s": 182,
+   "album_id": "3v8Toc9CUCA27eXWsOltfN",
+   "release_date": "2014-09-16",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-08-18T19:11:05Z"
+  },
+  {
+   "id": "1ShfKpLJ36nds13gOlNCUg",
+   "title": "Missing You",
+   "artists": [
+    "Boston Bun"
+   ],
+   "duration_s": 207,
+   "album_id": "3B63C5CYxURRXqOZjV3D2d",
+   "release_date": "2017-06-16",
+   "label": "Circa '99/ Last Gang Records Inc.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-09-08T20:40:11Z"
+  },
+  {
+   "id": "7oklbyYBpXg9Uvl4tMW2iU",
+   "title": "Rah That's A Mad Question",
+   "artists": [
+    "Barry Can't Swim"
+   ],
+   "duration_s": 227,
+   "album_id": "1tCAbCRfFmq6SJjklzryDI",
+   "release_date": "2021-06-25",
+   "label": "Shall Not Fade LTD",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-09-11T14:45:22Z"
+  },
+  {
+   "id": "22Vsz6sIdD97KROSX7oAyq",
+   "title": "Catching Eyes",
+   "artists": [
+    "49th & Main"
+   ],
+   "duration_s": 250,
+   "album_id": "3rR9PxHvLdjXtOsBGUwWHD",
+   "release_date": "2020-04-24",
+   "label": "Ben O'Sullivan",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-09-13T18:59:28Z"
+  },
+  {
+   "id": "4gg4uUTRXXRUMFs8qO3C2g",
+   "title": "U Got Me",
+   "artists": [
+    "ATFC"
+   ],
+   "duration_s": 161,
+   "album_id": "2xPCtyu6XQ3DfVUvn0kbLZ",
+   "release_date": "2020-06-12",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-09-22T00:32:50Z"
+  },
+  {
+   "id": "47RwzNa83jIHWWzU5VVP2e",
+   "title": "Amour Fou",
+   "artists": [
+    "Gavinco"
+   ],
+   "duration_s": 311,
+   "album_id": "2t0V3YnzLk2ZzoW0c5seDB",
+   "release_date": "2019-02-01",
+   "label": "Gavinco",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-09-29T23:46:49Z"
+  },
+  {
+   "id": "66BDXKHZOvvz4CwZovEMwH",
+   "title": "Sunshine",
+   "artists": [
+    "Lavern"
+   ],
+   "duration_s": 143,
+   "album_id": "1fjm9tF70Y0HMV795Q1tsj",
+   "release_date": "2022-01-07",
+   "label": "Get The Sound",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-10-03T14:15:08Z"
+  },
+  {
+   "id": "4exlHzmtm2BS5W7eYbhH4Y",
+   "title": "Autumn Remains",
+   "artists": [
+    "Drics"
+   ],
+   "duration_s": 141,
+   "album_id": "6Pv2xh3hqMCDlRe12lxljK",
+   "release_date": "2024-01-24",
+   "label": "Get The Sound",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-10-04T19:25:57Z"
+  },
+  {
+   "id": "4XeIiGpUBshIfs9yrBDVZC",
+   "title": "The Last Goodbye",
+   "artists": [
+    "ODESZA",
+    "Bettye LaVette"
+   ],
+   "duration_s": 359,
+   "album_id": "4vpnU0Hu4c0KNq2p4nz4U2",
+   "release_date": "2022-02-08",
+   "label": "Foreign Family Collective under exclusive license to Ninja Tune",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-10-19T16:53:18Z"
+  },
+  {
+   "id": "3WNZCfPoouCRTbZR0pi0Vn",
+   "title": "Sunny Day",
+   "artists": [
+    "MR TOUT LE MONDE"
+   ],
+   "duration_s": 192,
+   "album_id": "22BibCTT5nG6VhRDRAzFMs",
+   "release_date": "2022-10-07",
+   "label": "Inside Records, a division of Inside Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-10-19T18:10:43Z"
+  },
+  {
+   "id": "7bDDYji600PxR0F921ctVN",
+   "title": "Save a Soul",
+   "artists": [
+    "nimino"
+   ],
+   "duration_s": 262,
+   "album_id": "2z3CV9qqCvIYvrM6pcrp1F",
+   "release_date": "2022-11-16",
+   "label": "TH3RD BRAIN",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-02T18:59:10Z"
+  },
+  {
+   "id": "0GIldErNuzhmImhZlNmHYa",
+   "title": "Lost / Intro",
+   "artists": [
+    "OTR"
+   ],
+   "duration_s": 178,
+   "album_id": "2ipEAI9zGgsbf0CSkYBVS6",
+   "release_date": "2020-04-24",
+   "label": "Chadwick Music LLC, under exclusive license to UMG Recordings, Inc.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-09T03:17:59Z"
+  },
+  {
+   "id": "78IafDC0fc0WB2NmUTZ7xe",
+   "title": "Back to You",
+   "artists": [
+    "TWO LANES",
+    "TRØVES"
+   ],
+   "duration_s": 159,
+   "album_id": "6pREX9Xqp1vjKrZ87ZlGlF",
+   "release_date": "2019-05-31",
+   "label": "Lowly",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-09T03:19:45Z"
+  },
+  {
+   "id": "2W9zh4QNFmuOyKHbtYYNm0",
+   "title": "Another Time",
+   "artists": [
+    "TWO LANES",
+    "Kwesi"
+   ],
+   "duration_s": 256,
+   "album_id": "6puL9vl482M9AKa3fm7v3B",
+   "release_date": "2021-02-25",
+   "label": "bitbird",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-09T03:27:36Z"
+  },
+  {
+   "id": "6aQ2Xtx7z1p2VM9w26yCZq",
+   "title": "Jump - Armin van Buuren Remix",
+   "artists": [
+    "Van Halen",
+    "Armin van Buuren"
+   ],
+   "duration_s": 220,
+   "album_id": "1mN1oXwwt5QGEnwqqgyNwV",
+   "release_date": "2019-05-17",
+   "label": "2019, 1983 Warner Records Inc. All Rights Reserved. Marketed by Big Beat.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-09T15:01:43Z"
+  },
+  {
+   "id": "4EVRenXMFrYEI3bUdyt50Q",
+   "title": "Soul Calling",
+   "artists": [
+    "The Same"
+   ],
+   "duration_s": 253,
+   "album_id": "1olf2a19AHOF12iOJ3b8H0",
+   "release_date": "2014-01-01",
+   "label": "MGM Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-11T20:40:21Z"
+  },
+  {
+   "id": "2yzsCm9n8lbpPvntMGLc33",
+   "title": "Bright Side",
+   "artists": [
+    "Mozambo",
+    "Basic Tape",
+    "Julia Church"
+   ],
+   "duration_s": 227,
+   "album_id": "52QvOf9LjOBrFm4uIFtIoe",
+   "release_date": "2015-01-01",
+   "label": "Crosswalk",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-20T23:53:04Z"
+  },
+  {
+   "id": "6WN6igAeshqOoQu0q2GoJG",
+   "title": "Liberation - Re-Edit",
+   "artists": [
+    "Harold van Lennep"
+   ],
+   "duration_s": 176,
+   "album_id": "5Hlwyl3nWVOCYOCpzEIzyR",
+   "release_date": "2021-02-12",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2024-11-22T20:04:51Z"
+  },
+  {
+   "id": "2w7xQIAxQ7ycvE7fcKBsVV",
+   "title": "American Dream - PROFF Interpretation",
+   "artists": [
+    "Jakatta",
+    "PROFF"
+   ],
+   "duration_s": 244,
+   "album_id": "7COZ1LQblJXjDardw8nfTR",
+   "release_date": "2024-08-23",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T06:04:40Z"
+  },
+  {
+   "id": "7MiYNyj5si5yiWyeSkgzqB",
+   "title": "Joda - Worakls Remix",
+   "artists": [
+    "Joachim Pastor",
+    "Worakls"
+   ],
+   "duration_s": 338,
+   "album_id": "50G2JeYiL8qf5uKFvKEMzh",
+   "release_date": "2016-03-11",
+   "label": "Hungry Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T17:15:40Z"
+  },
+  {
+   "id": "2ZNJrC7A08B2MvhLJ00G1V",
+   "title": "Fixi",
+   "artists": [
+    "Joachim Pastor"
+   ],
+   "duration_s": 375,
+   "album_id": "3iOOhD0mwepPipUjdmLYv7",
+   "release_date": "2016-04-22",
+   "label": "Hungry Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T19:12:32Z"
+  },
+  {
+   "id": "5kCmJdIdFqKQiiCYYpa0xo",
+   "title": "That's Right - Edit",
+   "artists": [
+    "Dam Swindle"
+   ],
+   "duration_s": 276,
+   "album_id": "5ffuXlm1J5vYUqWl2ODj6Z",
+   "release_date": "2023-10-06",
+   "label": "Heist Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:23:41Z"
+  },
+  {
+   "id": "3ykTMt7CD5jgJOY27NWceD",
+   "title": "Spies Are Watching Me - Patchworks Remix",
+   "artists": [
+    "Voilaaa",
+    "Sir Jean",
+    "Patchworks"
+   ],
+   "duration_s": 469,
+   "album_id": "3s9Dvj2NhBP6NaNcM6r6h8",
+   "release_date": "2022-05-27",
+   "label": "Favorite Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:27:42Z"
+  },
+  {
+   "id": "0fxjsll9jmmRgMFbwdp4Xg",
+   "title": "Yègellé Tezeta",
+   "artists": [
+    "Mulatu Astatke"
+   ],
+   "duration_s": 194,
+   "album_id": "3MHdUsf9wX9WffvOP59RBz",
+   "release_date": "1969",
+   "label": "Amha Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:28:31Z"
+  },
+  {
+   "id": "4X4crurLdVGvDfGcmbFwrn",
+   "title": "One O Six (A.N.D.Y. Remix) - Mixed",
+   "artists": [
+    "Jupiter",
+    "A.N.D.Y."
+   ],
+   "duration_s": 228,
+   "album_id": "1sws0UqJUdvOAgV9y2hlhT",
+   "release_date": "2012-05-02",
+   "label": "Kitsuné France",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:28:48Z"
+  },
+  {
+   "id": "0sDeU2murnLh4yVHQ5IV70",
+   "title": "Cry to Me",
+   "artists": [
+    "Solomon Burke"
+   ],
+   "duration_s": 155,
+   "album_id": "152R8N9N0ACnWPNOBIO4M8",
+   "release_date": "1964",
+   "label": "Atlantic Records. Marketed by Rhino Entertainment Company, a Warner Music Group Company.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:29:13Z"
+  },
+  {
+   "id": "1dY7tuaWYrGbKT9wPT5cUb",
+   "title": "Feelin’ Love - Soulsearcher Club Mix",
+   "artists": [
+    "Soulsearcher"
+   ],
+   "duration_s": 425,
+   "album_id": "2mktZBQeZIF7U5DJT584g6",
+   "release_date": "2003-01-10",
+   "label": "Defected Records Limited dba Soulfuric Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:29:25Z"
+  },
+  {
+   "id": "6nqBOGRwYdwOOHTie3fx1K",
+   "title": "Lately",
+   "artists": [
+    "RÜFÜS DU SOL"
+   ],
+   "duration_s": 250,
+   "album_id": "0GKovrT0pFuXb4FhM1Wf3O",
+   "release_date": "2024-08-02",
+   "label": "Rose Avenue Records under exclusive license to Reprise Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:29:39Z"
+  },
+  {
+   "id": "1Fx1Wcz8vQNavo55WzNKCg",
+   "title": "Bossa Ibiza Lounge",
+   "artists": [
+    "Bossa Nova 2019"
+   ],
+   "duration_s": 272,
+   "album_id": "1vCJyYz4VTYpJFIJQzu5Vn",
+   "release_date": "2021-07-07",
+   "label": "Bossa Nova 2019",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:30:20Z"
+  },
+  {
+   "id": "0i5xHyxPrvoIqj8O7Bcey0",
+   "title": "Come Feel the Love - DJ DLG Dub Mix",
+   "artists": [
+    "Sunhatch",
+    "DJ DLG"
+   ],
+   "duration_s": 467,
+   "album_id": "7obv97AlnBcuAqTICqE9F5",
+   "release_date": "2008-03-03",
+   "label": "Bandito Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:30:34Z"
+  },
+  {
+   "id": "4CohaLd1NOTm9di0r2SB5M",
+   "title": "Thing Called Love - Above & Beyond Club Mix [Mixed]",
+   "artists": [
+    "Above & Beyond",
+    "Richard Bedford"
+   ],
+   "duration_s": 338,
+   "album_id": "0RkRavz2FtCFuFe3U9iEZE",
+   "release_date": "2020-05-21",
+   "label": "Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:31:02Z"
+  },
+  {
+   "id": "5vatY3p03TORvAn1AyGOdg",
+   "title": "Peaceful Avenues - Extended Mix",
+   "artists": [
+    "anamē",
+    "Lydmor"
+   ],
+   "duration_s": 424,
+   "album_id": "2tSLZZXtD1PDRuRTNNKnst",
+   "release_date": "2024-04-03",
+   "label": "Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:31:20Z"
+  },
+  {
+   "id": "4ecUWoInOsa57MZUzmam3h",
+   "title": "Anywhere (Road Trippin')",
+   "artists": [
+    "anamē"
+   ],
+   "duration_s": 275,
+   "album_id": "40xJi5GEwSANMciM0RuwDA",
+   "release_date": "2023-06-09",
+   "label": "Anjunabeats",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-21T23:31:34Z"
+  },
+  {
+   "id": "3CQMQeFPFB9zFNHWvapR9E",
+   "title": "Afraid To Love",
+   "artists": [
+    "Vandelux"
+   ],
+   "duration_s": 192,
+   "album_id": "3M6HrQ6zlE9wwcVmLB5r2h",
+   "release_date": "2023-09-15",
+   "label": "TH3RD BRAIN",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-02-22T18:16:22Z"
+  },
+  {
+   "id": "3BLjG9WKFdxff8EVPAv2Og",
+   "title": "You Were Right - Nora En Pure Remix",
+   "artists": [
+    "RÜFÜS DU SOL",
+    "Nora En Pure"
+   ],
+   "duration_s": 335,
+   "album_id": "3Kw1b0RVsB9s7yJ8wQ9UXs",
+   "release_date": "2015-09-18",
+   "label": "Sweat It Out!",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-04-16T12:41:53Z"
+  },
+  {
+   "id": "4usMyvux4Z71nAnGzuub0k",
+   "title": "See Right Through",
+   "artists": [
+    "Tensnake",
+    "Fiora"
+   ],
+   "duration_s": 268,
+   "album_id": "6lp3jWrAdZwPwkwih20qzX",
+   "release_date": "2014-01-01",
+   "label": "Marco Niemerski, under exclusive licence to Virgin EMI Records, a division of Universal Music Operations Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-05-15T23:59:52Z"
+  },
+  {
+   "id": "5KTZgG84bKFGm53lhLtTqc",
+   "title": "Mwaki",
+   "artists": [
+    "Zerb",
+    "Sofiya Nzau"
+   ],
+   "duration_s": 208,
+   "album_id": "5asqLE8StjaHpMWSyjzo2D",
+   "release_date": "2023-10-27",
+   "label": "TH3RD BRAIN",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-05-24T19:21:23Z"
+  },
+  {
+   "id": "1GCyyYAFCfFwbu1z5sbI6S",
+   "title": "Opening Credits",
+   "artists": [
+    "nimino"
+   ],
+   "duration_s": 243,
+   "album_id": "1nOiKTQoMr3t3DaaZPozus",
+   "release_date": "2022-09-07",
+   "label": "TH3RD BRAIN",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-06-03T01:31:28Z"
+  },
+  {
+   "id": "5N720bYInxSsiUDvBOLM3C",
+   "title": "What's a Girl to Do",
+   "artists": [
+    "Fatima Yamaha"
+   ],
+   "duration_s": 447,
+   "album_id": "4MGNcuX4Vvhv2hhn1FwtDW",
+   "release_date": "2015-02-13",
+   "label": "Magnetron Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-06-06T06:25:36Z"
+  },
+  {
+   "id": "1FparOA4TsEvXx9Gi9mdRQ",
+   "title": "Native Riddim",
+   "artists": [
+    "Coeo"
+   ],
+   "duration_s": 386,
+   "album_id": "3NapSH30QGpxNANHA1xJjR",
+   "release_date": "2014-11-24",
+   "label": "Toy Tonics",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-06-07T16:30:32Z"
+  },
+  {
+   "id": "0gxfMHKy5AJyQw9fjJ81Je",
+   "title": "Wake Me Up - PANG! Slowing Things Down Remix",
+   "artists": [
+    "Avicii"
+   ],
+   "duration_s": 372,
+   "album_id": "0KVrsQK6GPlEteo3xuRZhS",
+   "release_date": "2013-01-01",
+   "label": "Avicii, distributed by Universal Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-06-26T14:48:44Z"
+  },
+  {
+   "id": "04rlC5zJO2Km52QQPHggap",
+   "title": "The Harp - Beckwith Extended Remix",
+   "artists": [
+    "Dantiez Saunderson",
+    "LaRae Starr",
+    "Dantiez",
+    "Beckwith"
+   ],
+   "duration_s": 384,
+   "album_id": "1Ka21yvqhKQ0xpUqNv8KHk",
+   "release_date": "2014-06-02",
+   "label": "BEAT Music Fund",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-07-14T16:44:40Z"
+  },
+  {
+   "id": "1V7f4rTLNYwRIWfEWAgtjF",
+   "title": "ON THE MOVE",
+   "artists": [
+    "PAWSA"
+   ],
+   "duration_s": 205,
+   "album_id": "6qROZKGlX13YQlWjo5kYGu",
+   "release_date": "2023-02-03",
+   "label": "PAWZ",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-07-14T16:44:53Z"
+  },
+  {
+   "id": "7qpHYfkq07k5LhAT1eqCsL",
+   "title": "Kiki",
+   "artists": [
+    "Crusy"
+   ],
+   "duration_s": 180,
+   "album_id": "3O3z1T3hEIwrXl5ED0gViH",
+   "release_date": "2025-05-09",
+   "label": "Toolroom Productions Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-07-14T16:45:02Z"
+  },
+  {
+   "id": "4szwPQ7ajXpyqykjtv6RLE",
+   "title": "Roll Play",
+   "artists": [
+    "PAWSA"
+   ],
+   "duration_s": 203,
+   "album_id": "20pvV7NCcoCn9kPlCxOB1s",
+   "release_date": "2019-10-25",
+   "label": "COPYRIGHT CONTROL",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-07-14T16:45:12Z"
+  },
+  {
+   "id": "62gzfhHi2supfHWfi6iHbA",
+   "title": "Weak",
+   "artists": [
+    "Vintage Culture",
+    "Maverick Sabre",
+    "Tom Breu"
+   ],
+   "duration_s": 203,
+   "album_id": "7M457yfuVeLaiYrtiKTvqn",
+   "release_date": "2024-01-19",
+   "label": "Vintage Culture",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-07-14T16:45:23Z"
+  },
+  {
+   "id": "1vEJxn8P40cRIcQKjDbjLG",
+   "title": "Lost Without You",
+   "artists": [
+    "Skream",
+    "FLETCH"
+   ],
+   "duration_s": 212,
+   "album_id": "3V3hTM37yS2cGt7JrQfVBM",
+   "release_date": "2025-08-08",
+   "label": "CircoLoco Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-08-15T13:12:12Z"
+  },
+  {
+   "id": "4CrKKZuQtC5GgCSBRl1zpk",
+   "title": "Sunrise (Adam Ten Remix)",
+   "artists": [
+    "Shouse",
+    "Adam Ten"
+   ],
+   "duration_s": 229,
+   "album_id": "3Im5438f9q5yyVSSYcqwO1",
+   "release_date": "2025-08-15",
+   "label": "Hell Beach, a division of Onelove Recordings Australia Pty Ltd",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-11-06T15:17:49Z"
+  },
+  {
+   "id": "3EuUFCDIgzkCkeEUsLJVxS",
+   "title": "Sweet Disposition - VXSION Remix",
+   "artists": [
+    "The Temper Trap",
+    "VXSION"
+   ],
+   "duration_s": 290,
+   "album_id": "4GvKGenT1cKXiKESz41FFD",
+   "release_date": "2024-10-18",
+   "label": "Mushroom Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-11-08T14:41:39Z"
+  },
+  {
+   "id": "6cSN6SM6xPaC5tm3Fn4Fce",
+   "title": "Beat Organ - Original Mix",
+   "artists": [
+    "16BL"
+   ],
+   "duration_s": 384,
+   "album_id": "0lpgIFBoTBxs1drbXM6p1x",
+   "release_date": "2014-06-02",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-11-08T21:16:26Z"
+  },
+  {
+   "id": "0JewwHlr9KL7q7MFIPC8vr",
+   "title": "Into You",
+   "artists": [
+    "Laurent Simeca"
+   ],
+   "duration_s": 234,
+   "album_id": "0XOQPdbFCJyx8cbAq06scw",
+   "release_date": "2020-07-16",
+   "label": "Mood Funk Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2025-11-09T01:38:23Z"
+  },
+  {
+   "id": "4qDpLaFGf5ampf2DXD2TMA",
+   "title": "Where You Are",
+   "artists": [
+    "John Summit",
+    "HAYLA"
+   ],
+   "duration_s": 236,
+   "album_id": "4bIEy1wDeaEklS1BanbsmR",
+   "release_date": "2023-03-03",
+   "label": "Experts Only/Darkroom Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-01-01T06:41:11Z"
+  },
+  {
+   "id": "0OMcDzTcEyM8Fdu6obV6fA",
+   "title": "Reliquia - German Brigante Remix",
+   "artists": [
+    "Tube & Berger",
+    "Paji",
+    "German Brigante"
+   ],
+   "duration_s": 209,
+   "album_id": "1HVtFgt9wClciXNlkK97NA",
+   "release_date": "2016-04-08",
+   "label": "Armada Music B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-01-05T04:38:36Z"
+  },
+  {
+   "id": "2gsa8ffLRpj0QrgsTWdJxF",
+   "title": "Sunrise Song",
+   "artists": [
+    "Eric Luttrell"
+   ],
+   "duration_s": 227,
+   "album_id": "0nWAp3Dhfy2a4tyaHMVSPr",
+   "release_date": "2024-10-11",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-01-05T06:13:14Z"
+  },
+  {
+   "id": "3eO18fwspUHDXShPy7ch4G",
+   "title": "Between",
+   "artists": [
+    "Klur"
+   ],
+   "duration_s": 302,
+   "album_id": "5asNusoiD4HQIGQquF5LQv",
+   "release_date": "2022-11-11",
+   "label": "Colorize / Enhanced Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-01-06T04:37:54Z"
+  },
+  {
+   "id": "2wGRIasMJFkp2NLAISSZov",
+   "title": "Just What I Said (Everything In Its Right Place)",
+   "artists": [
+    "High Beam"
+   ],
+   "duration_s": 196,
+   "album_id": "1qa7N3wXybS8WpM4Dr6O9y",
+   "release_date": "2025-02-14",
+   "label": "High Beam",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-05T16:04:05Z"
+  },
+  {
+   "id": "4MqY1JHLLfI0V62iZ3MDNa",
+   "title": "What A Feeling",
+   "artists": [
+    "Courtney Storm",
+    "Finley Brückner"
+   ],
+   "duration_s": 206,
+   "album_id": "76pZhLeFjeLzer3jAul94N",
+   "release_date": "2025-04-09",
+   "label": "Colorize / Enhanced Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-06T14:37:36Z"
+  },
+  {
+   "id": "1GfJCWGLfdev016PSsrUO8",
+   "title": "Make Me Feel",
+   "artists": [
+    "oskar med k"
+   ],
+   "duration_s": 186,
+   "album_id": "1c6Y4gCvI7Ey2M07Ahvwva",
+   "release_date": "2025-06-20",
+   "label": "7CULT",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-06T14:43:18Z"
+  },
+  {
+   "id": "2Bs09Kl9fWx11nfXmoEOxp",
+   "title": "Care 4 U",
+   "artists": [
+    "Catching Flies"
+   ],
+   "duration_s": 231,
+   "album_id": "68Ih5jM4cdTAXHuBUmANz4",
+   "release_date": "2025-07-03",
+   "label": "Cercle Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-17T22:30:56Z"
+  },
+  {
+   "id": "0IAIsE9u9AYUH3wh7p77AE",
+   "title": "Time",
+   "artists": [
+    "Carlita"
+   ],
+   "duration_s": 250,
+   "album_id": "15JwpSbmrg94260qjQQYse",
+   "release_date": "2024-11-15",
+   "label": "Ninja Tune",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-20T19:07:25Z"
+  },
+  {
+   "id": "5n17yNYZg7BthatWbtFDEJ",
+   "title": "Blonde de Soleil",
+   "artists": [
+    "Hugo Samba",
+    "Sounds Of Sirin"
+   ],
+   "duration_s": 207,
+   "album_id": "3sVwkDSIKXj1GPB02JiMrz",
+   "release_date": "2025-04-04",
+   "label": "Sirin Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-20T19:23:12Z"
+  },
+  {
+   "id": "5vXrQx7XluQFw0u10zKpSC",
+   "title": "Not The Only One",
+   "artists": [
+    "16BL"
+   ],
+   "duration_s": 392,
+   "album_id": "3CSMwazZ5rBbAyOlIRit4o",
+   "release_date": "2015-04-06",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-25T17:59:03Z"
+  },
+  {
+   "id": "4t6E5uNN3z10uKMbfhnD7l",
+   "title": "Sharks",
+   "artists": [
+    "16BL",
+    "Nour"
+   ],
+   "duration_s": 250,
+   "album_id": "09DCeFRfvS9l9jMJ4deHnr",
+   "release_date": "2025-04-17",
+   "label": "Anjunadeep",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-25T18:41:22Z"
+  },
+  {
+   "id": "2k5SEAK05D29ZkqbnFgIVL",
+   "title": "Satisfied (Ambient Reprise)",
+   "artists": [
+    "Catching Flies"
+   ],
+   "duration_s": 196,
+   "album_id": "02E7iwwppG1VOSoP6JdY66",
+   "release_date": "2020-04-17",
+   "label": "Indigo Soul",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-27T21:25:04Z"
+  },
+  {
+   "id": "2Tg4PC5RKm3XJrlJ9rAzyN",
+   "title": "1st of july",
+   "artists": [
+    "Ollton"
+   ],
+   "duration_s": 168,
+   "album_id": "5xKo5WnZltVARbYk8WMq85",
+   "release_date": "2025-12-12",
+   "label": "Overtone Studios",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-02-28T01:40:22Z"
+  },
+  {
+   "id": "7gDgphzQU0urJU3AtoLJup",
+   "title": "Dance No More (with Kaleena Zanders)",
+   "artists": [
+    "Sunday Scaries",
+    "Kaleena Zanders"
+   ],
+   "duration_s": 203,
+   "album_id": "7uvMgsCSqtqOGaUfTRMZpL",
+   "release_date": "2023-08-25",
+   "label": "10K Projects",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-03-14T17:26:51Z"
+  },
+  {
+   "id": "4FpawvuBz4HxTz7UqR4ter",
+   "title": "Sorry I Am Late - Extended",
+   "artists": [
+    "Kollektiv Turmstrasse"
+   ],
+   "duration_s": 490,
+   "album_id": "4KtZYPGVGvdmAR5XL4lhPL",
+   "release_date": "2016-07-15",
+   "label": "Diynamic GmbH & Co KG under exclusive license to Warner Music UK Limited",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-03-30T15:10:38Z"
+  },
+  {
+   "id": "2ac5ZpQ7A1ZfuI5aUlj9Zx",
+   "title": "Equanimity and Peace",
+   "artists": [
+    "Ram Dass",
+    "John Pattern"
+   ],
+   "duration_s": 169,
+   "album_id": "0dbydAciwkcsYiC97svklZ",
+   "release_date": "2023-12-07",
+   "label": "Love Serve Remember",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-04-03T14:45:50Z"
+  },
+  {
+   "id": "57Ro3rs1YILEzEk3Tq71yG",
+   "title": "Hypnotised",
+   "artists": [
+    "Franc Moody"
+   ],
+   "duration_s": 207,
+   "album_id": "0ZMXkL1EvpeOWxFQ2K3UKd",
+   "release_date": "2018-03-27",
+   "label": "Juicebox Recordings",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-04-10T01:36:17Z"
+  },
+  {
+   "id": "3yc9N39to34e7MSWK7vyXC",
+   "title": "Rintintin",
+   "artists": [
+    "MESTIZA"
+   ],
+   "duration_s": 164,
+   "album_id": "04LUS5N9H4DIxFty3pUnTN",
+   "release_date": "2026-04-10",
+   "label": "Sacro Music",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-05-20T21:08:01Z"
+  },
+  {
+   "id": "7ITistISmv8tRDNQLMU9BG",
+   "title": "Umbélé",
+   "artists": [
+    "Ebo Krdum",
+    "Ooyy"
+   ],
+   "duration_s": 242,
+   "album_id": "7Bcjk35aW6aBpAZWaCdKlB",
+   "release_date": "2024-04-19",
+   "label": "Epidemic Electronic",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-05-27T17:43:43Z"
+  },
+  {
+   "id": "7DxrTNmUprBMQ0RV45xreb",
+   "title": "Verano En NY",
+   "artists": [
+    "Toman"
+   ],
+   "duration_s": 246,
+   "album_id": "6lwdsDlonNio6vDG42eUZu",
+   "release_date": "2025-06-27",
+   "label": "Solid Grooves Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-06-04T04:39:47Z"
+  },
+  {
+   "id": "77oU2rjC5XbjQfNe3bD6so",
+   "title": "Beast Of Burden - Remastered 1994",
+   "artists": [
+    "The Rolling Stones"
+   ],
+   "duration_s": 265,
+   "album_id": "1Jv2AqzhgsduUik2p4k3cS",
+   "release_date": "1978-06-09",
+   "label": "Promotone B.V., under exclusive licence to Universal Music International B.V.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-06-19T00:22:54Z"
+  },
+  {
+   "id": "0WGelFYfITJmfOnNyhRUq7",
+   "title": "Demons - Massane Remix",
+   "artists": [
+    "Jerro",
+    "Sophia Bel",
+    "Massane"
+   ],
+   "duration_s": 243,
+   "album_id": "2kXwtCv9wl1OzLU1k2b3XZ",
+   "release_date": "2020-12-17",
+   "label": "This Never Happened, under exclusive license to Universal Music GmbH",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-08-01T19:04:52Z"
+  },
+  {
+   "id": "3jOn2D6vqzcMq4iy6mro4E",
+   "title": "Hey Sunshine (feat. Alexander) - Antonio Giacca Remix",
+   "artists": [
+    "Sugarstarr",
+    "Alexander",
+    "Antonio Giacca"
+   ],
+   "duration_s": 403,
+   "album_id": "57bALHXzwleWu83UgpXAyA",
+   "release_date": "2015-10-09",
+   "label": "Enormous Tunes, a unit of GNKP Goodnight Kiss Productions GmbH / Sirup Music GmbH under exclusive license to Onelove.",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-08-08T17:07:33Z"
+  },
+  {
+   "id": "3mS3robDVwBRrk2R2ef6zA",
+   "title": "BAD TIMES",
+   "artists": [
+    "Imael Angel"
+   ],
+   "duration_s": 168,
+   "album_id": "1r9olrsLX1cfxtFMWk82kJ",
+   "release_date": "2026-03-30",
+   "label": "Imael Angel Records",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-10-30T00:58:14Z"
+  },
+  {
+   "id": "3GoT5f4OhcE0jvr6bnnRwE",
+   "title": "Archangel",
+   "artists": [
+    "Essáy"
+   ],
+   "duration_s": 564,
+   "album_id": "1NBziQZqzbwIGUxtLOSWPl",
+   "release_date": "2019-01-25",
+   "label": "All Day I Dream",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-11-04T16:06:54Z"
+  },
+  {
+   "id": "78YC1Dbk3kiNBxrUDR7OzE",
+   "title": "Solar Symphony",
+   "artists": [
+    "Somelee",
+    "Talemates"
+   ],
+   "duration_s": 391,
+   "album_id": "06PmDA4L6wmKAaCqF1nYHc",
+   "release_date": "2022-07-22",
+   "label": "Kindisch",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-11-05T15:07:31Z"
+  },
+  {
+   "id": "5sQ1O3YMeRVZhtbpwiDDDu",
+   "title": "Sunland",
+   "artists": [
+    "Makebo"
+   ],
+   "duration_s": 515,
+   "album_id": "1NBziQZqzbwIGUxtLOSWPl",
+   "release_date": "2019-01-25",
+   "label": "All Day I Dream",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-11-06T08:49:47Z"
+  },
+  {
+   "id": "6WCjSQD2qepvljbAfMykND",
+   "title": "Z",
+   "artists": [
+    "Cameo Blush"
+   ],
+   "duration_s": 280,
+   "album_id": "3k7lfjouJtuR9NPAyRLj5q",
+   "release_date": "2024-01-19",
+   "label": "unknown - uncovered",
+   "label_source": "Spotify album page, phonographic copyright line",
+   "added_at": "2026-11-07T19:03:08Z"
+  }
+ ]
+}

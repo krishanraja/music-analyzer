@@ -6,31 +6,31 @@ A pattern decides nothing until it becomes an accepted claim.
 
 | dimension | signal | words like | words dislike | sources | measured | share | trend | state |
 |---|---|---|---|---|---|---|---|---|
-| arrangement | quick_to_groove | 0 | 0 | 0 | 36/48 | 75% | n/a | ready to propose |
-| arrangement | multiple_breakdowns | 0 | 0 | 0 | 31/48 | 65% | n/a | ready to propose |
-| arrangement | held_energy | 0 | 0 | 0 | 29/48 | 60% | n/a | ready to propose |
+| arrangement | multiple_breakdowns | 0 | 0 | 0 | 226/342 | 66% | steady | ready to propose |
+| arrangement | quick_to_groove | 0 | 0 | 0 | 224/342 | 65% | steady | ready to propose |
 | arrangement | contrast_moments | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | arrangement | solo_tease | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
-| arrangement | club_length | 0 | 0 | 0 | 31/99 | 31% | n/a |  |
-| arrangement | long_intro | 0 | 0 | 0 | 12/48 | 25% | n/a |  |
+| arrangement | held_energy | 0 | 0 | 0 | 165/342 | 48% | steady |  |
+| arrangement | long_intro | 0 | 0 | 0 | 118/342 | 35% | steady |  |
+| arrangement | club_length | 0 | 0 | 0 | 87/346 | 25% | steady |  |
 | groove | melodic_percussion | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | groove | textured_snare | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | groove | call_and_response_rhythm | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
-| groove | tempo_118_125 | 0 | 0 | 0 | 57/95 | 60% | n/a | ready to propose |
-| groove | tempo_126_plus | 0 | 0 | 0 | 18/95 | 19% | n/a |  |
-| groove | tempo_under_110 | 0 | 0 | 0 | 12/95 | 13% | n/a |  |
+| groove | tempo_118_125 | 0 | 0 | 0 | 198/342 | 58% | steady |  |
+| groove | tempo_126_plus | 0 | 0 | 0 | 68/342 | 20% | steady |  |
+| groove | tempo_under_110 | 0 | 0 | 0 | 42/342 | 12% | steady |  |
 | harmony | call_and_response_melody | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
-| harmony | minor_key | 0 | 0 | 0 | 56/95 | 59% | n/a |  |
+| harmony | minor_key | 0 | 0 | 0 | 192/342 | 56% | steady |  |
 | harmony | synth_chords | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | harmony | lush_chords | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
-| harmony | major_key | 0 | 0 | 0 | 39/95 | 41% | n/a |  |
+| harmony | major_key | 0 | 0 | 0 | 150/342 | 44% | steady |  |
 | mix | stereo_movement | 4 | 0 | 2 | n/a | n/a | n/a | accepted |
-| mix | warm_low_end | 0 | 0 | 0 | 71/95 | 75% | n/a | ready to propose |
-| mix | dynamic_master | 0 | 0 | 0 | 61/95 | 64% | n/a | ready to propose |
-| mix | soft_top | 0 | 0 | 0 | 60/95 | 63% | n/a | ready to propose |
+| mix | warm_low_end | 0 | 0 | 0 | 249/342 | 73% | steady | ready to propose |
+| mix | dynamic_master | 0 | 0 | 0 | 234/342 | 68% | steady | ready to propose |
+| mix | soft_top | 0 | 0 | 0 | 230/342 | 67% | steady | ready to propose |
 | mix | crisp_drums | 2 | 0 | 1 | n/a | n/a | n/a | ready to propose |
-| mix | airy_top | 0 | 0 | 0 | 6/95 | 6% | n/a |  |
-| mix | dense_master | 0 | 0 | 0 | 2/95 | 2% | n/a |  |
+| mix | airy_top | 0 | 0 | 0 | 20/342 | 6% | steady |  |
+| mix | dense_master | 0 | 0 | 0 | 3/342 | 1% | steady |  |
 | sound_design | growl_bass | 6 | 0 | 2 | n/a | n/a | n/a | accepted |
 | sound_design | signature_fx_hit | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
 | sound_design | organic_textures | 3 | 0 | 1 | n/a | n/a | n/a | ready to propose |
